@@ -3,39 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/authors/admin/</loc>
+    <loc>/</loc>
   </url>
   
   <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/authors/</loc>
-  </url>
-  
-  <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/post/</loc>
-  </url>
-  
-  <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/publication/</loc>
-  </url>
-  
-  <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://&lt;USERNAME&gt;.github.io/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
