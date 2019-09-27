@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Academic</title>
+    <link>https://yunmingxiao.github.io/tags/machine-learning/</link>
+      <atom:link href="https://yunmingxiao.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 28 May 2019 09:12:33 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Machine Learning</title>
+      <link>https://yunmingxiao.github.io/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Direct Nonlinear Acceleration</title>
+      <link>https://yunmingxiao.github.io/publication/dna/</link>
+      <pubDate>Tue, 28 May 2019 09:12:33 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Common Knowledge Based Transfer Learning for Traffic Classification</title>
+      <link>https://yunmingxiao.github.io/publication/lcn/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/lcn/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

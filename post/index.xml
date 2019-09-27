@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Academic</title>
-    <link>https://&lt;USERNAME&gt;.github.io/post/</link>
-      <atom:link href="https://<USERNAME>.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yunmingxiao.github.io/post/</link>
+      <atom:link href="https://yunmingxiao.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://<USERNAME>.github.io/img/icon-192.png</url>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Posts</title>
-      <link>https://&lt;USERNAME&gt;.github.io/post/</link>
+      <link>https://yunmingxiao.github.io/post/</link>
     </image>
     
   </channel>
