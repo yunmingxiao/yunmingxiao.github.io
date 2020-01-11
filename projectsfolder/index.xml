@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projectsfolders | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/projectsfolder/</link>
+      <atom:link href="https://yunmingxiao.github.io/projectsfolder/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projectsfolders</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Projectsfolders</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/</link>
+    </image>
+    
+    <item>
+      <title>De-Kodi &amp; SafeKodi</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/dekodi/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/projectsfolder/dekodi/</guid>
+      <description>&lt;p&gt;Free and open source media centers are currently experiencing a boom in popularity. A complex ecosystem has developed around &lt;a href=&#34;https://kodi.tv&#34;&gt;Kodi&lt;/a&gt;, composed of millions of users, thousands of “add-ons” – Kodi extensions from from 3rd-party developers – and content providers.&lt;/p&gt;
+
+&lt;p&gt;We developed &lt;a href=&#34;../../publication/dekodi/&#34;&gt;de-Kodi&lt;/a&gt; , a full fledged crawling system capable of discovering and crawling large cross-sections of Kodi’s decentralized ecosystem at tunable levels of depth and breadth. With de-Kodi, we discovered and tested over 9,000 distinct Kodi addons. Our work further serves as the first ever transparent and repeatable analysis of the Kodi ecosystem at large.&lt;/p&gt;
+
+&lt;p&gt;Futhermore, on top of de-Kodi, we build a Kodi add-on &lt;a href=&#34;https://safekodi.com&#34;&gt;SafeKodi&lt;/a&gt; which helps to protect Kodi users from malacious Kodi add-ons.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

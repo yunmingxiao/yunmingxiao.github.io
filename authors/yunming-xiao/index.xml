@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/yunming-xiao/index.xml" rel="self" type="application/rss+xml" />
     <description>Yunming Xiao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Yunming Xiao</title>
@@ -13,10 +13,18 @@
     </image>
     
     <item>
+      <title>De-Kodi: Understanding the Kodi Ecosystem</title>
+      <link>https://yunmingxiao.github.io/publication/dekodi/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/dekodi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Close spatial arrangement of mutants favors and disfavors fixation</title>
-      <link>https://yunmingxiao.github.io/publication/plos/</link>
+      <link>https://yunmingxiao.github.io/publication/ploscomp/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/plos/</guid>
+      <guid>https://yunmingxiao.github.io/publication/ploscomp/</guid>
       <description></description>
     </item>
     
@@ -30,9 +38,9 @@
     
     <item>
       <title>Common Knowledge Based Transfer Learning for Traffic Classification</title>
-      <link>https://yunmingxiao.github.io/publication/lcn/</link>
+      <link>https://yunmingxiao.github.io/publication/lcn18/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/lcn/</guid>
+      <guid>https://yunmingxiao.github.io/publication/lcn18/</guid>
       <description></description>
     </item>
     
