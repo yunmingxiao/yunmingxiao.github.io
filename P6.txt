@@ -1,0 +1,31 @@
+Portfolio:
+A landing page with at least two showcase projects. Make these visually appealing.
+-> On the landing page and a seperate page "Projects", there are two showcase projects. 
+
+You should be able to click on at least one of the projects to read / see more information.
+-> Both projects can be clicked to read / see more information.
+
+A link to your resume (you can either create a resume in HTML or link to an external document).
+-> Under "Resume/CV" page, there are links to both my Resume and CV as external PDF document.
+
+A link to your bio, also created with HTML and CSS.
+-> The landing page contains my bio. 
+
+Access to personal contact information.
+-> The left-hand side of the home page is my contact information.
+
+Some kind of menu or navigation system for your site.
+-> There is a top navigation bar.
+
+Make sure that your website follows Web Content Accessibility Guidelines. Be advised that making no effort to adhere to the WCAG will result in an automatic 5 point deduction.
+-> The accessibility is provided using "aria" and "alt" tags.
+
+
+Extra Credit:
+1. Data Visualizations:
+-> At the left-hand side of the home page, there is a map at the botoom which shows the page views count and where the visitors come from. 
+
+2. External Content Integration:
+-> Under the page of project "De-Kodi and SafeKodi" (projects/kodi/index.html), I've integrated 1) a YouTube video frame and 2) a Twitter embed.
+Justification: The YouTube video shows a video explaining the usage of SafeKodi, which helps a lot to understand our project. And the Twitter shows the latest news of the development of this project.
+Note: the YouTube video may need login to access. And I'm sorry it's in Spanish. There was another nice English video but it seems the author has terminated his YouTube account recently, so it is no longer available :(
