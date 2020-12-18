@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projectsfolders | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/projectsfolder/</link>
+      <atom:link href="https://yunmingxiao.github.io/projectsfolder/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projectsfolders</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Projectsfolders</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/</link>
+    </image>
+    
+    <item>
+      <title>De-Kodi &amp; SafeKodi</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/dekodi/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/projectsfolder/dekodi/</guid>
+      <description>&lt;p&gt;Free and open source media centers are currently experiencing a boom in popularity. A complex ecosystem has developed around &lt;a href=&#34;https://kodi.tv&#34;&gt;Kodi&lt;/a&gt;, composed of millions of users, thousands of “add-ons” – Kodi extensions from from 3rd-party developers – and content providers.&lt;/p&gt;
+
+&lt;p&gt;We developed &lt;a href=&#34;../../publication/dekodi/&#34;&gt;de-Kodi&lt;/a&gt; , a full fledged crawling system capable of discovering and crawling large cross-sections of Kodi’s decentralized ecosystem at tunable levels of depth and breadth. With de-Kodi, we discovered and tested over 9,000 distinct Kodi addons. Our work further serves as the first ever transparent and repeatable analysis of the Kodi ecosystem at large.&lt;/p&gt;
+
+&lt;p&gt;Futhermore, on top of de-Kodi, we build a Kodi add-on &lt;a href=&#34;https://safekodi.com&#34;&gt;SafeKodi&lt;/a&gt; which helps to protect Kodi users from malacious Kodi add-ons.&lt;/p&gt;
+
+&lt;p&gt;A nice video to demonstrate the usage of SafeKodi:
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9outnVKMQ1E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;h3&gt;Publications&lt;/h3&gt;
+1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. To appear in WWW’20.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;h3&gt;Media Coverage&lt;/h3&gt;
+1. &lt;a href=&#34;https://torrentfreak.com/safekodi-researchers-help-kodi-users-to-spot-malicious-addons-200306/&#34;&gt;SafeKodi: Researchers Help Kodi Users to Spot Malicious Addons - TorretFreak.com&lt;/a&gt;&lt;br&gt;
+2. &lt;a href=&#34;https://www.technadu.com/safekodi-save-users-from-risky-kodi-addons/94748/&#34;&gt;“SafeKodi” is Here to Save Users From Risky Kodi Addons - TechNadu.com&lt;/a&gt;&lt;br&gt;
+3. &lt;a href=&#34;https://www.express.co.uk/life-style/science-technology/1252981/Kodi-update-news-stream-warning-alert&#34;&gt;Why streaming on this TV player just got a lot less dangerous - Daily Express&lt;/a&gt;&lt;br&gt;
+4. &lt;a href=&#34;https://www.adslzone.net/noticias/seguridad/safekodi-primer-antivirus-kodi/&#34;&gt;Crean el primer antivirus para Kodi: protégete de addons con malware - AdslZone.net&lt;/a&gt;&lt;br&gt;
+5. &lt;a href=&#34;https://pplware.sapo.pt/software/safekodi-acabaram-se-os-addons-maliciosos-no-kodi/&#34;&gt;SafeKodi: Acabaram-se os addons maliciosos no Kodi - Pplware.sapo.pt&lt;/a&gt;&lt;br&gt;
+6. &lt;a href=&#34;https://www.pcsteps.gr/331074-safekodi-%cf%80%cf%81%ce%bf%cf%83%cf%84%ce%b1%cf%83%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%83%cf%86%ce%b1%ce%bb%ce%ad%cf%82-streaming-%cf%83%cf%84%ce%bf-kodi/&#34;&gt;SafeKodi: Προστασία Και Ασφαλές Streaming Στο Kodi v18.6 - PcSteps.gr&lt;/a&gt;&lt;br&gt;
+7. &lt;a href=&#34;https://www.vpncompare.co.uk/new-kodi-tool-safe/&#34;&gt;The new Kodi tool that helps keep streamers safe - VPNCompre.co.uk&lt;/a&gt;&lt;br&gt;
+8. &lt;a href=&#34;https://yeeeah.fr/tech/safekodi-les-chercheurs-aident-les-utilisateurs-de-kodi-a-reperer-les-modules-malveillants&#34;&gt;SafeKodi: les chercheurs aident les utilisateurs de Kodi à repérer les modules malveillants - Yeeeah.fr&lt;/a&gt;&lt;br&gt;
+9. &lt;a href=&#34;https://vpnbasen.se/forskargrupp-har-tagit-fram-safekodi-en-app-letar-efter-skadliga-tillagg/&#34;&gt;Forskargrupp har tagit fram ”SafeKodi” – en app letar efter skadliga tillägg - VPNBasen.se&lt;/a&gt;&lt;br&gt;
+10. &lt;a href=&#34;https://www.fredzone.org/safekodi-pour-eviter-les-extensions-verolees-sur-kodi-288&#34;&gt;SafeKodi, pour éviter les extensions vérolées sur Kodi - FredZone.org&lt;/a&gt;&lt;br&gt;
+11. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;Is Your Kodi Virus Free? Use SafeKodi to Scan &amp;amp; Fix - TroyPoint.com&lt;/a&gt;&lt;br&gt;
+12. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;SafeKodi: O maior aliado de quem usa o Kodi - NoticiasETecnologia.com&lt;/a&gt;&lt;br&gt;
+&amp;hellip;&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;h3&gt;More videos&lt;/h3&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=xCW_2v1vkWM&#34;&gt;Is Your Kodi Virus Free? How to Scan With SafeKodi - TROYPOINT Vids&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=tLxmJLcaZq4&#34;&gt;KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!! - tutvboxaldia kodi&amp;amp;Android&lt;/a&gt;&lt;br&gt;
+&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
