@@ -130,7 +130,7 @@
   <meta property="og:description" content="Personal Website of Yunming Xiao"><meta property="og:image" content="https://yunmingxiao.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://yunmingxiao.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2020-01-10T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2021-10-01T00:00:00&#43;00:00">
   
 
   
@@ -529,7 +529,7 @@
     
     <h1>About Me</h1>
 
-    <p>Hi there! I am a first-year PhD student in Computer Science at Northwestern University. I&rsquo;m working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a href="https://kodi.tv">. I received my B.Eng. in computer science from BUPT (Beijing University of Posts and Telecommunications) in 2019.</p>
+    <p>Hi there! I am a third-year PhD candidate in Computer Science at Northwestern University. I&rsquo;m working at <a href="http://networks.cs.northwestern.edu/">Northwestern Networks Group</a> and supervised by <a href="http://networks.cs.northwestern.edu/website/index-a.html">Prof. Aleksandar Kuzmanovic</a>. I received my B.Eng. in computer science from Beijing University of Posts and Telecommunications in 2019.</p>
 
 <p>My research interests lie in computer networking and distributed systems. I have also explored other subjects like evolutionary game theory.</p>
 
@@ -541,15 +541,44 @@
         <h3>News</h3>
         <ul class="ul-news">
           
-          <li>01/2020 De-Kodi is accepted by WWW&rsquo;2020</li>
           
-          <li>09/2019 Research on clustering of mutants accepted by PLOS Comp Bio</li>
+            
+              <li><sup>10</sup>&frasl;<sub>2021</sub> I&rsquo;ll present <a href="projectsfolder/ring">one poster about DVPN</a> at IMC&rsquo;21, and <a href="projectsfolder/fiat">one poster about IoT security</a> at CoNEXT&rsquo;21</li>
+            
+            
           
-          <li>07/2019 Finished intern at Bytedance Inc.</li>
+            
+              <li>06/2021 I have started my internship at <a href="https://www.bell-labs.com/">Nokia Bell Labs</a>!</li>
+            
+            
           
-          <li>06/2019 Received my bachelor&rsquo;s degree!</li>
+            
+              <li>06/2021 I have passed the PhD qualifying exam</li>
+            
+            
           
-          <li>&hellip;</li>
+            
+              <li>01/2020 De-Kodi is accepted by WWW&rsquo;2020</li>
+            
+            
+          
+            
+              <li class="hidden-news-fixed" style="display: inline-block" onclick="toggle_news()"><u>......</u></li>
+              <li class="hidden-news" style="display: none">09/2019 Research on clustering of mutants accepted by PLOS Comp Bio</li>
+            
+            
+          
+            
+              <li class="hidden-news" style="display: none">07/2019 Finished intern at Bytedance Inc.</li>
+            
+            
+          
+            
+              <li class="hidden-news" style="display: none">06/2019 Received my bachelor&rsquo;s degree!</li>
+            
+            
+              <li class="hidden-news-fixed" style="display: none" onclick="toggle_news()"><u>Less</u></li>
+            
           
         </ul>
       </div>
@@ -565,10 +594,32 @@
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="date">
-      <p style="text-align:center;">Last Updated: 12/Mar/2020</p>
+      <p style="text-align:center;">Last Updated: 20/Oct/2021</p>
     </div>
   </div>
 </div>
+
+<script>
+  function toggle_news() {
+  
+  for (const element of document.getElementsByClassName("hidden-news")){
+    
+    if (element.style.display == "none") {
+      element.style.display = "list-item";
+    } else {
+      element.style.display = "none";
+    }
+  }
+  for (const element of document.getElementsByClassName("hidden-news-fixed")){
+    
+    if (element.style.display == "none") {
+      element.style.display = "inline-block";
+    } else {
+      element.style.display = "none";
+    }
+  }
+}
+</script>
     </div>
   </section>
 

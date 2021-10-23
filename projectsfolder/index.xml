@@ -5,12 +5,63 @@
     <link>https://yunmingxiao.github.io/projectsfolder/</link>
       <atom:link href="https://yunmingxiao.github.io/projectsfolder/index.xml" rel="self" type="application/rss+xml" />
     <description>Projectsfolders</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Projectsfolders</title>
       <link>https://yunmingxiao.github.io/projectsfolder/</link>
     </image>
+    
+    <item>
+      <title>FIAT: Frictionless Authentication of IoT Traffic</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/fiat/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/projectsfolder/fiat/</guid>
+      <description>&lt;p&gt;The average US household currently hosts more than 10 Inter-net of Things (IoT) devices. Many research papers have demonstrated critical security concerns of the IoT, often due to lack of best practices like partial usage of HTTP, or old ciphers. Even when best security practices are implemented, the IoT is still vulnerable to many attacks. Intruders can penetrate the home WiFi and directly control some IoT devices. They can compromise the account associated with an IoT device, mostly relying on username and password, or of third-party services like IFTTT. They can also compromise the devices where IoT apps run,i.e., mostly mobile phones.&lt;/p&gt;
+
+&lt;p&gt;The above security concerns could be mitigated via two-factor authentication(2FA), as commonly done for online banking. With 2FA, the user is often required to validate her identity via, for instance, an SMS received on a mobile phone. Unfortunately, requiring a user to constantly validate her interactions with IoT devices is cumbersome, and unlikely to be accepted by users – which is why it is not used.&lt;/p&gt;
+
+&lt;p&gt;The goal of this work is to build a frictionlessIoT authentication mechanism. Our rationale is that IoT traffic is highly predictable, due to being mostly caused by software, e.g., to report at constant rate temperature readings from a smart thermostat, and less frequently triggered by routines set by the user, e.g., “turn on the heat each night at 6pm”, or by user via manual input, e.g., increase the thermostat temperature from its companion app. Predictable traffic can be learned and automatically authorized. Unpredictable traffic, when legitimate, is associated with some physical interaction between the user and a controlling device. We thus plan to automatically validate unpredictable traffic leveraging sensor data from the device used to control an IoT device, e.g., accelerometer and gyroscope on a mobile phone.&lt;/p&gt;
+
+&lt;p&gt;Our first contribution is a quantification of the predictability of IoT traffic by analyzing public datasets. The analysis of public datasets shows that 80-90% of the IoT traffic (from hundred of devices) is indeed predictable. The second contribution of this work is the design of FIAT, a frictionless authentication mechanism for IoT traffic. FIAT is designed to improve the security of legacy IoT devices with minimal user input for authentication.&lt;/p&gt;
+
+&lt;!-- &lt;br&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;a href=&#34;https://ringdvpn.com/&#34;&gt;RING: The first multi-vendors bandwidth marketplace&lt;/a&gt; --&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;h3&gt;Poster&lt;/h3&gt;
+Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;TBD&#34;&gt;Poster: FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;21.
+&lt;br&gt;
+&lt;h3&gt;Publications&lt;/h3&gt;
+&amp;hellip;
+&lt;!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20. --&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A First Look Into Distributed VPNs</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/ring/</link>
+      <pubDate>Wed, 01 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/projectsfolder/ring/</guid>
+      <description>&lt;p&gt;Ookla reported that average Internet speeds in American homes grew 20x in the last 10 years, from 8 Mbps in2010 to 180 Mbps in 2021, and a similar growing trend isobservable worldwide [8]. Recent studies suggest that the added cost for faster Internet speeds — e.g., $50 monthly to boost from 200 to 300 Mbps with Comcast Xfinity — is not worth to most residential users, which consume only 5% of their available bandwidth. Several systemswere launched which allow users to monetize such spare bandwidth, e.g., distributed proxy or VPN (Virtual Private Network) services.&lt;/p&gt;
+
+&lt;p&gt;While such systems are attracting a considerable number of users, both as clients (buyers) and providers (sellers), little to nothing is known about such bandwidth marketplaces. We have identified distributed VPN (dVPNs) as the most concrete examples of such marketplaces because, in essence, a dVPN is a system which allows users to sell their spare bandwidth. The contribution of this work is an investigation of the dVPN ecosystem. We run active and passive measurements to characterize their footprint and performance.&lt;/p&gt;
+
+&lt;p&gt;The analysis of up to six months of dVPNs data shows that  the  three  major  dVPNs  (Mysterium, Sentinel, Tachyon ) compose together a fast-growing network footprint of thousands of nodes (sellers) located all over the world. These nodes offer download speeds comparable with ProtonVPN, a popular centralized VPN. Location-wise, the US is the most attractive market, with the majority of the traffic being destined to services located in the US.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;a href=&#34;https://ringdvpn.com/&#34;&gt;RING: The first multi-vendors bandwidth marketplace&lt;/a&gt;
+&lt;br&gt;
+&lt;h3&gt;Poster&lt;/h3&gt;
+Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2021). &lt;a href=&#34;poster_ring.pdf&#34;&gt;A First Look Into Distributed VPNs&lt;/a&gt;. In IMC&amp;rsquo;21.
+&lt;br&gt;
+&lt;h3&gt;Publications&lt;/h3&gt;
+&amp;hellip;
+&lt;!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20. --&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>De-Kodi &amp; SafeKodi</title>
@@ -27,10 +78,12 @@
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9outnVKMQ1E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;br&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;a href=&#34;https://safekodi.com/&#34;&gt;SafeKodi: The first aggregator for (safe) Kodi addons&lt;/a&gt;
+&lt;br&gt;
 &lt;h3&gt;Publications&lt;/h3&gt;
-1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. To appear in WWW’20.&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
+1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20.
+&lt;br&gt;
 &lt;h3&gt;Media Coverage&lt;/h3&gt;
 1. &lt;a href=&#34;https://torrentfreak.com/safekodi-researchers-help-kodi-users-to-spot-malicious-addons-200306/&#34;&gt;SafeKodi: Researchers Help Kodi Users to Spot Malicious Addons - TorretFreak.com&lt;/a&gt;&lt;br&gt;
 2. &lt;a href=&#34;https://www.technadu.com/safekodi-save-users-from-risky-kodi-addons/94748/&#34;&gt;“SafeKodi” is Here to Save Users From Risky Kodi Addons - TechNadu.com&lt;/a&gt;&lt;br&gt;
@@ -44,9 +97,8 @@
 10. &lt;a href=&#34;https://www.fredzone.org/safekodi-pour-eviter-les-extensions-verolees-sur-kodi-288&#34;&gt;SafeKodi, pour éviter les extensions vérolées sur Kodi - FredZone.org&lt;/a&gt;&lt;br&gt;
 11. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;Is Your Kodi Virus Free? Use SafeKodi to Scan &amp;amp; Fix - TroyPoint.com&lt;/a&gt;&lt;br&gt;
 12. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;SafeKodi: O maior aliado de quem usa o Kodi - NoticiasETecnologia.com&lt;/a&gt;&lt;br&gt;
-&amp;hellip;&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;
+&amp;hellip;&amp;hellip;
+&lt;br&gt;
 &lt;h3&gt;More videos&lt;/h3&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=xCW_2v1vkWM&#34;&gt;Is Your Kodi Virus Free? How to Scan With SafeKodi - TROYPOINT Vids&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=tLxmJLcaZq4&#34;&gt;KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!! - tutvboxaldia kodi&amp;amp;Android&lt;/a&gt;&lt;br&gt;
