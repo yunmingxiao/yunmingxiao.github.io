@@ -17,13 +17,7 @@
       <link>https://yunmingxiao.github.io/projectsfolder/fiat/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/projectsfolder/fiat/</guid>
-      <description>&lt;p&gt;The average US household currently hosts more than 10 Inter-net of Things (IoT) devices. Many research papers have demonstrated critical security concerns of the IoT, often due to lack of best practices like partial usage of HTTP, or old ciphers. Even when best security practices are implemented, the IoT is still vulnerable to many attacks. Intruders can penetrate the home WiFi and directly control some IoT devices. They can compromise the account associated with an IoT device, mostly relying on username and password, or of third-party services like IFTTT. They can also compromise the devices where IoT apps run,i.e., mostly mobile phones.&lt;/p&gt;
-
-&lt;p&gt;The above security concerns could be mitigated via two-factor authentication(2FA), as commonly done for online banking. With 2FA, the user is often required to validate her identity via, for instance, an SMS received on a mobile phone. Unfortunately, requiring a user to constantly validate her interactions with IoT devices is cumbersome, and unlikely to be accepted by users – which is why it is not used.&lt;/p&gt;
-
-&lt;p&gt;The goal of this work is to build a frictionlessIoT authentication mechanism. Our rationale is that IoT traffic is highly predictable, due to being mostly caused by software, e.g., to report at constant rate temperature readings from a smart thermostat, and less frequently triggered by routines set by the user, e.g., “turn on the heat each night at 6pm”, or by user via manual input, e.g., increase the thermostat temperature from its companion app. Predictable traffic can be learned and automatically authorized. Unpredictable traffic, when legitimate, is associated with some physical interaction between the user and a controlling device. We thus plan to automatically validate unpredictable traffic leveraging sensor data from the device used to control an IoT device, e.g., accelerometer and gyroscope on a mobile phone.&lt;/p&gt;
-
-&lt;p&gt;Our first contribution is a quantification of the predictability of IoT traffic by analyzing public datasets. The analysis of public datasets shows that 80-90% of the IoT traffic (from hundred of devices) is indeed predictable. The second contribution of this work is the design of FIAT, a frictionless authentication mechanism for IoT traffic. FIAT is designed to improve the security of legacy IoT devices with minimal user input for authentication.&lt;/p&gt;
+      <description>&lt;p&gt;Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. This work investigates how this physical interaction can be used to build frictionless IoT traffic authentication. We then design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.&lt;/p&gt;
 
 &lt;!-- &lt;br&gt;
 &lt;h3&gt;Resources&lt;/h3&gt;
@@ -33,8 +27,12 @@
 &lt;h3&gt;Poster&lt;/h3&gt;
 Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;poster_fiat.pdf&#34;&gt;Poster: FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;21.
 &lt;br&gt;
-&lt;h3&gt;Publications&lt;/h3&gt;
-&amp;hellip;
+&lt;br&gt;
+&lt;h3&gt;Technical Report&lt;/h3&gt;
+Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;../../files/frictionless_IoT.pdf&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;.
+&lt;br&gt;
+&lt;!-- &lt;h3&gt;Publications&lt;/h3&gt;
+... --&gt;
 &lt;!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20. --&gt;&lt;/p&gt;
 </description>
     </item>
