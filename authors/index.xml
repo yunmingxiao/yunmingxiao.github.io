@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,8 +15,24 @@
     <item>
       <title>Aleksandar Kuzmanovic</title>
       <link>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matteo Varvello</title>
+      <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/matteo-varvello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
       <description></description>
     </item>
     
@@ -25,22 +41,6 @@
       <link>https://yunmingxiao.github.io/authors/marc-anthony-warrior/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/marc-anthony-warrior/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matteo Varvello</title>
-      <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/matteo-varvello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
       <description></description>
     </item>
     
@@ -123,7 +123,7 @@
       <guid>https://yunmingxiao.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Hi there! I am a third-year PhD candidate in Computer Science at Northwestern University. I&amp;rsquo;m working at &lt;a href=&#34;http://networks.cs.northwestern.edu/&#34;&gt;Northwestern Networks Group&lt;/a&gt; and supervised by &lt;a href=&#34;http://networks.cs.northwestern.edu/website/index-a.html&#34;&gt;Prof. Aleksandar Kuzmanovic&lt;/a&gt;. I received my B.Eng. in computer science from Beijing University of Posts and Telecommunications in 2019.&lt;/p&gt;
 
-&lt;p&gt;My research interests lie in computer networking and distributed systems. I have also explored other subjects like evolutionary game theory.&lt;/p&gt;
+&lt;p&gt;My research interests lie in computer networking and distributed systems.&lt;/p&gt;
 </description>
     </item>
     

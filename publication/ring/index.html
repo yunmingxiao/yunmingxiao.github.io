@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We propose FIAT, a firctionless authentication mechanism for IoT traffic">
+  <meta name="description" content="Residential Internet speeds have been rapidly increasing, reaching averages of ∼100 Mbps in most developed countries. Several studies have shown that users have way more bandwidth than they need, only using about 20-30% on a regular day. Several systems exploit this trend by enabling users to monetize their spare bandwidth, e.g., by sharing their WiFi connection or by participating in distributed proxy or VPN (dVPN) services. Despite the proliferation of such systems, little is known on how such marketplaces operate, what are the key factors that determine the price of the spare bandwidth, and how such prices differ worldwide. In this work, we shed some light on this topic using dVPNs as a use-case. We start by formalizing the problem of bandwidth monetization as an optimization between a buyer’s cost and seller’s income. Next, we explore three popular dVPNs (Mysterium, Sentinel, and Tachyon) using both active and passive measurements. We find that dVPNs have a large and growing footprint, and offer comparable performance to their centralized counterpart. We identify Mysterium (in the US) as the most concrete realization of a bandwidth marketplace, for which we derive a value of spare Internet bandwidth ranging between 11 and 14 cents per GB. We also show that both buyers and sellers utilize ad-hoc “rules-of-thumb” when choosing their prices, which results in a sub-optimal marketplace. By applying our optimization, a seller’s income can be tripled by setting a price lower than the default one which allows to attract more buyers. These observations motivate us to create RING, a first and concrete system which helps sellers to automatically adjust their prices and traffic volumes across multiple marketplaces.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/projectsfolder/fiat/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/ring/">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/projectsfolder/fiat/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/ring/">
 
   
   
@@ -122,15 +122,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/projectsfolder/fiat/">
-  <meta property="og:title" content="FIAT: Frictionless Authentication of IoT Traffic | Yunming Xiao">
-  <meta property="og:description" content="We propose FIAT, a firctionless authentication mechanism for IoT traffic"><meta property="og:image" content="https://yunmingxiao.github.io/projectsfolder/fiat/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/projectsfolder/fiat/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/ring/">
+  <meta property="og:title" content="Monetizing Spare Bandwidth: the Case of Distributed VPNs | Yunming Xiao">
+  <meta property="og:description" content="Residential Internet speeds have been rapidly increasing, reaching averages of ∼100 Mbps in most developed countries. Several studies have shown that users have way more bandwidth than they need, only using about 20-30% on a regular day. Several systems exploit this trend by enabling users to monetize their spare bandwidth, e.g., by sharing their WiFi connection or by participating in distributed proxy or VPN (dVPN) services. Despite the proliferation of such systems, little is known on how such marketplaces operate, what are the key factors that determine the price of the spare bandwidth, and how such prices differ worldwide. In this work, we shed some light on this topic using dVPNs as a use-case. We start by formalizing the problem of bandwidth monetization as an optimization between a buyer’s cost and seller’s income. Next, we explore three popular dVPNs (Mysterium, Sentinel, and Tachyon) using both active and passive measurements. We find that dVPNs have a large and growing footprint, and offer comparable performance to their centralized counterpart. We identify Mysterium (in the US) as the most concrete realization of a bandwidth marketplace, for which we derive a value of spare Internet bandwidth ranging between 11 and 14 cents per GB. We also show that both buyers and sellers utilize ad-hoc “rules-of-thumb” when choosing their prices, which results in a sub-optimal marketplace. By applying our optimization, a seller’s income can be tripled by setting a price lower than the default one which allows to attract more buyers. These observations motivate us to create RING, a first and concrete system which helps sellers to automatically adjust their prices and traffic volumes across multiple marketplaces."><meta property="og:image" content="https://yunmingxiao.github.io/publication/ring/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/ring/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2021-10-01T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2022-03-28T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2021-10-01T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2022-03-28T00:00:00&#43;00:00">
   
 
   
@@ -142,7 +142,7 @@
 
 
 
-  <title>FIAT: Frictionless Authentication of IoT Traffic | Yunming Xiao</title>
+  <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs | Yunming Xiao</title>
 
 </head>
 
@@ -288,7 +288,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -344,7 +344,7 @@
 </nav>
 
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -374,7 +374,7 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">FIAT: Frictionless Authentication of IoT Traffic</h1>
+  <h1 itemprop="name">Monetizing Spare Bandwidth: the Case of Distributed VPNs</h1>
 
   
 
@@ -382,11 +382,23 @@
 
 
 
-<meta content="2021-10-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2021-10-01 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2022-03-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2022-03-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matteo Varvello</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aleksandar Kuzmanovic</span>
+
+  </div>
   
   
 
@@ -396,7 +408,7 @@
     
       
     
-    <time>Oct 1, 2021</time>
+    <time>March 2022</time>
   </span>
   
 
@@ -424,7 +436,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/projectsfolder/fiat/&amp;text=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/ring/&amp;text=Monetizing%20Spare%20Bandwidth:%20the%20Case%20of%20Distributed%20VPNs" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -437,7 +449,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/projectsfolder/fiat/&amp;t=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/ring/&amp;t=Monetizing%20Spare%20Bandwidth:%20the%20Case%20of%20Distributed%20VPNs" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -450,7 +462,7 @@
       
       
       <li>
-        <a href="mailto:?subject=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic&amp;body=https://yunmingxiao.github.io/projectsfolder/fiat/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Monetizing%20Spare%20Bandwidth:%20the%20Case%20of%20Distributed%20VPNs&amp;body=https://yunmingxiao.github.io/publication/ring/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -463,7 +475,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/projectsfolder/fiat/&amp;title=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/ring/&amp;title=Monetizing%20Spare%20Bandwidth:%20the%20Case%20of%20Distributed%20VPNs" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -476,7 +488,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic%20https://yunmingxiao.github.io/projectsfolder/fiat/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Monetizing%20Spare%20Bandwidth:%20the%20Case%20of%20Distributed%20VPNs%20https://yunmingxiao.github.io/publication/ring/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -489,7 +501,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/projectsfolder/fiat/&amp;title=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/ring/&amp;title=Monetizing%20Spare%20Bandwidth:%20the%20Case%20of%20Distributed%20VPNs" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -514,16 +526,60 @@
 
 
 
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/ring/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
 
 
 
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 720px;">
   <div style="position: relative">
-    <img src="/projectsfolder/fiat/featured_hu2f1e02e515e351c311ec896043222feb_239462_720x0_resize_lanczos_2.png" alt="" class="featured-image">
-    <span class="article-header-caption">FIAT</span>
+    <img src="/publication/ring/featured_hu3b282627d1b0cb46092e16900da50417_461882_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
   </div>
 </div>
 
@@ -531,36 +587,54 @@
 
   <div class="article-container">
 
-    <div class="article-style" itemprop="articleBody">
-      <p>Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. This work investigates how this physical interaction can be used to build frictionless IoT traffic authentication. We then design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.</p>
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Residential Internet speeds have been rapidly increasing, reaching averages of ∼100 Mbps in most developed countries. Several studies have shown that users have way more bandwidth than they need, only using about 20-30% on a regular day. Several systems exploit this trend by enabling users to monetize their spare bandwidth, e.g., by sharing their WiFi connection or by participating in distributed proxy or VPN (dVPN) services. Despite the proliferation of such systems, little is known on how such marketplaces operate, what are the key factors that determine the price of the spare bandwidth, and how such prices differ worldwide. In this work, we shed some light on this topic using dVPNs as a use-case. We start by formalizing the problem of bandwidth monetization as an optimization between a buyer’s cost and seller’s income. Next, we explore three popular dVPNs (Mysterium, Sentinel, and Tachyon) using both active and passive measurements. We find that dVPNs have a large and growing footprint, and offer comparable performance to their centralized counterpart. We identify Mysterium (in the US) as the most concrete realization of a bandwidth marketplace, for which we derive a value of spare Internet bandwidth ranging between 11 and 14 cents per GB. We also show that both buyers and sellers utilize ad-hoc “rules-of-thumb” when choosing their prices, which results in a sub-optimal marketplace. By applying our optimization, a seller’s income can be tripled by setting a price lower than the default one which allows to attract more buyers. These observations motivate us to create RING, a first and concrete system which helps sellers to automatically adjust their prices and traffic volumes across multiple marketplaces.</p>
+    
 
-<!-- <br>
-<h3>Resources</h3>
-<a href="https://ringdvpn.com/">RING: The first multi-vendors bandwidth marketplace</a> -->
-
-<p><br>
-<h3>Poster</h3>
-Yunming Xiao, Matteo Varvello (2021). <a href="poster_fiat.pdf">Poster: FIAT: Frictionless Authentication of IoT Traffic</a>. In CoNEXT&rsquo;21.
-<br>
-<!-- <br>
-<h3>Technical Report</h3>
-Yunming Xiao, Matteo Varvello (2021). <a href="../../files/frictionless.pdf">FIAT: Frictionless Authentication of IoT Traffic</a>. 
-<br> -->
-<!-- <h3>Publications</h3>
-... -->
-<!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). <a href="../../publication/dekodi/">De-Kodi: Understanding the Kodi Ecosystem</a>. In WWW’20. --></p>
-
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">To appear in <em>SIGMETRICS&rsquo;22</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
 
     
-
-
-
-    
-      
 
 
 
@@ -570,107 +644,27 @@ Yunming Xiao, Matteo Varvello (2021). <a href="../../files/frictionless.pdf">FIA
 
 
   
-
-
-
-
-
-  
-  
   
     
+  
+  
+
+
+
+
+
+  
+  
   
   
   <div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
-      
-      <img class="portrait mr-3" src="/authors/admin/avatar_hu2b9f8836741eb597a41dab551197f035_334322_250x250_fill_q90_lanczos_center.jpeg" itemprop="image" alt="Avatar">
-    
 
     <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://yunmingxiao.github.io/">Yunming Xiao</a></h5>
-      <h6 class="card-subtitle">Ph.D. student</h6>
-      <p class="card-text" itemprop="description">My research interests lie in computer networking and distributed systems.</p>
+      <h5 class="card-title" itemprop="name"><a href="/authors/yunming-xiao/"></a></h5>
+      
+      
       <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-          <li>
-            <a itemprop="sameAs" href="mailto:yunming.xiao@u.northwestern.edu" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=orO8ymwAAAAJ" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/yunmingxiao" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://www.linkedin.com/in/yunming-xiao-386891122/" target="_blank" rel="noopener">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/files/cv_xym.pdf" >
-              <i class="ai ai-cv"></i>
-            </a>
-          </li>
         
       </ul>
     </div>
@@ -678,17 +672,14 @@ Yunming Xiao, Matteo Varvello (2021). <a href="../../files/frictionless.pdf">FIA
 
 
 
-      
-      
-    
-
-    
 
     
 
 
   </div>
-</article>
+</div>
+
+
 
       
 

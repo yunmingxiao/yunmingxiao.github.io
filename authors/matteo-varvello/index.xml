@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/matteo-varvello/index.xml" rel="self" type="application/rss+xml" />
     <description>Matteo Varvello</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Matteo Varvello</title>
       <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
     </image>
+    
+    <item>
+      <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>
+      <link>https://yunmingxiao.github.io/publication/ring/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/ring/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>De-Kodi: Understanding the Kodi Ecosystem</title>

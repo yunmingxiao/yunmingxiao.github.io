@@ -27,10 +27,10 @@
 &lt;h3&gt;Poster&lt;/h3&gt;
 Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;poster_fiat.pdf&#34;&gt;Poster: FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;21.
 &lt;br&gt;
-&lt;br&gt;
+&lt;!-- &lt;br&gt;
 &lt;h3&gt;Technical Report&lt;/h3&gt;
-Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;../../files/frictionless.pdf&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;.
-&lt;br&gt;
+Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;../../files/frictionless.pdf&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. 
+&lt;br&gt; --&gt;
 &lt;!-- &lt;h3&gt;Publications&lt;/h3&gt;
 ... --&gt;
 &lt;!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20. --&gt;&lt;/p&gt;
@@ -56,8 +56,7 @@ Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;../../files/frictionless.p
 Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2021). &lt;a href=&#34;poster_ring.pdf&#34;&gt;A First Look Into Distributed VPNs&lt;/a&gt;. In IMC&amp;rsquo;21. &lt;a href=&#34;poster_poster_ring.pdf&#34;&gt;[Poster PDF]&lt;/a&gt;
 &lt;br&gt;
 &lt;h3&gt;Publications&lt;/h3&gt;
-&amp;hellip;
-&lt;!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20. --&gt;&lt;/p&gt;
+1. Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2022). &lt;a href=&#34;../../publication/ring/&#34;&gt;Monetizing Spare Bandwidth: the Case of Distributed VPNs&lt;/a&gt;. To appear in SIGMETRICS&amp;rsquo;22.&lt;/p&gt;
 </description>
     </item>
     
