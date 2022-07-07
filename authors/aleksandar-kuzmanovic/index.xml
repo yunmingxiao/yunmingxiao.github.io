@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/index.xml" rel="self" type="application/rss+xml" />
     <description>Aleksandar Kuzmanovic</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 30 Jun 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Aleksandar Kuzmanovic</title>
       <link>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</link>
     </image>
+    
+    <item>
+      <title>Blockchains: Mining &amp; Staking Optimal Resource Allocation</title>
+      <link>https://yunmingxiao.github.io/publication/aft22/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/aft22/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>

@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 28 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,82 @@
     </image>
     
     <item>
+      <title>Chi Lin</title>
+      <link>https://yunmingxiao.github.io/authors/chi-lin/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/chi-lin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Heng Qi</title>
+      <link>https://yunmingxiao.github.io/authors/heng-qi/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/heng-qi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mohammad S. Obaidat</title>
+      <link>https://yunmingxiao.github.io/authors/mohammad-s.-obaidat/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/mohammad-s.-obaidat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pengfei Wang</title>
+      <link>https://yunmingxiao.github.io/authors/pengfei-wang/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/pengfei-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Qiang Zhang</title>
+      <link>https://yunmingxiao.github.io/authors/qiang-zhang/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/qiang-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yian Zhao</title>
+      <link>https://yunmingxiao.github.io/authors/yian-zhao/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yian-zhao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zongzheng Wei</title>
+      <link>https://yunmingxiao.github.io/authors/zongzheng-wei/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/zongzheng-wei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Aleksandar Kuzmanovic</title>
       <link>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sarit Markovich</title>
+      <link>https://yunmingxiao.github.io/authors/sarit-markovich/</link>
+      <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/sarit-markovich/</guid>
       <description></description>
     </item>
     
@@ -25,14 +97,6 @@
       <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/matteo-varvello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
       <description></description>
     </item>
     
