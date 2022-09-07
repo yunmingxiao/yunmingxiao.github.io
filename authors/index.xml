@@ -5,12 +5,28 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 07 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://yunmingxiao.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Matteo Varvello</title>
+      <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/matteo-varvello/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Wed, 07 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Chi Lin</title>
@@ -61,14 +77,6 @@
     </item>
     
     <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Zongzheng Wei</title>
       <link>https://yunmingxiao.github.io/authors/zongzheng-wei/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
@@ -89,14 +97,6 @@
       <link>https://yunmingxiao.github.io/authors/sarit-markovich/</link>
       <pubDate>Thu, 30 Jun 2022 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/sarit-markovich/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Matteo Varvello</title>
-      <link>https://yunmingxiao.github.io/authors/matteo-varvello/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/matteo-varvello/</guid>
       <description></description>
     </item>
     
