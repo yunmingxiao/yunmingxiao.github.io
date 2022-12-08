@@ -17,7 +17,7 @@
       <link>https://yunmingxiao.github.io/projectsfolder/fiat/</link>
       <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/projectsfolder/fiat/</guid>
-      <description>&lt;p&gt;Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. This work investigates how this physical interaction can be used to build frictionless IoT traffic authentication. We then design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.&lt;/p&gt;
+      <description>&lt;p&gt;Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. Such physical interactions can be used to build frictionless authentications. However, their integration with IoT requires each vendor to independently adopt them, which is both complex and expensive. We instead design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.&lt;/p&gt;
 
 &lt;!-- &lt;br&gt;
 &lt;h3&gt;Resources&lt;/h3&gt;
@@ -28,7 +28,7 @@
 Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;poster_fiat.pdf&#34;&gt;Poster: FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;21.
 &lt;br&gt;
 &lt;h3&gt;Publication&lt;/h3&gt;
-Yunming Xiao, Matteo Varvello (2022). &lt;a href=&#34;../../publication/fiat/&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. To appear in CoNEXT&amp;rsquo;22.
+Yunming Xiao, Matteo Varvello (2022). &lt;a href=&#34;../../publication/fiat/&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;22.
 &lt;!-- &lt;br&gt;
 &lt;h3&gt;Technical Report&lt;/h3&gt;
 Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;../../files/frictionless.pdf&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. 
