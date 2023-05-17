@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication/</link>
       <atom:link href="https://yunmingxiao.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://yunmingxiao.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Kernel-free and Lightweight BGP Non-Stop Routing</title>
+      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Decoding the Kodi Ecosystem</title>

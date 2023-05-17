@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Marco Canini | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/marco-canini/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/marco-canini/index.xml" rel="self" type="application/rss+xml" />
-    <description>Marco Canini</description>
+    <title>Ruiqiang Dai | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/ruiqiang-dai/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/ruiqiang-dai/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruiqiang Dai</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
-      <title>Marco Canini</title>
-      <link>https://yunmingxiao.github.io/authors/marco-canini/</link>
+      <title>Ruiqiang Dai</title>
+      <link>https://yunmingxiao.github.io/authors/ruiqiang-dai/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://yunmingxiao.github.io/publication/tensor/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
       <description></description>
     </item>
     
