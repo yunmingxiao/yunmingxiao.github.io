@@ -5,12 +5,40 @@
     <link>https://yunmingxiao.github.io/projectsfolder/</link>
       <atom:link href="https://yunmingxiao.github.io/projectsfolder/index.xml" rel="self" type="application/rss+xml" />
     <description>Projectsfolders</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Projectsfolders</title>
       <link>https://yunmingxiao.github.io/projectsfolder/</link>
     </image>
+    
+    <item>
+      <title>PDNS: A Fully Privacy-Preserving DNS</title>
+      <link>https://yunmingxiao.github.io/projectsfolder/pdns/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/projectsfolder/pdns/</guid>
+      <description>&lt;p&gt;There has been a growing interest in Internet user privacy, demonstrated by the popularity of privacy-preserving products such as Telegram and Brave, and the widespread adoption of HTTPS. The Domain Name System (DNS) is a key component of Internet-based communication and its privacy has been neglected for years. Recently, DNS over HTTPS (DoH) has improved the situation by fixing the issue of in-path middleboxes. Further progress has been made with proxy-based solutions such as Oblivious DoH (ODoH) and DoH over Tor (DoHoT), which separate a user’s identity from their DNS queries. However, these solutions rely on trusted DNS resolvers and non-collusion with the proxy network. This paper proposes a new extension to DNS, called PDNS, that uses Private Information Retrieval to allow DNS resolvers to operate on encrypted DNS queries, thereby eliminating any privacy leaks. We have implemented a prototype of PDNS and compared its performance against all state-of-the-art solutions via trace-driven experiments. The results show that PDNS achieves high performance and strong privacy guarantees, mainly at the cost of its scalability, which specialized hardware for PIR can address in the near future.&lt;/p&gt;
+
+&lt;!-- &lt;br&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;a href=&#34;https://ringdvpn.com/&#34;&gt;RING: The first multi-vendors bandwidth marketplace&lt;/a&gt; --&gt;
+
+&lt;p&gt;&lt;br&gt;
+&lt;h3&gt;Demo&lt;/h3&gt;
+Yunming Xiao, Chenkai Weng, Ruijie Yu, Peizhi Liu, Matteo Varvello, Aleksandar Kuzmanovic (2023). PDNS: A Fully Privacy-Preserving DNS. To appear in SIGCOMM&amp;rsquo;23.
+&lt;br&gt;
+&lt;h3&gt;Publication&lt;/h3&gt;
+TBA
+&lt;!-- Yunming Xiao, Matteo Varvello (2022). &lt;a href=&#34;../../publication/fiat/&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&#39;22. --&gt;
+&lt;!-- &lt;br&gt;
+&lt;h3&gt;Technical Report&lt;/h3&gt;
+Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;../../files/frictionless.pdf&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. 
+&lt;br&gt; --&gt;
+&lt;!-- &lt;h3&gt;Publications&lt;/h3&gt;
+... --&gt;
+&lt;!-- 1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20. --&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>FIAT: Frictionless Authentication of IoT Traffic</title>
@@ -25,7 +53,7 @@
 
 &lt;p&gt;&lt;br&gt;
 &lt;h3&gt;Poster&lt;/h3&gt;
-Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;poster_fiat.pdf&#34;&gt;Poster: FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;21.
+Yunming Xiao, Matteo Varvello (2021). &lt;a href=&#34;poster_fiat.pdf&#34;&gt;Poster: FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;21. &lt;a href=&#34;poster_poster_fiat.pdf&#34;&gt;[Poster PDF]&lt;/a&gt;
 &lt;br&gt;
 &lt;h3&gt;Publication&lt;/h3&gt;
 Yunming Xiao, Matteo Varvello (2022). &lt;a href=&#34;../../publication/fiat/&#34;&gt;FIAT: Frictionless Authentication of IoT Traffic&lt;/a&gt;. In CoNEXT&amp;rsquo;22.
