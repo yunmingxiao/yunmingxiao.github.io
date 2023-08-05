@@ -28,9 +28,8 @@
   
     
   
-  <meta name="description" content="As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realize NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.
-
-In this paper, we tackle this problem by proposing TENSOR, which incorporates a novel kernel-free replication design and lightweight architecture. More concretely, the kernel-free replication design mitigates the reliance on OS kernel modification and hence allows the virtualization of the network gateway. Meanwhile, lightweight virtualization provides strong performance guaratees and improves system reliability. Moreover, TENSOR provides a solution to the split-brain problem that affects NSR solutions. Through extensive experiments, we show that TENSOR realizes NSR while bearing little overhead compared to open-source BGP implementations. Further, our two-year operational experience on a fleet of 400 servers controlling over 31,000 BGP peering connections demonstrates that TENSOR reduces the development, deployment, and maintenance costs significantly – by at least 20×, 5×, and 10×, respectively, while retaining the same SLA with the NSR-enabled routers. ">
+  <meta name="description" content="As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realizing NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.
+In this paper, we tackle this problem by proposing TENSOR, which incorporates a novel kernel-modification-free replication design and lightweight architecture. More concretely, the kernel-modification-free replication design mitigates the reliance on OS kernel modification and hence allows the virtualization of the network gateway. Meanwhile, lightweight virtualization provides strong performance guarantees and improves system reliability. Moreover, TENSOR provides a solution to the split-brain problem that affects NSR solutions. Through extensive experiments, we show that TENSOR realizes NSR while bearing little overhead compared to open-source BGP implementations. Further, our two-year operational experience on a fleet of 400 servers controlling over 31,000 BGP peering connections demonstrates that TENSOR reduces the development, deployment, and maintenance costs significantly – at least by factors of 20, 5, and 10, respectively, while retaining the same SLA with the NSR-enabled routers. ">
 
   
   <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/tensor/">
@@ -125,10 +124,9 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
   
   <meta property="og:site_name" content="Yunming Xiao">
   <meta property="og:url" content="https://yunmingxiao.github.io/publication/tensor/">
-  <meta property="og:title" content="Lightweight BGP Non-Stop Routing | Yunming Xiao">
-  <meta property="og:description" content="As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realize NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.
-
-In this paper, we tackle this problem by proposing TENSOR, which incorporates a novel kernel-free replication design and lightweight architecture. More concretely, the kernel-free replication design mitigates the reliance on OS kernel modification and hence allows the virtualization of the network gateway. Meanwhile, lightweight virtualization provides strong performance guaratees and improves system reliability. Moreover, TENSOR provides a solution to the split-brain problem that affects NSR solutions. Through extensive experiments, we show that TENSOR realizes NSR while bearing little overhead compared to open-source BGP implementations. Further, our two-year operational experience on a fleet of 400 servers controlling over 31,000 BGP peering connections demonstrates that TENSOR reduces the development, deployment, and maintenance costs significantly – by at least 20×, 5×, and 10×, respectively, while retaining the same SLA with the NSR-enabled routers. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/tensor/featured.png">
+  <meta property="og:title" content="TENSOR: Lightweight BGP Non-Stop Routing | Yunming Xiao">
+  <meta property="og:description" content="As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realizing NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.
+In this paper, we tackle this problem by proposing TENSOR, which incorporates a novel kernel-modification-free replication design and lightweight architecture. More concretely, the kernel-modification-free replication design mitigates the reliance on OS kernel modification and hence allows the virtualization of the network gateway. Meanwhile, lightweight virtualization provides strong performance guarantees and improves system reliability. Moreover, TENSOR provides a solution to the split-brain problem that affects NSR solutions. Through extensive experiments, we show that TENSOR realizes NSR while bearing little overhead compared to open-source BGP implementations. Further, our two-year operational experience on a fleet of 400 servers controlling over 31,000 BGP peering connections demonstrates that TENSOR reduces the development, deployment, and maintenance costs significantly – at least by factors of 20, 5, and 10, respectively, while retaining the same SLA with the NSR-enabled routers. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/tensor/featured.png">
   <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/tensor/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -146,7 +144,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
 
 
 
-  <title>Lightweight BGP Non-Stop Routing | Yunming Xiao</title>
+  <title>TENSOR: Lightweight BGP Non-Stop Routing | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -389,7 +387,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">Lightweight BGP Non-Stop Routing</h1>
+  <h1 itemprop="name">TENSOR: Lightweight BGP Non-Stop Routing</h1>
 
   
 
@@ -451,7 +449,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/tensor/&amp;text=Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/tensor/&amp;text=TENSOR:%20Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -464,7 +462,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/tensor/&amp;t=Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/tensor/&amp;t=TENSOR:%20Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -477,7 +475,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
       
       
       <li>
-        <a href="mailto:?subject=Lightweight%20BGP%20Non-Stop%20Routing&amp;body=https://yunmingxiao.github.io/publication/tensor/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=TENSOR:%20Lightweight%20BGP%20Non-Stop%20Routing&amp;body=https://yunmingxiao.github.io/publication/tensor/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -490,7 +488,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/tensor/&amp;title=Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/tensor/&amp;title=TENSOR:%20Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -503,7 +501,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Lightweight%20BGP%20Non-Stop%20Routing%20https://yunmingxiao.github.io/publication/tensor/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=TENSOR:%20Lightweight%20BGP%20Non-Stop%20Routing%20https://yunmingxiao.github.io/publication/tensor/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -516,7 +514,7 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/tensor/&amp;title=Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/tensor/&amp;title=TENSOR:%20Lightweight%20BGP%20Non-Stop%20Routing" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -583,6 +581,10 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3603269.3604852" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
 </div>
@@ -604,10 +606,8 @@ In this paper, we tackle this problem by proposing TENSOR, which incorporates a 
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text"><p>As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realize NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.</p>
-
-<p>In this paper, we tackle this problem by proposing TENSOR, which incorporates a novel kernel-free replication design and lightweight architecture. More concretely, the kernel-free replication design mitigates the reliance on OS kernel modification and hence allows the virtualization of the network gateway. Meanwhile, lightweight virtualization provides strong performance guaratees and improves system reliability. Moreover, TENSOR provides a solution to the split-brain problem that affects NSR solutions. Through extensive experiments, we show that TENSOR realizes NSR while bearing little overhead compared to open-source BGP implementations. Further, our two-year operational experience on a fleet of 400 servers controlling over 31,000 BGP peering connections demonstrates that TENSOR reduces the development, deployment, and maintenance costs significantly – by at least 20×, 5×, and 10×, respectively, while retaining the same SLA with the NSR-enabled routers.</p>
-</p>
+    <p class="pub-abstract" itemprop="text">As the solitary inter-domain protocol, BGP plays an important role in today’s Internet. Its failures threaten network stability and will usually result in large-scale packet losses. Thus, the non-stop routing (NSR) capability that protects inter-domain connectivity from being disrupted by various failures, is critical to any Autonomous System (AS) operator. Replicating the BGP and underlying TCP connection status is key to realizing NSR. But existing NSR solutions, which heavily rely on OS kernel modifications, have become impractical due to providers’ adoption of virtualized network gateways for better scalability and manageability.
+In this paper, we tackle this problem by proposing TENSOR, which incorporates a novel kernel-modification-free replication design and lightweight architecture. More concretely, the kernel-modification-free replication design mitigates the reliance on OS kernel modification and hence allows the virtualization of the network gateway. Meanwhile, lightweight virtualization provides strong performance guarantees and improves system reliability. Moreover, TENSOR provides a solution to the split-brain problem that affects NSR solutions. Through extensive experiments, we show that TENSOR realizes NSR while bearing little overhead compared to open-source BGP implementations. Further, our two-year operational experience on a fleet of 400 servers controlling over 31,000 BGP peering connections demonstrates that TENSOR reduces the development, deployment, and maintenance costs significantly – at least by factors of 20, 5, and 10, respectively, while retaining the same SLA with the NSR-enabled routers.</p>
     
 
     
