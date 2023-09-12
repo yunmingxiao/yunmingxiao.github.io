@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Personal Website of Yunming Xiao">
+  <meta name="description" content="In recent years, we have witnessed a growing trend of content hyper-giants deploying server infrastructure and services close to end-users, in “eyeball” networks. Still, one of the services that remained largely unaffected by this trend is online streaming analytics. This is despite the fact that most of the “big data” is received in real time and is most valuable at the time of arrival. The inability to process requests at the network edge is caused by a common setting where user profiles, necessary for analytics, are stored deep in the data center backends. This setting also carries privacy concerns as such user profiles are individually identifiable, yet the users are almost blind to what data is associated with their identities and how the data is analyzed. In this paper, we revise this arrangement, and plant encrypted semantic cookies at the user end. Without altering any of the existing protocols, this enables capturing and analytically pre-processing user requests soon after they are generated, at edge ISPs or content providers’ off-nets. In addition, it ensures user anonymity perseverance during the analytics. We design and implement Snatch, a QUIC-based streaming analytics prototype, and demonstrate that it speeds up user analytics by up to 200x, and by 10-30x in the common case. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/authors/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/snatch/">
 
   
 
@@ -105,44 +105,44 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Yunming Xiao">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/authors/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/snatch/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/authors/">
-  <meta property="og:title" content="Authors | Yunming Xiao">
-  <meta property="og:description" content="Personal Website of Yunming Xiao"><meta property="og:image" content="https://yunmingxiao.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/snatch/">
+  <meta property="og:title" content="Snatch: Online Streaming Analytics at the Network Edge | Yunming Xiao">
+  <meta property="og:description" content="In recent years, we have witnessed a growing trend of content hyper-giants deploying server infrastructure and services close to end-users, in “eyeball” networks. Still, one of the services that remained largely unaffected by this trend is online streaming analytics. This is despite the fact that most of the “big data” is received in real time and is most valuable at the time of arrival. The inability to process requests at the network edge is caused by a common setting where user profiles, necessary for analytics, are stored deep in the data center backends. This setting also carries privacy concerns as such user profiles are individually identifiable, yet the users are almost blind to what data is associated with their identities and how the data is analyzed. In this paper, we revise this arrangement, and plant encrypted semantic cookies at the user end. Without altering any of the existing protocols, this enables capturing and analytically pre-processing user requests soon after they are generated, at edge ISPs or content providers’ off-nets. In addition, it ensures user anonymity perseverance during the analytics. We design and implement Snatch, a QUIC-based streaming analytics prototype, and demonstrate that it speeds up user analytics by up to 200x, and by 10-30x in the common case. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/snatch/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/snatch/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2024-01-01T10:00:00&#43;00:00">
-  
-
-  
-
-
+    
+      <meta property="article:published_time" content="2023-09-11T10:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-01-01T10:00:00&#43;00:00">
   
 
+  
+
+
+  
 
 
 
 
-  <title>Authors | Yunming Xiao</title>
+
+  <title>Snatch: Online Streaming Analytics at the Network Edge | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -299,7 +299,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -355,88 +355,342 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Authors</h1>
+
+
+<div class="article-container pt-3">
+  <h1 itemprop="name">Snatch: Online Streaming Analytics at the Network Edge</h1>
 
   
 
   
+
+
+
+<meta content="2024-01-01 10:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2024-01-01 10:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Yibo Zhao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Sen Lin</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aleksandar Kuzmanovic</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>January 2024</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/snatch/&amp;text=Snatch:%20Online%20Streaming%20Analytics%20at%20the%20Network%20Edge" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/snatch/&amp;t=Snatch:%20Online%20Streaming%20Analytics%20at%20the%20Network%20Edge" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Snatch:%20Online%20Streaming%20Analytics%20at%20the%20Network%20Edge&amp;body=https://yunmingxiao.github.io/publication/snatch/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/snatch/&amp;title=Snatch:%20Online%20Streaming%20Analytics%20at%20the%20Network%20Edge" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Snatch:%20Online%20Streaming%20Analytics%20at%20the%20Network%20Edge%20https://yunmingxiao.github.io/publication/snatch/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/snatch/&amp;title=Snatch:%20Online%20Streaming%20Analytics%20at%20the%20Network%20Edge" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/snatch/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 288px;">
+  <div style="position: relative">
+    <img src="/publication/snatch/featured_hu564c2061539c99b7d4956a945c4492bf_704409_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
-<div class="universal-wrapper">
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">In recent years, we have witnessed a growing trend of content hyper-giants deploying server infrastructure and services close to end-users, in “eyeball” networks. Still, one of the services that remained largely unaffected by this trend is online streaming analytics. This is despite the fact that most of the “big data” is received in real time and is most valuable at the time of arrival. The inability to process requests at the network edge is caused by a common setting where user profiles, necessary for analytics, are stored deep in the data center backends. This setting also carries privacy concerns as such user profiles are individually identifiable, yet the users are almost blind to what data is associated with their identities and how the data is analyzed. In this paper, we revise this arrangement, and plant encrypted semantic cookies at the user end. Without altering any of the existing protocols, this enables capturing and analytically pre-processing user requests soon after they are generated, at edge ISPs or content providers’ off-nets. In addition, it ensures user anonymity perseverance during the analytics. We design and implement Snatch, a QUIC-based streaming analytics prototype, and demonstrate that it speeds up user analytics by up to 200x, and by 10-30x in the common case.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">To appear in <em>EuroSys&rsquo;24</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+  
+  
+    
+  
   
 
-  <ul>
-    
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/yachen-wang/">Yachen Wang</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/marc-anthony-warrior/">Marc Anthony Warrior</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/matteo-varvello/">Matteo Varvello</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/chi-lin/">Chi Lin</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/heng-qi/">Heng Qi</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/mohammad-s.-obaidat/">Mohammad S. Obaidat</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/pengfei-wang/">Pengfei Wang</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/qiang-zhang/">Qiang Zhang</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/yian-zhao/">Yian Zhao</a></li>
-    
-      
-      <li><a href="https://yunmingxiao.github.io/authors/zongzheng-wei/">Zongzheng Wei</a></li>
-    
-  </ul>
+
+
+
 
   
-<nav>
-  <ul class="pagination justify-content-center">
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
     
-    <li class="page-item"><a class="page-link" href="/authors/">&laquo;</a></li>
-    
-    
-    <li class="page-item"><a class="page-link" href="/authors/page/3/">&raquo;</a></li>
-    
-  </ul>
-</nav>
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/yunming-xiao/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
 
 
+
+
+    
+
+
+  </div>
 </div>
+
+
 
       
 
