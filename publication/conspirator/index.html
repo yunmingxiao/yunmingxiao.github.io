@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. Such physical interactions can be used to build frictionless authentications. However, their integration with IoT requires each vendor to independently adopt them, which is both complex and expensive. We instead design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience. ">
+  <meta name="description" content="Modern machine learning (ML) workloads heavily depend on distributing tasks across clusters of server CPUs and specialized accelerators, such as GPUs and TPUs, to achieve optimal performance. Nonetheless, prior research has highlighted the inefficient utilization of computing resources in distributed ML, leading to suboptimal performance. This inefficiency primarily stems from CPU bottlenecks and suboptimal accelerator scheduling. Although numerous proposals have been put forward to address these issues individually, none have effectively tackled both inefficiencies simultaneously. In this paper, we introduce Conspirator, an innovative control plane design aimed at alleviating both bottlenecks by harnessing the enhanced computing capabilities of SmartNICs. Following the evolving role of SmartNICs, which have transitioned from their initial function of standard networking task offloading to serving as programmable connectors between disaggregated computing resources, Conspirator facilitates efficient data transfer without the involvement of host CPUs and hence circumvents the potential bottlenecks there. Conspirator further integrates a novel scheduling algorithm that takes into consideration of the heterogeneity of accelerators and adapts to changing workload dynamics, enabling the flexibility to mitigate the second bottleneck. Our evaluation demonstrates that Conspirator may provide a 15% end-to-end completion time reduction compared to RDMA-based alternatives while being 17% more cost-effective and 44% more power-efficient. Our proposed scheduler also helps to save 33% GPU hours compared to naive GPU-sharing schedulers by making close-to-optimal decisions while taking much less time than the optimal NP-Hard scheduler. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/fiat/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/conspirator/">
 
   
 
@@ -110,7 +110,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/fiat/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/conspirator/">
 
   
   
@@ -122,15 +122,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/fiat/">
-  <meta property="og:title" content="FIAT: Frictionless Authentication of IoT Traffic | Yunming Xiao">
-  <meta property="og:description" content="Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. Such physical interactions can be used to build frictionless authentications. However, their integration with IoT requires each vendor to independently adopt them, which is both complex and expensive. We instead design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/fiat/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/fiat/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/conspirator/">
+  <meta property="og:title" content="Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads | Yunming Xiao">
+  <meta property="og:description" content="Modern machine learning (ML) workloads heavily depend on distributing tasks across clusters of server CPUs and specialized accelerators, such as GPUs and TPUs, to achieve optimal performance. Nonetheless, prior research has highlighted the inefficient utilization of computing resources in distributed ML, leading to suboptimal performance. This inefficiency primarily stems from CPU bottlenecks and suboptimal accelerator scheduling. Although numerous proposals have been put forward to address these issues individually, none have effectively tackled both inefficiencies simultaneously. In this paper, we introduce Conspirator, an innovative control plane design aimed at alleviating both bottlenecks by harnessing the enhanced computing capabilities of SmartNICs. Following the evolving role of SmartNICs, which have transitioned from their initial function of standard networking task offloading to serving as programmable connectors between disaggregated computing resources, Conspirator facilitates efficient data transfer without the involvement of host CPUs and hence circumvents the potential bottlenecks there. Conspirator further integrates a novel scheduling algorithm that takes into consideration of the heterogeneity of accelerators and adapts to changing workload dynamics, enabling the flexibility to mitigate the second bottleneck. Our evaluation demonstrates that Conspirator may provide a 15% end-to-end completion time reduction compared to RDMA-based alternatives while being 17% more cost-effective and 44% more power-efficient. Our proposed scheduler also helps to save 33% GPU hours compared to naive GPU-sharing schedulers by making close-to-optimal decisions while taking much less time than the optimal NP-Hard scheduler. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/conspirator/featured.jpg">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/conspirator/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2022-12-06T10:00:00&#43;00:00">
+      <meta property="article:published_time" content="2024-04-30T10:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2022-10-16T10:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2024-04-30T10:00:00&#43;00:00">
   
 
   
@@ -142,7 +142,7 @@
 
 
 
-  <title>FIAT: Frictionless Authentication of IoT Traffic | Yunming Xiao</title>
+  <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -363,7 +363,7 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">FIAT: Frictionless Authentication of IoT Traffic</h1>
+  <h1 itemprop="name">Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</h1>
 
   
 
@@ -371,8 +371,8 @@
 
 
 
-<meta content="2022-10-16 10:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2022-10-16 10:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2024-04-30 10:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2024-04-30 10:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -385,7 +385,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matteo Varvello</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Diman Zad Tootaghat</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aditya Dhakal</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lianjie Cao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Puneet Sharma</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aleksandar Kuzmanovic</span>
 
   </div>
   
@@ -397,7 +397,7 @@
     
       
     
-    <time>October 2022</time>
+    <time>April 2024</time>
   </span>
   
 
@@ -425,7 +425,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/fiat/&amp;text=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/conspirator/&amp;text=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -438,7 +438,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/fiat/&amp;t=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/conspirator/&amp;t=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -451,7 +451,7 @@
       
       
       <li>
-        <a href="mailto:?subject=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic&amp;body=https://yunmingxiao.github.io/publication/fiat/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads&amp;body=https://yunmingxiao.github.io/publication/conspirator/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -464,7 +464,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/fiat/&amp;title=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/conspirator/&amp;title=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -477,7 +477,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic%20https://yunmingxiao.github.io/publication/fiat/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads%20https://yunmingxiao.github.io/publication/conspirator/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -490,7 +490,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/fiat/&amp;title=FIAT:%20Frictionless%20Authentication%20of%20IoT%20Traffic" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/conspirator/&amp;title=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -531,19 +531,13 @@
 
 
   
-    
-  
 
 
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/fiat/conext22-xiao.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/fiat/cite.bib">
+        data-filename="/publication/conspirator/cite.bib">
   Cite
 </button>
 
@@ -561,19 +555,7 @@
 
 
 
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/fiat/fiat_conext22.mp4" target="_blank" rel="noopener">
-  Video
-</a>
 
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3555050.3569126" target="_blank" rel="noopener">
-  DOI
-</a>
 
 
 
@@ -583,9 +565,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 313px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 359px;">
   <div style="position: relative">
-    <img src="/publication/fiat/featured_hu2f1e02e515e351c311ec896043222feb_239462_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <img src="/publication/conspirator/featured_hu4a5a208950fe88797274ff3cfafb3a06_167745_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
     
   </div>
 </div>
@@ -596,7 +578,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Home IoT (Internet of Things) deployments are vulnerable to local adversaries, compromising a LAN, and remote adversaries, compromising either the accounts associated with IoT devices or third-party devices like mobile phones used to control the IoT. There is, however, a fundamental difference between an attacker and a legitimate IoT user: the physical interaction with the device (e.g., via a mobile app) used to operate the IoT. Such physical interactions can be used to build frictionless authentications. However, their integration with IoT requires each vendor to independently adopt them, which is both complex and expensive. We instead design and build FIAT, the first third-party mechanism to automatically authorize IoT traffic by learning recurring traffic and validating human actions behind unpredictable traffic. FIAT does not require modification of the IoT devices or apps, as it operates passively on network traffic. Our evaluation shows that FIAT achieves high accuracy with minimal impact on the user experience.</p>
+    <p class="pub-abstract" itemprop="text">Modern machine learning (ML) workloads heavily depend on distributing tasks across clusters of server CPUs and specialized accelerators, such as GPUs and TPUs, to achieve optimal performance. Nonetheless, prior research has highlighted the inefficient utilization of computing resources in distributed ML, leading to suboptimal performance. This inefficiency primarily stems from CPU bottlenecks and suboptimal accelerator scheduling. Although numerous proposals have been put forward to address these issues individually, none have effectively tackled both inefficiencies simultaneously. In this paper, we introduce Conspirator, an innovative control plane design aimed at alleviating both bottlenecks by harnessing the enhanced computing capabilities of SmartNICs. Following the evolving role of SmartNICs, which have transitioned from their initial function of standard networking task offloading to serving as programmable connectors between disaggregated computing resources, Conspirator facilitates efficient data transfer without the involvement of host CPUs and hence circumvents the potential bottlenecks there. Conspirator further integrates a novel scheduling algorithm that takes into consideration of the heterogeneity of accelerators and adapts to changing workload dynamics, enabling the flexibility to mitigate the second bottleneck. Our evaluation demonstrates that Conspirator may provide a 15% end-to-end completion time reduction compared to RDMA-based alternatives while being 17% more cost-effective and 44% more power-efficient. Our proposed scheduler also helps to save 33% GPU hours compared to naive GPU-sharing schedulers by making close-to-optimal decisions while taking much less time than the optimal NP-Hard scheduler.</p>
     
 
     
@@ -608,8 +590,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/?filtertopic=.pubtopic-0">
-              Security &amp; Privacy
+            <a href="/publication/?filtertopic=.pubtopic-2">
+              MLSys
             </a>
             
           </div>
@@ -647,7 +629,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In Proceedings of the <em>CoNEXT&rsquo;22</em></div>
+          <div class="col-12 col-md-9">To apper in USENIX <em>ATC&rsquo;24</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>

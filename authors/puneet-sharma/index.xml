@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/publication_topics/2/</link>
-      <atom:link href="https://yunmingxiao.github.io/publication_topics/2/index.xml" rel="self" type="application/rss+xml" />
-    <description>2</description>
+    <title>Puneet Sharma | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/puneet-sharma/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/puneet-sharma/index.xml" rel="self" type="application/rss+xml" />
+    <description>Puneet Sharma</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Apr 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
-      <title>2</title>
-      <link>https://yunmingxiao.github.io/publication_topics/2/</link>
+      <title>Puneet Sharma</title>
+      <link>https://yunmingxiao.github.io/authors/puneet-sharma/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://yunmingxiao.github.io/publication/conspirator/</link>
       <pubDate>Tue, 30 Apr 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
       <description></description>
     </item>
     

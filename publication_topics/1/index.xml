@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/publication_topics/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
@@ -13,26 +13,10 @@
     </image>
     
     <item>
-      <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Close spatial arrangement of mutants favors and disfavors fixation</title>
-      <link>https://yunmingxiao.github.io/publication/ploscomp/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ploscomp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Common Knowledge Based Transfer Learning for Traffic Classification</title>
-      <link>https://yunmingxiao.github.io/publication/lcn18/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/lcn18/</guid>
+      <title>TENSOR: Lightweight BGP Non-Stop Routing</title>
+      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
       <description></description>
     </item>
     

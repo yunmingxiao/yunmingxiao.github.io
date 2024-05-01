@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/publication_topics/4/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>4</title>
@@ -13,10 +13,26 @@
     </image>
     
     <item>
-      <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
+      <title>Blockchain-enhanced Federated Learning Market with Social Internet of Things</title>
+      <link>https://yunmingxiao.github.io/publication/jsac22/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/jsac22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain Mining: Optimal Resource Allocation</title>
+      <link>https://yunmingxiao.github.io/publication/aft22/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/aft22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>
+      <link>https://yunmingxiao.github.io/publication/ring/</link>
+      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/ring/</guid>
       <description></description>
     </item>
     
