@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Senkuo Zhang | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/senkuo-zhang/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/senkuo-zhang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Senkuo Zhang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 May 2024 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Senkuo Zhang</title>
+      <link>https://yunmingxiao.github.io/authors/senkuo-zhang/</link>
+    </image>
+    
+    <item>
+      <title>MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud</title>
+      <link>https://yunmingxiao.github.io/publication/megate/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/megate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

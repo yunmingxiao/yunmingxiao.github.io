@@ -5,12 +5,108 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 30 Apr 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 May 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://yunmingxiao.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Chaodong Lu</title>
+      <link>https://yunmingxiao.github.io/authors/chaodong-lu/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/chaodong-lu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chuanchuan Yang</title>
+      <link>https://yunmingxiao.github.io/authors/chuanchuan-yang/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/chuanchuan-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Congcong Miao</title>
+      <link>https://yunmingxiao.github.io/authors/congcong-miao/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/congcong-miao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feng Yang</title>
+      <link>https://yunmingxiao.github.io/authors/feng-yang/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/feng-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jingyi Geng</title>
+      <link>https://yunmingxiao.github.io/authors/jingyi-geng/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/jingyi-geng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Senkuo Zhang</title>
+      <link>https://yunmingxiao.github.io/authors/senkuo-zhang/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/senkuo-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xianneng Zou</title>
+      <link>https://yunmingxiao.github.io/authors/xianneng-zou/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/xianneng-zou/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yachen Wang</title>
+      <link>https://yunmingxiao.github.io/authors/yachen-wang/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yachen-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yinan Jiang</title>
+      <link>https://yunmingxiao.github.io/authors/yinan-jiang/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yinan-jiang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhizhen Zhong</title>
+      <link>https://yunmingxiao.github.io/authors/zhizhen-zhong/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/zhizhen-zhong/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zizhuo Bai</title>
+      <link>https://yunmingxiao.github.io/authors/zizhuo-bai/</link>
+      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/zizhuo-bai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aditya Dhakal</title>
@@ -53,14 +149,6 @@
     </item>
     
     <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Tue, 30 Apr 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sen Lin</title>
       <link>https://yunmingxiao.github.io/authors/sen-lin/</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
@@ -73,14 +161,6 @@
       <link>https://yunmingxiao.github.io/authors/yibo-zhao/</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/yibo-zhao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Congcong Miao*</title>
-      <link>https://yunmingxiao.github.io/authors/congcong-miao/</link>
-      <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/congcong-miao/</guid>
       <description></description>
     </item>
     
@@ -121,14 +201,6 @@
       <link>https://yunmingxiao.github.io/authors/shengli-zheng/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/shengli-zheng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yachen Wang</title>
-      <link>https://yunmingxiao.github.io/authors/yachen-wang/</link>
-      <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yachen-wang/</guid>
       <description></description>
     </item>
     
