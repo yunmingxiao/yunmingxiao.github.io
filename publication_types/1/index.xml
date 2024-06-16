@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/publication_types/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 May 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jun 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud</title>
-      <link>https://yunmingxiao.github.io/publication/megate/</link>
-      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/megate/</guid>
+      <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>
+      <link>https://yunmingxiao.github.io/publication/conspirator/</link>
+      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>
-      <link>https://yunmingxiao.github.io/publication/conspirator/</link>
-      <pubDate>Tue, 30 Apr 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
+      <title>MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud</title>
+      <link>https://yunmingxiao.github.io/publication/megate/</link>
+      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/megate/</guid>
       <description></description>
     </item>
     
