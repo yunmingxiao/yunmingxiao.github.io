@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_types/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jun 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yunmingxiao.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
+      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>

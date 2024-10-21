@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Silvery Fu | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/silvery-fu/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/silvery-fu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Silvery Fu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Silvery Fu</title>
+      <link>https://yunmingxiao.github.io/authors/silvery-fu/</link>
+    </image>
+    
+    <item>
+      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
+      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

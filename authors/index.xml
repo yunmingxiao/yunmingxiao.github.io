@@ -5,12 +5,92 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jun 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>https://yunmingxiao.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Ang Chen</title>
+      <link>https://yunmingxiao.github.io/authors/ang-chen/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/ang-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jiaheng Lu</title>
+      <link>https://yunmingxiao.github.io/authors/jiaheng-lu/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/jiaheng-lu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mosharaf Chowdhury</title>
+      <link>https://yunmingxiao.github.io/authors/mosharaf-chowdhury/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/mosharaf-chowdhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nalini Rao</title>
+      <link>https://yunmingxiao.github.io/authors/nalini-rao/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/nalini-rao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shmeelok Chakraborty</title>
+      <link>https://yunmingxiao.github.io/authors/shmeelok-chakraborty/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/shmeelok-chakraborty/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Silvery Fu</title>
+      <link>https://yunmingxiao.github.io/authors/silvery-fu/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/silvery-fu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sylvia Ratnasamy</title>
+      <link>https://yunmingxiao.github.io/authors/sylvia-ratnasamy/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/sylvia-ratnasamy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xinyu Wang</title>
+      <link>https://yunmingxiao.github.io/authors/xinyu-wang/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/xinyu-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yoon Sung Ji</title>
+      <link>https://yunmingxiao.github.io/authors/yoon-sung-ji/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yoon-sung-ji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Aditya Dhakal</title>
@@ -121,14 +201,6 @@
       <link>https://yunmingxiao.github.io/authors/yinan-jiang/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/yinan-jiang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
       <description></description>
     </item>
     
@@ -355,7 +427,7 @@
       <guid>https://yunmingxiao.github.io/authors/admin/</guid>
       <description>&lt;p&gt;Hi there! I am a Research Fellow at the University of Michigan working with &lt;a href=&#34;https://web.eecs.umich.edu/~chenang/&#34;&gt;Prof. Ang Chen&lt;/a&gt;. I received my Ph.D. in Computer Science from Northwestern University in 2024, where my advisor was &lt;a href=&#34;http://networks.cs.northwestern.edu/website/index-a.html&#34;&gt;Prof. Aleksandar Kuzmanovic&lt;/a&gt;. Before that, I received my B.Eng. in Computer Science from Beijing University of Posts and Telecommunications in 2019.&lt;/p&gt;
 
-&lt;p&gt;I am broadly interested in computer networks. My current research focuses on enhancing the &lt;a href=&#34;publication/?filtertopic=.pubtopic-0&#34;&gt;security, privacy&lt;/a&gt;, and &lt;a href=&#34;publication/?filtertopic=.pubtopic-1&#34;&gt;reliability&lt;/a&gt; of Internet infrastructure and services. My research has received the Best Student Paper Award from EuroSys.&lt;/p&gt;
+&lt;p&gt;I am broadly interested in computer networks and systems. My current research focuses on enhancing the &lt;a href=&#34;publication/?filtertopic=.pubtopic-0&#34;&gt;security, privacy&lt;/a&gt;, and &lt;a href=&#34;publication/?filtertopic=.pubtopic-1&#34;&gt;reliability&lt;/a&gt; of Internet infrastructure and services. My research has received the Best Student Paper Award from EuroSys.&lt;/p&gt;
 
 &lt;!-- &lt;font color=&#34;d62728&#34;&gt;&lt;b&gt;&lt;i&gt;
 I am on the academic job market for 2024 and am keen to connect with any potential opportunities (either postdoc or faculty). &lt;a href=&#34;files/Yunming-Research-Statement.pdf&#34;&gt;[Research Statement]&lt;/a&gt;
