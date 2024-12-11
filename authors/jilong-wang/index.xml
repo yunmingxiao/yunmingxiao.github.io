@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/authors/jilong-wang/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/jilong-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jilong Wang</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Jilong Wang</title>
       <link>https://yunmingxiao.github.io/authors/jilong-wang/</link>
     </image>
+    
+    <item>
+      <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
+      <link>https://yunmingxiao.github.io/publication/p-ecmp/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/p-ecmp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>TENSOR: Lightweight BGP Non-Stop Routing</title>

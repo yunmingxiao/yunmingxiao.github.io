@@ -5,12 +5,28 @@
     <link>https://yunmingxiao.github.io/publication_types/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 01:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yunmingxiao.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
+      <link>https://yunmingxiao.github.io/publication/preacher/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/preacher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
+      <link>https://yunmingxiao.github.io/publication/p-ecmp/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/p-ecmp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>

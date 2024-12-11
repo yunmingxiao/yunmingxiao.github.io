@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yanqi Gu | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/yanqi-gu/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/yanqi-gu/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yanqi Gu</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 01:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Yanqi Gu</title>
+      <link>https://yunmingxiao.github.io/authors/yanqi-gu/</link>
+    </image>
+    
+    <item>
+      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
+      <link>https://yunmingxiao.github.io/publication/preacher/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/preacher/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

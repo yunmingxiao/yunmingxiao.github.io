@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 01:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -13,10 +13,122 @@
     </image>
     
     <item>
+      <title>Aleksandar Kuzmanovic</title>
+      <link>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shihan Lin</title>
+      <link>https://yunmingxiao.github.io/authors/shihan-lin/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/shihan-lin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Suting Chen</title>
+      <link>https://yunmingxiao.github.io/authors/suting-chen/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/suting-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiaowei Yang</title>
+      <link>https://yunmingxiao.github.io/authors/xiaowei-yang/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/xiaowei-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yanqi Gu</title>
+      <link>https://yunmingxiao.github.io/authors/yanqi-gu/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yanqi-gu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Ang Chen</title>
       <link>https://yunmingxiao.github.io/authors/ang-chen/</link>
-      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/ang-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Congcong Miao*</title>
+      <link>https://yunmingxiao.github.io/authors/congcong-miao/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/congcong-miao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Huihui Liu</title>
+      <link>https://yunmingxiao.github.io/authors/huihui-liu/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/huihui-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jilong Wang</title>
+      <link>https://yunmingxiao.github.io/authors/jilong-wang/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/jilong-wang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weizhen Dang</title>
+      <link>https://yunmingxiao.github.io/authors/weizhen-dang/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/weizhen-dang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xiang Li</title>
+      <link>https://yunmingxiao.github.io/authors/xiang-li/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/xiang-li/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xuan Zhang</title>
+      <link>https://yunmingxiao.github.io/authors/xuan-zhang/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/xuan-zhang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yadong Liu*</title>
+      <link>https://yunmingxiao.github.io/authors/yadong-liu/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yadong-liu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zekun He</title>
+      <link>https://yunmingxiao.github.io/authors/zekun-he/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/zekun-he/</guid>
       <description></description>
     </item>
     
@@ -85,26 +197,10 @@
     </item>
     
     <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Aditya Dhakal</title>
       <link>https://yunmingxiao.github.io/authors/aditya-dhakal/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/aditya-dhakal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Aleksandar Kuzmanovic</title>
-      <link>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</link>
-      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/aleksandar-kuzmanovic/</guid>
       <description></description>
     </item>
     
@@ -121,14 +217,6 @@
       <link>https://yunmingxiao.github.io/authors/chuanchuan-yang/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/chuanchuan-yang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Congcong Miao*</title>
-      <link>https://yunmingxiao.github.io/authors/congcong-miao/</link>
-      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/congcong-miao/</guid>
       <description></description>
     </item>
     
@@ -233,14 +321,6 @@
       <link>https://yunmingxiao.github.io/authors/yibo-zhao/</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/yibo-zhao/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jilong Wang</title>
-      <link>https://yunmingxiao.github.io/authors/jilong-wang/</link>
-      <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/jilong-wang/</guid>
       <description></description>
     </item>
     
