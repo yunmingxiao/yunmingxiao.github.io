@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sylvia Ratnasamy | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/sylvia-ratnasamy/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/sylvia-ratnasamy/index.xml" rel="self" type="application/rss+xml" />
-    <description>Sylvia Ratnasamy</description>
+    <title>Archit Bhatnagar | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/archit-bhatnagar/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/archit-bhatnagar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Archit Bhatnagar</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
-      <title>Sylvia Ratnasamy</title>
-      <link>https://yunmingxiao.github.io/authors/sylvia-ratnasamy/</link>
+      <title>Archit Bhatnagar</title>
+      <link>https://yunmingxiao.github.io/authors/archit-bhatnagar/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://yunmingxiao.github.io/publication/25apnet-rdma/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/25apnet-rdma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
-      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
       <description></description>
     </item>
     

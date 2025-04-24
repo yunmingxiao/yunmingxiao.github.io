@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/yunming-xiao/index.xml" rel="self" type="application/rss+xml" />
     <description>Yunming Xiao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 01:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Yunming Xiao</title>
       <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
     </image>
+    
+    <item>
+      <title>Exposing RDMA NIC Resources for Software-Defined Scheduling</title>
+      <link>https://yunmingxiao.github.io/publication/25apnet-rdma/</link>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25apnet-rdma/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
