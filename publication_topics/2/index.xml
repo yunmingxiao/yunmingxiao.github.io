@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/publication_topics/2/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jun 2024 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>2</title>
@@ -13,18 +13,26 @@
     </image>
     
     <item>
-      <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>
-      <link>https://yunmingxiao.github.io/publication/conspirator/</link>
-      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
+      <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
+      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
+      <title>Blockchain-enhanced Federated Learning Market with Social Internet of Things</title>
+      <link>https://yunmingxiao.github.io/publication/jsac22/</link>
+      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/jsac22/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blockchain Mining: Optimal Resource Allocation</title>
+      <link>https://yunmingxiao.github.io/publication/aft22/</link>
+      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/aft22/</guid>
       <description></description>
     </item>
     

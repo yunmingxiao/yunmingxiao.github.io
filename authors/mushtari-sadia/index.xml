@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mushtari Sadia | Yunming Xiao</title>
+    <link>https://yunmingxiao.github.io/authors/mushtari-sadia/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/mushtari-sadia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mushtari Sadia</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <title>Mushtari Sadia</title>
+      <link>https://yunmingxiao.github.io/authors/mushtari-sadia/</link>
+    </image>
+    
+    <item>
+      <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
+      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

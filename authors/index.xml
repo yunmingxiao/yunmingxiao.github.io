@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/authors/</link>
       <atom:link href="https://yunmingxiao.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,8 +15,40 @@
     <item>
       <title>Ang Chen</title>
       <link>https://yunmingxiao.github.io/authors/ang-chen/</link>
-      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/ang-chen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mushtari Sadia</title>
+      <link>https://yunmingxiao.github.io/authors/mushtari-sadia/</link>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/mushtari-sadia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roy Chowdhury</title>
+      <link>https://yunmingxiao.github.io/authors/roy-chowdhury/</link>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/roy-chowdhury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yunming Xiao</title>
+      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zhenning Yang</title>
+      <link>https://yunmingxiao.github.io/authors/zhenning-yang/</link>
+      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/authors/zhenning-yang/</guid>
       <description></description>
     </item>
     
@@ -49,14 +81,6 @@
       <link>https://yunmingxiao.github.io/authors/yiming-qiu/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/authors/yiming-qiu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/yunming-xiao/</guid>
       <description></description>
     </item>
     
