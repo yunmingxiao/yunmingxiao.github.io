@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ang Chen | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/ang-chen/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/ang-chen/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/ang-chen/</link>
+      <atom:link href="http://localhost:1313/authors/ang-chen/index.xml" rel="self" type="application/rss+xml" />
     <description>Ang Chen</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Ang Chen</title>
-      <link>https://yunmingxiao.github.io/authors/ang-chen/</link>
+      <link>http://localhost:1313/authors/ang-chen/</link>
     </image>
     
     <item>
       <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
-      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
+      <link>http://localhost:1313/publication/25text2r/</link>
       <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
+      <guid>http://localhost:1313/publication/25text2r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Exposing RDMA NIC Resources for Software-Defined Scheduling</title>
-      <link>https://yunmingxiao.github.io/publication/25apnet-rdma/</link>
+      <link>http://localhost:1313/publication/25apnet-rdma/</link>
       <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25apnet-rdma/</guid>
+      <guid>http://localhost:1313/publication/25apnet-rdma/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
-      <link>https://yunmingxiao.github.io/publication/p-ecmp/</link>
+      <link>http://localhost:1313/publication/p-ecmp/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/p-ecmp/</guid>
+      <guid>http://localhost:1313/publication/p-ecmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
+      <link>http://localhost:1313/publication/openinfra/</link>
       <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
+      <guid>http://localhost:1313/publication/openinfra/</guid>
       <description></description>
     </item>
     

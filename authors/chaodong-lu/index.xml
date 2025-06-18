@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Chaodong Lu | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/chaodong-lu/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/chaodong-lu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/chaodong-lu/</link>
+      <atom:link href="http://localhost:1313/authors/chaodong-lu/index.xml" rel="self" type="application/rss+xml" />
     <description>Chaodong Lu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jun 2024 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Chaodong Lu</title>
-      <link>https://yunmingxiao.github.io/authors/chaodong-lu/</link>
+      <link>http://localhost:1313/authors/chaodong-lu/</link>
     </image>
     
     <item>
       <title>MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud</title>
-      <link>https://yunmingxiao.github.io/publication/megate/</link>
+      <link>http://localhost:1313/publication/megate/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/megate/</guid>
+      <guid>http://localhost:1313/publication/megate/</guid>
       <description></description>
     </item>
     

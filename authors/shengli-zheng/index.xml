@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shengli Zheng | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/shengli-zheng/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/shengli-zheng/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/shengli-zheng/</link>
+      <atom:link href="http://localhost:1313/authors/shengli-zheng/index.xml" rel="self" type="application/rss+xml" />
     <description>Shengli Zheng</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Shengli Zheng</title>
-      <link>https://yunmingxiao.github.io/authors/shengli-zheng/</link>
+      <link>http://localhost:1313/authors/shengli-zheng/</link>
     </image>
     
     <item>
       <title>TENSOR: Lightweight BGP Non-Stop Routing</title>
-      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <link>http://localhost:1313/publication/tensor/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
+      <guid>http://localhost:1313/publication/tensor/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_topics/0/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 01:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Jun 2025 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>0</title>
       <link>https://yunmingxiao.github.io/publication_topics/0/</link>
     </image>
+    
+    <item>
+      <title>Enabling Anonymous Online Streaming Analytics at the Network Edge</title>
+      <link>https://yunmingxiao.github.io/publication/25tocs/</link>
+      <pubDate>Mon, 16 Jun 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25tocs/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
@@ -34,8 +42,7 @@
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/safekodi/</guid>
       <description>&lt;!-- &lt;br&gt; --&gt;
-
-&lt;p&gt;&lt;h3&gt;Resources&lt;/h3&gt;
+&lt;h3&gt;Resources&lt;/h3&gt;
 &lt;a href=&#34;https://safekodi.com/&#34;&gt;SafeKodi: The first aggregator for (safe) Kodi addons&lt;/a&gt;
 &lt;br&gt;
 &lt;h3&gt;Publications&lt;/h3&gt;
@@ -54,22 +61,19 @@
 8. &lt;a href=&#34;https://yeeeah.fr/tech/safekodi-les-chercheurs-aident-les-utilisateurs-de-kodi-a-reperer-les-modules-malveillants&#34;&gt;SafeKodi: les chercheurs aident les utilisateurs de Kodi à repérer les modules malveillants - Yeeeah.fr&lt;/a&gt;&lt;br&gt;
 9. &lt;a href=&#34;https://vpnbasen.se/forskargrupp-har-tagit-fram-safekodi-en-app-letar-efter-skadliga-tillagg/&#34;&gt;Forskargrupp har tagit fram ”SafeKodi” – en app letar efter skadliga tillägg - VPNBasen.se&lt;/a&gt;&lt;br&gt;
 10. &lt;a href=&#34;https://www.fredzone.org/safekodi-pour-eviter-les-extensions-verolees-sur-kodi-288&#34;&gt;SafeKodi, pour éviter les extensions vérolées sur Kodi - FredZone.org&lt;/a&gt;&lt;br&gt;
-11. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;Is Your Kodi Virus Free? Use SafeKodi to Scan &amp;amp; Fix - TroyPoint.com&lt;/a&gt;&lt;br&gt;
+11. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;Is Your Kodi Virus Free? Use SafeKodi to Scan &amp; Fix - TroyPoint.com&lt;/a&gt;&lt;br&gt;
 12. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;SafeKodi: O maior aliado de quem usa o Kodi - NoticiasETecnologia.com&lt;/a&gt;&lt;br&gt;
-&amp;hellip;&amp;hellip;
+......
 &lt;br&gt;
 &lt;h3&gt;Videos&lt;/h3&gt;
-Some nice videos to demonstrate the usage of SafeKodi:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;KODI 2020_NOVEDAD PARA KODI_EL ANTIVIRUS!! [720p].mp4&#34;&gt;KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!!&lt;/a&gt;&lt;br&gt;
+Some nice videos to demonstrate the usage of SafeKodi: 
+&lt;p&gt;&lt;a href=&#34;KODI 2020_NOVEDAD PARA KODI_EL ANTIVIRUS!! [720p].mp4&#34;&gt;KODI 2020&lt;em&gt;NOVEDAD PARA KODI&lt;/em&gt;EL ANTIVIRUS!!&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;SafeKODI identifikuje nebezpečné doplnky.mp4&#34;&gt;SafeKODI identifikuje nebezpečné doplnky&lt;/a&gt;&lt;br&gt;
 &lt;a href=&#34;https://www.youtube.com/watch?v=xCW_2v1vkWM&#34;&gt;Is Your Kodi Virus Free? How to Scan With SafeKodi - TROYPOINT Vids&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=9outnVKMQ1E&#34;&gt;SafeKodi&lt;/a&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.youtube.com/watch?v=9outnVKMQ1E&#34;&gt;SafeKodi&lt;/a&gt;&lt;br&gt;&lt;/p&gt;
 &lt;!-- &lt;a href=&#34;https://www.youtube.com/watch?v=tLxmJLcaZq4&#34;&gt;KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!! - tutvboxaldia kodi&amp;Android&lt;/a&gt;&lt;br&gt; --&gt;
-&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
+&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;br&gt;
 &lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9outnVKMQ1E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
 </description>
     </item>

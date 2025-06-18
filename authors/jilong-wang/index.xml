@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jilong Wang | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/jilong-wang/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/jilong-wang/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/jilong-wang/</link>
+      <atom:link href="http://localhost:1313/authors/jilong-wang/index.xml" rel="self" type="application/rss+xml" />
     <description>Jilong Wang</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Jilong Wang</title>
-      <link>https://yunmingxiao.github.io/authors/jilong-wang/</link>
+      <link>http://localhost:1313/authors/jilong-wang/</link>
     </image>
     
     <item>
       <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
-      <link>https://yunmingxiao.github.io/publication/p-ecmp/</link>
+      <link>http://localhost:1313/publication/p-ecmp/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/p-ecmp/</guid>
+      <guid>http://localhost:1313/publication/p-ecmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TENSOR: Lightweight BGP Non-Stop Routing</title>
-      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <link>http://localhost:1313/publication/tensor/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
+      <guid>http://localhost:1313/publication/tensor/</guid>
       <description></description>
     </item>
     

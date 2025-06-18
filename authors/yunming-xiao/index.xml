@@ -1,204 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/yunming-xiao/index.xml" rel="self" type="application/rss+xml" />
-    <description>Yunming Xiao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0000</lastBuildDate>
+    <title>Yunming Xiao* | Yunming Xiao</title>
+    <link>http://localhost:1313/authors/yunming-xiao/</link>
+      <atom:link href="http://localhost:1313/authors/yunming-xiao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yunming Xiao*</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 11 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
-      <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/authors/yunming-xiao/</link>
+      <url>http://localhost:1313/img/icon-192.png</url>
+      <title>Yunming Xiao*</title>
+      <link>http://localhost:1313/authors/yunming-xiao/</link>
     </image>
     
     <item>
-      <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
-      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Exposing RDMA NIC Resources for Software-Defined Scheduling</title>
-      <link>https://yunmingxiao.github.io/publication/25apnet-rdma/</link>
-      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25apnet-rdma/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
-      <link>https://yunmingxiao.github.io/publication/preacher/</link>
-      <pubDate>Wed, 11 Dec 2024 01:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/preacher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
-      <link>https://yunmingxiao.github.io/publication/p-ecmp/</link>
+      <link>http://localhost:1313/publication/p-ecmp/</link>
       <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/p-ecmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
-      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>
-      <link>https://yunmingxiao.github.io/publication/conspirator/</link>
-      <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
+      <guid>http://localhost:1313/publication/p-ecmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud</title>
-      <link>https://yunmingxiao.github.io/publication/megate/</link>
+      <link>http://localhost:1313/publication/megate/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/megate/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Revising System Premises For a Secure and Private Web</title>
-      <link>https://yunmingxiao.github.io/publication/thesis/</link>
-      <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/thesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Snatch: Online Streaming Analytics at the Network Edge</title>
-      <link>https://yunmingxiao.github.io/publication/snatch/</link>
-      <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/snatch/</guid>
+      <guid>http://localhost:1313/publication/megate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TENSOR: Lightweight BGP Non-Stop Routing</title>
-      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <link>http://localhost:1313/publication/tensor/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Decoding the Kodi Ecosystem</title>
-      <link>https://yunmingxiao.github.io/publication/safekodi/</link>
-      <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/safekodi/</guid>
-      <description>&lt;!-- &lt;br&gt; --&gt;
-
-&lt;p&gt;&lt;h3&gt;Resources&lt;/h3&gt;
-&lt;a href=&#34;https://safekodi.com/&#34;&gt;SafeKodi: The first aggregator for (safe) Kodi addons&lt;/a&gt;
-&lt;br&gt;
-&lt;h3&gt;Publications&lt;/h3&gt;
-1. Marc Anthony Warrior, Yunming Xiao, Matteo Varvello, Aleksandar Kuzmanovic (2020). &lt;a href=&#34;../../publication/dekodi/&#34;&gt;De-Kodi: Understanding the Kodi Ecosystem&lt;/a&gt;. In WWW’20.
-&lt;br&gt;
-2. Yunming Xiao, Matteo Varvello, Marc Anthony Warrior, Aleksandar Kuzmanovic (2022). &lt;a href=&#34;../../publication/safekodi/&#34;&gt;Decoding the Kodi Ecosystem&lt;/a&gt;. In TWEB.
-&lt;br&gt;
-&lt;h3&gt;Media Coverage&lt;/h3&gt;
-1. &lt;a href=&#34;https://torrentfreak.com/safekodi-researchers-help-kodi-users-to-spot-malicious-addons-200306/&#34;&gt;SafeKodi: Researchers Help Kodi Users to Spot Malicious Addons - TorretFreak.com&lt;/a&gt;&lt;br&gt;
-2. &lt;a href=&#34;https://www.technadu.com/safekodi-save-users-from-risky-kodi-addons/94748/&#34;&gt;“SafeKodi” is Here to Save Users From Risky Kodi Addons - TechNadu.com&lt;/a&gt;&lt;br&gt;
-3. &lt;a href=&#34;https://www.express.co.uk/life-style/science-technology/1252981/Kodi-update-news-stream-warning-alert&#34;&gt;Why streaming on this TV player just got a lot less dangerous - Daily Express&lt;/a&gt;&lt;br&gt;
-4. &lt;a href=&#34;https://www.adslzone.net/noticias/seguridad/safekodi-primer-antivirus-kodi/&#34;&gt;Crean el primer antivirus para Kodi: protégete de addons con malware - AdslZone.net&lt;/a&gt;&lt;br&gt;
-5. &lt;a href=&#34;https://pplware.sapo.pt/software/safekodi-acabaram-se-os-addons-maliciosos-no-kodi/&#34;&gt;SafeKodi: Acabaram-se os addons maliciosos no Kodi - Pplware.sapo.pt&lt;/a&gt;&lt;br&gt;
-6. &lt;a href=&#34;https://www.pcsteps.gr/331074-safekodi-%cf%80%cf%81%ce%bf%cf%83%cf%84%ce%b1%cf%83%ce%af%ce%b1-%ce%ba%ce%b1%ce%b9-%ce%b1%cf%83%cf%86%ce%b1%ce%bb%ce%ad%cf%82-streaming-%cf%83%cf%84%ce%bf-kodi/&#34;&gt;SafeKodi: Προστασία Και Ασφαλές Streaming Στο Kodi v18.6 - PcSteps.gr&lt;/a&gt;&lt;br&gt;
-7. &lt;a href=&#34;https://www.vpncompare.co.uk/new-kodi-tool-safe/&#34;&gt;The new Kodi tool that helps keep streamers safe - VPNCompre.co.uk&lt;/a&gt;&lt;br&gt;
-8. &lt;a href=&#34;https://yeeeah.fr/tech/safekodi-les-chercheurs-aident-les-utilisateurs-de-kodi-a-reperer-les-modules-malveillants&#34;&gt;SafeKodi: les chercheurs aident les utilisateurs de Kodi à repérer les modules malveillants - Yeeeah.fr&lt;/a&gt;&lt;br&gt;
-9. &lt;a href=&#34;https://vpnbasen.se/forskargrupp-har-tagit-fram-safekodi-en-app-letar-efter-skadliga-tillagg/&#34;&gt;Forskargrupp har tagit fram ”SafeKodi” – en app letar efter skadliga tillägg - VPNBasen.se&lt;/a&gt;&lt;br&gt;
-10. &lt;a href=&#34;https://www.fredzone.org/safekodi-pour-eviter-les-extensions-verolees-sur-kodi-288&#34;&gt;SafeKodi, pour éviter les extensions vérolées sur Kodi - FredZone.org&lt;/a&gt;&lt;br&gt;
-11. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;Is Your Kodi Virus Free? Use SafeKodi to Scan &amp;amp; Fix - TroyPoint.com&lt;/a&gt;&lt;br&gt;
-12. &lt;a href=&#34;https://troypoint.com/safekodi/&#34;&gt;SafeKodi: O maior aliado de quem usa o Kodi - NoticiasETecnologia.com&lt;/a&gt;&lt;br&gt;
-&amp;hellip;&amp;hellip;
-&lt;br&gt;
-&lt;h3&gt;Videos&lt;/h3&gt;
-Some nice videos to demonstrate the usage of SafeKodi:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;KODI 2020_NOVEDAD PARA KODI_EL ANTIVIRUS!! [720p].mp4&#34;&gt;KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!!&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;SafeKODI identifikuje nebezpečné doplnky.mp4&#34;&gt;SafeKODI identifikuje nebezpečné doplnky&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=xCW_2v1vkWM&#34;&gt;Is Your Kodi Virus Free? How to Scan With SafeKodi - TROYPOINT Vids&lt;/a&gt;&lt;br&gt;
-&lt;a href=&#34;https://www.youtube.com/watch?v=9outnVKMQ1E&#34;&gt;SafeKodi&lt;/a&gt;&lt;br&gt;
-&lt;!-- &lt;a href=&#34;https://www.youtube.com/watch?v=tLxmJLcaZq4&#34;&gt;KODI 2020*NOVEDAD PARA KODI*EL ANTIVIRUS!! - tutvboxaldia kodi&amp;Android&lt;/a&gt;&lt;br&gt; --&gt;
-&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;!-- &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/9outnVKMQ1E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt; --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>FIAT: Frictionless Authentication of IoT Traffic</title>
-      <link>https://yunmingxiao.github.io/publication/fiat/</link>
-      <pubDate>Sun, 16 Oct 2022 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/fiat/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blockchain-enhanced Federated Learning Market with Social Internet of Things</title>
-      <link>https://yunmingxiao.github.io/publication/jsac22/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/jsac22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
-      <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blockchain Mining: Optimal Resource Allocation</title>
-      <link>https://yunmingxiao.github.io/publication/aft22/</link>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/aft22/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>
-      <link>https://yunmingxiao.github.io/publication/ring/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ring/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>De-Kodi: Understanding the Kodi Ecosystem</title>
-      <link>https://yunmingxiao.github.io/publication/dekodi/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dekodi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Close spatial arrangement of mutants favors and disfavors fixation</title>
-      <link>https://yunmingxiao.github.io/publication/ploscomp/</link>
-      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ploscomp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Common Knowledge Based Transfer Learning for Traffic Classification</title>
-      <link>https://yunmingxiao.github.io/publication/lcn18/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/lcn18/</guid>
+      <guid>http://localhost:1313/publication/tensor/</guid>
       <description></description>
     </item>
     

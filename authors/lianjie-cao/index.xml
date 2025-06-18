@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lianjie Cao | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/lianjie-cao/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/lianjie-cao/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/lianjie-cao/</link>
+      <atom:link href="http://localhost:1313/authors/lianjie-cao/index.xml" rel="self" type="application/rss+xml" />
     <description>Lianjie Cao</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 03 Jun 2024 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Lianjie Cao</title>
-      <link>https://yunmingxiao.github.io/authors/lianjie-cao/</link>
+      <link>http://localhost:1313/authors/lianjie-cao/</link>
     </image>
     
     <item>
       <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>
-      <link>https://yunmingxiao.github.io/publication/conspirator/</link>
+      <link>http://localhost:1313/publication/conspirator/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
+      <guid>http://localhost:1313/publication/conspirator/</guid>
       <description></description>
     </item>
     

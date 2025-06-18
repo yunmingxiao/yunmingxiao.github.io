@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nalini Rao | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/nalini-rao/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/nalini-rao/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/nalini-rao/</link>
+      <atom:link href="http://localhost:1313/authors/nalini-rao/index.xml" rel="self" type="application/rss+xml" />
     <description>Nalini Rao</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Nalini Rao</title>
-      <link>https://yunmingxiao.github.io/authors/nalini-rao/</link>
+      <link>http://localhost:1313/authors/nalini-rao/</link>
     </image>
     
     <item>
       <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
+      <link>http://localhost:1313/publication/openinfra/</link>
       <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
+      <guid>http://localhost:1313/publication/openinfra/</guid>
       <description></description>
     </item>
     

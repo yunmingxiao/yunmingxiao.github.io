@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marco Canini | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/marco-canini/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/marco-canini/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/marco-canini/</link>
+      <atom:link href="http://localhost:1313/authors/marco-canini/index.xml" rel="self" type="application/rss+xml" />
     <description>Marco Canini</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 May 2023 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Marco Canini</title>
-      <link>https://yunmingxiao.github.io/authors/marco-canini/</link>
+      <link>http://localhost:1313/authors/marco-canini/</link>
     </image>
     
     <item>
       <title>TENSOR: Lightweight BGP Non-Stop Routing</title>
-      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <link>http://localhost:1313/publication/tensor/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
+      <guid>http://localhost:1313/publication/tensor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
+      <link>http://localhost:1313/publication/dna/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
+      <guid>http://localhost:1313/publication/dna/</guid>
       <description></description>
     </item>
     

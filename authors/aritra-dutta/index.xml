@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Aritra Dutta | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/aritra-dutta/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/aritra-dutta/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/aritra-dutta/</link>
+      <atom:link href="http://localhost:1313/authors/aritra-dutta/index.xml" rel="self" type="application/rss+xml" />
     <description>Aritra Dutta</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Aritra Dutta</title>
-      <link>https://yunmingxiao.github.io/authors/aritra-dutta/</link>
+      <link>http://localhost:1313/authors/aritra-dutta/</link>
     </image>
     
     <item>
       <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
+      <link>http://localhost:1313/publication/dna/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
+      <guid>http://localhost:1313/publication/dna/</guid>
       <description></description>
     </item>
     

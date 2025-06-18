@@ -5,20 +5,12 @@
     <link>https://yunmingxiao.github.io/publication_types/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jun 2025 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 23 Apr 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yunmingxiao.github.io/publication_types/1/</link>
     </image>
-    
-    <item>
-      <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
-      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Exposing RDMA NIC Resources for Software-Defined Scheduling</title>

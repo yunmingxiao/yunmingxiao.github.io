@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bin Wu | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/authors/bin-wu/</link>
-      <atom:link href="https://yunmingxiao.github.io/authors/bin-wu/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/authors/bin-wu/</link>
+      <atom:link href="http://localhost:1313/authors/bin-wu/index.xml" rel="self" type="application/rss+xml" />
     <description>Bin Wu</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Bin Wu</title>
-      <link>https://yunmingxiao.github.io/authors/bin-wu/</link>
+      <link>http://localhost:1313/authors/bin-wu/</link>
     </image>
     
     <item>
       <title>Close spatial arrangement of mutants favors and disfavors fixation</title>
-      <link>https://yunmingxiao.github.io/publication/ploscomp/</link>
+      <link>http://localhost:1313/publication/ploscomp/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ploscomp/</guid>
+      <guid>http://localhost:1313/publication/ploscomp/</guid>
       <description></description>
     </item>
     
