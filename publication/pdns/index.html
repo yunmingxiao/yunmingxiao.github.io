@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Relational databases are central to modern data management, yet most data exists in unstructured forms like text documents. To bridge this gap, we leverage large language models (LLMs) to automatically synthesize a relational database by generating its schema and populating its tables from raw text. We introduce SQUiD, a novel neurosymbolic framework that decomposes this task into four stages, each with specialized techniques. Our experiments show that SQUiD consistently outperforms baselines across diverse datasets. ">
+  <meta name="description" content="There has been a growing interest in Internet user privacy, demonstrated by the popularity of privacy-preserving products such as Telegram and Brave, and the widespread adoption of HTTPS. The Domain Name System (DNS) is a key component of Internet-based communication and its privacy has been neglected for years. Recently, DNS over HTTPS (DoH) has improved the situation by fixing the issue of in-path middleboxes. Further progress has been made with proxy-based solutions such as Oblivious DoH (ODoH), which separate a user&#39;s identity from their DNS queries. However, these solutions rely on non-collusion assumptions between DNS resolvers and proxies -- an assumption difficult to guarantee in practice. To address this, we explore integrating single-server Private Information Retrieval (PIR) into DNS to enable encrypted query processing without relying on trust assumptions. However, applying PIR to DNS is challenging due to its hierarchical nature -- particularly, interactions with recursive resolvers can still leak information. Navigating performance and privacy trade-offs, we propose PDNS, a DNS extension leveraging single-server PIR to strengthen privacy guarantees. We have implemented a prototype of PDNS and compared its performance against state-of-the-art solutions via trace-driven experiments. The results show that PDNS achieves acceptable performance (2x faster than DoH over Tor with similar privacy guarantees) and strong privacy guarantees today, mainly at the cost of its scalability, which specialized hardware for PIR can address in the near future. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/25text2r/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/pdns/">
 
   
 
@@ -92,7 +92,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/25text2r/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/pdns/">
 
   
   
@@ -104,15 +104,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/25text2r/">
-  <meta property="og:title" content="SQUiD: Synthesizing Relational Databases from Unstructured Text | Yunming Xiao">
-  <meta property="og:description" content="Relational databases are central to modern data management, yet most data exists in unstructured forms like text documents. To bridge this gap, we leverage large language models (LLMs) to automatically synthesize a relational database by generating its schema and populating its tables from raw text. We introduce SQUiD, a novel neurosymbolic framework that decomposes this task into four stages, each with specialized techniques. Our experiments show that SQUiD consistently outperforms baselines across diverse datasets. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/25text2r/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/25text2r/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/pdns/">
+  <meta property="og:title" content="Collusion Resistant DNS With Private Information Retrieval | Yunming Xiao">
+  <meta property="og:description" content="There has been a growing interest in Internet user privacy, demonstrated by the popularity of privacy-preserving products such as Telegram and Brave, and the widespread adoption of HTTPS. The Domain Name System (DNS) is a key component of Internet-based communication and its privacy has been neglected for years. Recently, DNS over HTTPS (DoH) has improved the situation by fixing the issue of in-path middleboxes. Further progress has been made with proxy-based solutions such as Oblivious DoH (ODoH), which separate a user&#39;s identity from their DNS queries. However, these solutions rely on non-collusion assumptions between DNS resolvers and proxies -- an assumption difficult to guarantee in practice. To address this, we explore integrating single-server Private Information Retrieval (PIR) into DNS to enable encrypted query processing without relying on trust assumptions. However, applying PIR to DNS is challenging due to its hierarchical nature -- particularly, interactions with recursive resolvers can still leak information. Navigating performance and privacy trade-offs, we propose PDNS, a DNS extension leveraging single-server PIR to strengthen privacy guarantees. We have implemented a prototype of PDNS and compared its performance against state-of-the-art solutions via trace-driven experiments. The results show that PDNS achieves acceptable performance (2x faster than DoH over Tor with similar privacy guarantees) and strong privacy guarantees today, mainly at the cost of its scalability, which specialized hardware for PIR can address in the near future. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/pdns/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/pdns/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2025-06-01T10:00:00&#43;00:00">
+      <meta property="article:published_time" content="2025-06-15T10:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2025-06-01T10:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2025-06-15T10:00:00&#43;00:00">
   
 
   
@@ -124,7 +124,7 @@
 
 
 
-  <title>SQUiD: Synthesizing Relational Databases from Unstructured Text | Yunming Xiao</title>
+  <title>Collusion Resistant DNS With Private Information Retrieval | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -323,7 +323,7 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">SQUiD: Synthesizing Relational Databases from Unstructured Text</h1>
+  <h1 itemprop="name">Collusion Resistant DNS With Private Information Retrieval</h1>
 
   
 
@@ -331,8 +331,8 @@
 
 
 
-<meta content="2025-06-01 10:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2025-06-01 10:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2025-06-15 10:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2025-06-15 10:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -345,7 +345,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Mushtari Sadia</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Zhenning Yang</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ang Chen</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Amrita Roy Chowdhury</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Peizhi Liu</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ruijie Yu</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chenkai Weng</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matteo Varvello</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aleksandar Kuzmanovic</span>
 
   </div>
   
@@ -385,7 +385,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/25text2r/&amp;text=SQUiD:%20Synthesizing%20Relational%20Databases%20from%20Unstructured%20Text" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/pdns/&amp;text=Collusion%20Resistant%20DNS%20With%20Private%20Information%20Retrieval" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -398,7 +398,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/25text2r/&amp;t=SQUiD:%20Synthesizing%20Relational%20Databases%20from%20Unstructured%20Text" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/pdns/&amp;t=Collusion%20Resistant%20DNS%20With%20Private%20Information%20Retrieval" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -411,7 +411,7 @@
       
       
       <li>
-        <a href="mailto:?subject=SQUiD:%20Synthesizing%20Relational%20Databases%20from%20Unstructured%20Text&amp;body=https://yunmingxiao.github.io/publication/25text2r/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Collusion%20Resistant%20DNS%20With%20Private%20Information%20Retrieval&amp;body=https://yunmingxiao.github.io/publication/pdns/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -424,7 +424,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/25text2r/&amp;title=SQUiD:%20Synthesizing%20Relational%20Databases%20from%20Unstructured%20Text" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/pdns/&amp;title=Collusion%20Resistant%20DNS%20With%20Private%20Information%20Retrieval" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -437,7 +437,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=SQUiD:%20Synthesizing%20Relational%20Databases%20from%20Unstructured%20Text%20https://yunmingxiao.github.io/publication/25text2r/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Collusion%20Resistant%20DNS%20With%20Private%20Information%20Retrieval%20https://yunmingxiao.github.io/publication/pdns/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -450,7 +450,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/25text2r/&amp;title=SQUiD:%20Synthesizing%20Relational%20Databases%20from%20Unstructured%20Text" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/pdns/&amp;title=Collusion%20Resistant%20DNS%20With%20Private%20Information%20Retrieval" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -496,14 +496,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/25text2r/text2r-25.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/pdns/pdns-arxiv.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/25text2r/cite.bib">
+        data-filename="/publication/pdns/cite.bib">
   Cite
 </button>
 
@@ -523,7 +523,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.48550/arXiv.2505.19025" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.48550/arXiv.2507.20806" target="_blank" rel="noopener">
   DOI
 </a>
 
@@ -539,7 +539,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2505.19025" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2507.20806" target="_blank" rel="noopener">
     
     ArXiv
   </a>
@@ -551,9 +551,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 174px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 384px;">
   <div style="position: relative">
-    <img src="/publication/25text2r/featured_hu_d7437063a706a3d.png" alt="" class="featured-image">
+    <img src="/publication/pdns/featured_hu_dc5ad3fffc12053c.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -564,28 +564,9 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Relational databases are central to modern data management, yet most data exists in unstructured forms like text documents. To bridge this gap, we leverage large language models (LLMs) to automatically synthesize a relational database by generating its schema and populating its tables from raw text. We introduce SQUiD, a novel neurosymbolic framework that decomposes this task into four stages, each with specialized techniques. Our experiments show that SQUiD consistently outperforms baselines across diverse datasets.</p>
+    <p class="pub-abstract" itemprop="text">There has been a growing interest in Internet user privacy, demonstrated by the popularity of privacy-preserving products such as Telegram and Brave, and the widespread adoption of HTTPS. The Domain Name System (DNS) is a key component of Internet-based communication and its privacy has been neglected for years. Recently, DNS over HTTPS (DoH) has improved the situation by fixing the issue of in-path middleboxes. Further progress has been made with proxy-based solutions such as Oblivious DoH (ODoH), which separate a user&rsquo;s identity from their DNS queries. However, these solutions rely on non-collusion assumptions between DNS resolvers and proxies &ndash; an assumption difficult to guarantee in practice. To address this, we explore integrating single-server Private Information Retrieval (PIR) into DNS to enable encrypted query processing without relying on trust assumptions. However, applying PIR to DNS is challenging due to its hierarchical nature &ndash; particularly, interactions with recursive resolvers can still leak information. Navigating performance and privacy trade-offs, we propose PDNS, a DNS extension leveraging single-server PIR to strengthen privacy guarantees. We have implemented a prototype of PDNS and compared its performance against state-of-the-art solutions via trace-driven experiments. The results show that PDNS achieves acceptable performance (2x faster than DoH over Tor with similar privacy guarantees) and strong privacy guarantees today, mainly at the cost of its scalability, which specialized hardware for PIR can address in the near future.</p>
     
 
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Topic</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/?filtertopic=.pubtopic-2">
-              Uncategorized
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
     
 
     
