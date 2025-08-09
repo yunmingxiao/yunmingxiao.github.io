@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +39,7 @@ Unfortunately, relieving such trust dependencies in a proxy-based system proves 
 PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indeed, user privacy exposure at one component negates protective measures at other components. With this in mind, I proceed to investigate another vital Internet component, the Hypertext Transfer Protocol (HTTP) -- the bedrock of the Web -- where I identify an instance of such a privacy violation. Specifically, Web providers are harvesting user information through HTTP cookies. The root cause is that current cookies are semantically oblivious, i.e., they carry personally identifiable information (PII) but lack useful information for analytics. To solve this issue, I revise the system premises and propose semantic cookies -- cookies discarding any PII. Evaluations show that semantic cookies not only patch up privacy leakage in HTTP requests but also accelerate cookie analytics by exploiting edge infrastructures, providing incentives for adoption. This exemplifies my system design philosophy of achieving balance among performance, security/privacy guarantees, and practicality. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/thesis/">
+  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/thesis/">
 
   
 
@@ -100,7 +100,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/thesis/">
+  <link rel="canonical" href="http://localhost:1313/publication/thesis/">
 
   
   
@@ -112,7 +112,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/thesis/">
+  <meta property="og:url" content="http://localhost:1313/publication/thesis/">
   <meta property="og:title" content="Revising System Premises For a Secure and Private Web | Yunming Xiao">
   <meta property="og:description" content="As residential bandwidth continues to grow and people become increasingly dependent on the Internet, previously overlooked security and privacy issues have become severe threats to Internet users, raising public concerns. These threats are numerous and far-reaching, spanning across various network or system layers, as well as different applications and services. Despite the considerable efforts made, the current situation is still far from ideal, mainly because of the continuously evolving security and privacy demands, as well as the rapid development of countermeasures.
 
@@ -122,8 +122,8 @@ In this thesis, I begin by examining one general concept for securing any networ
 
 Unfortunately, relieving such trust dependencies in a proxy-based system proves to be a formidable task. Hence, I pivot to directly enhancing the specific Internet services and applications themselves. My first target is the domain name service (DNS), a fundamental Internet service behind almost any wild-area network requests. Through careful scrutinization of existing proposals, I find that the presence of recursive resolvers is the key system premise that contribute to the current DNS privacy vulnerabilities. DNS privacy can be substantially improved by having the recursive resolvers operate in blind, i.e., answering the queries without knowing their contents. While this sounds counter-intuitive, it can actually be realized through advanced cryptography tools named private information retrieval (PIR). Following this direction, I build PDNS, an efficient and practical DNS system based on PIR. Thorough evaluations demonstrate that PDNS achieves acceptable performance as of today and offers better privacy preservation than any state-of-the-art proposals.
 
-PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indeed, user privacy exposure at one component negates protective measures at other components. With this in mind, I proceed to investigate another vital Internet component, the Hypertext Transfer Protocol (HTTP) -- the bedrock of the Web -- where I identify an instance of such a privacy violation. Specifically, Web providers are harvesting user information through HTTP cookies. The root cause is that current cookies are semantically oblivious, i.e., they carry personally identifiable information (PII) but lack useful information for analytics. To solve this issue, I revise the system premises and propose semantic cookies -- cookies discarding any PII. Evaluations show that semantic cookies not only patch up privacy leakage in HTTP requests but also accelerate cookie analytics by exploiting edge infrastructures, providing incentives for adoption. This exemplifies my system design philosophy of achieving balance among performance, security/privacy guarantees, and practicality. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/thesis/featured.jpg">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/thesis/featured.jpg"><meta property="og:locale" content="en-us">
+PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indeed, user privacy exposure at one component negates protective measures at other components. With this in mind, I proceed to investigate another vital Internet component, the Hypertext Transfer Protocol (HTTP) -- the bedrock of the Web -- where I identify an instance of such a privacy violation. Specifically, Web providers are harvesting user information through HTTP cookies. The root cause is that current cookies are semantically oblivious, i.e., they carry personally identifiable information (PII) but lack useful information for analytics. To solve this issue, I revise the system premises and propose semantic cookies -- cookies discarding any PII. Evaluations show that semantic cookies not only patch up privacy leakage in HTTP requests but also accelerate cookie analytics by exploiting edge infrastructures, providing incentives for adoption. This exemplifies my system design philosophy of achieving balance among performance, security/privacy guarantees, and practicality. "><meta property="og:image" content="http://localhost:1313/publication/thesis/featured.jpg">
+  <meta property="twitter:image" content="http://localhost:1313/publication/thesis/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2024-05-03T10:00:00&#43;00:00">
@@ -401,7 +401,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/thesis/&amp;text=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/publication/thesis/&amp;text=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -414,7 +414,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/thesis/&amp;t=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=http://localhost:1313/publication/thesis/&amp;t=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -427,7 +427,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
       
       
       <li>
-        <a href="mailto:?subject=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web&amp;body=https://yunmingxiao.github.io/publication/thesis/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web&amp;body=http://localhost:1313/publication/thesis/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -440,7 +440,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/thesis/&amp;title=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/publication/thesis/&amp;title=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -453,7 +453,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web%20https://yunmingxiao.github.io/publication/thesis/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web%20http://localhost:1313/publication/thesis/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -466,7 +466,7 @@ PDNS cannot safeguard the interconnected and multi-layered Internet alone. Indee
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/thesis/&amp;title=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=http://localhost:1313/publication/thesis/&amp;title=Revising%20System%20Premises%20For%20a%20Secure%20and%20Private%20Web" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

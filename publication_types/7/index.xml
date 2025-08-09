@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>7 | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/publication_types/7/</link>
-      <atom:link href="https://yunmingxiao.github.io/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_types/7/</link>
+      <atom:link href="http://localhost:1313/publication_types/7/index.xml" rel="self" type="application/rss+xml" />
     <description>7</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 03 May 2024 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>7</title>
-      <link>https://yunmingxiao.github.io/publication_types/7/</link>
+      <link>http://localhost:1313/publication_types/7/</link>
     </image>
     
     <item>
       <title>Revising System Premises For a Secure and Private Web</title>
-      <link>https://yunmingxiao.github.io/publication/thesis/</link>
+      <link>http://localhost:1313/publication/thesis/</link>
       <pubDate>Fri, 03 May 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/thesis/</guid>
+      <guid>http://localhost:1313/publication/thesis/</guid>
       <description></description>
     </item>
     
