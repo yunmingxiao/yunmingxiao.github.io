@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication/</link>
       <atom:link href="https://yunmingxiao.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://yunmingxiao.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
+      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
+      <pubDate>Wed, 20 Aug 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cloud Infrastructure Management in the Age of AI Agents</title>
@@ -41,14 +49,6 @@
       <link>https://yunmingxiao.github.io/publication/pdns/</link>
       <pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/pdns/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
-      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
-      <pubDate>Sun, 01 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
       <description></description>
     </item>
     
