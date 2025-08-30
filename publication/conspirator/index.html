@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -31,7 +31,7 @@
   <meta name="description" content="Modern machine learning (ML) workloads heavily depend on distributing tasks across clusters of server CPUs and specialized accelerators, such as GPUs and TPUs, to achieve optimal performance. Nonetheless, prior research has highlighted the inefficient utilization of computing resources in distributed ML, leading to suboptimal performance. This inefficiency primarily stems from CPU bottlenecks and suboptimal accelerator scheduling. Although numerous proposals have been put forward to address these issues individually, none have effectively tackled both inefficiencies simultaneously. In this paper, we introduce Conspirator, an innovative control plane design aimed at alleviating both bottlenecks by harnessing the enhanced computing capabilities of SmartNICs. Following the evolving role of SmartNICs, which have transitioned from their initial function of standard networking task offloading to serving as programmable connectors between disaggregated computing resources, Conspirator facilitates efficient data transfer without the involvement of host CPUs and hence circumvents the potential bottlenecks there. Conspirator further integrates a novel scheduling algorithm that takes into consideration of the heterogeneity of accelerators and adapts to changing workload dynamics, enabling the flexibility to mitigate the second bottleneck. Our evaluation demonstrates that Conspirator may provide a 15% end-to-end completion time reduction compared to RDMA-based alternatives while being 17% more cost-effective and 44% more power-efficient. Our proposed scheduler also helps to save 33% GPU hours compared to naive GPU-sharing schedulers by making close-to-optimal decisions while taking much less time than the optimal NP-Hard scheduler. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:1313/publication/conspirator/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/conspirator/">
 
   
 
@@ -92,7 +92,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://localhost:1313/publication/conspirator/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/conspirator/">
 
   
   
@@ -104,10 +104,10 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="http://localhost:1313/publication/conspirator/">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/conspirator/">
   <meta property="og:title" content="Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads | Yunming Xiao">
-  <meta property="og:description" content="Modern machine learning (ML) workloads heavily depend on distributing tasks across clusters of server CPUs and specialized accelerators, such as GPUs and TPUs, to achieve optimal performance. Nonetheless, prior research has highlighted the inefficient utilization of computing resources in distributed ML, leading to suboptimal performance. This inefficiency primarily stems from CPU bottlenecks and suboptimal accelerator scheduling. Although numerous proposals have been put forward to address these issues individually, none have effectively tackled both inefficiencies simultaneously. In this paper, we introduce Conspirator, an innovative control plane design aimed at alleviating both bottlenecks by harnessing the enhanced computing capabilities of SmartNICs. Following the evolving role of SmartNICs, which have transitioned from their initial function of standard networking task offloading to serving as programmable connectors between disaggregated computing resources, Conspirator facilitates efficient data transfer without the involvement of host CPUs and hence circumvents the potential bottlenecks there. Conspirator further integrates a novel scheduling algorithm that takes into consideration of the heterogeneity of accelerators and adapts to changing workload dynamics, enabling the flexibility to mitigate the second bottleneck. Our evaluation demonstrates that Conspirator may provide a 15% end-to-end completion time reduction compared to RDMA-based alternatives while being 17% more cost-effective and 44% more power-efficient. Our proposed scheduler also helps to save 33% GPU hours compared to naive GPU-sharing schedulers by making close-to-optimal decisions while taking much less time than the optimal NP-Hard scheduler. "><meta property="og:image" content="http://localhost:1313/publication/conspirator/featured.jpg">
-  <meta property="twitter:image" content="http://localhost:1313/publication/conspirator/featured.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Modern machine learning (ML) workloads heavily depend on distributing tasks across clusters of server CPUs and specialized accelerators, such as GPUs and TPUs, to achieve optimal performance. Nonetheless, prior research has highlighted the inefficient utilization of computing resources in distributed ML, leading to suboptimal performance. This inefficiency primarily stems from CPU bottlenecks and suboptimal accelerator scheduling. Although numerous proposals have been put forward to address these issues individually, none have effectively tackled both inefficiencies simultaneously. In this paper, we introduce Conspirator, an innovative control plane design aimed at alleviating both bottlenecks by harnessing the enhanced computing capabilities of SmartNICs. Following the evolving role of SmartNICs, which have transitioned from their initial function of standard networking task offloading to serving as programmable connectors between disaggregated computing resources, Conspirator facilitates efficient data transfer without the involvement of host CPUs and hence circumvents the potential bottlenecks there. Conspirator further integrates a novel scheduling algorithm that takes into consideration of the heterogeneity of accelerators and adapts to changing workload dynamics, enabling the flexibility to mitigate the second bottleneck. Our evaluation demonstrates that Conspirator may provide a 15% end-to-end completion time reduction compared to RDMA-based alternatives while being 17% more cost-effective and 44% more power-efficient. Our proposed scheduler also helps to save 33% GPU hours compared to naive GPU-sharing schedulers by making close-to-optimal decisions while taking much less time than the optimal NP-Hard scheduler. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/conspirator/featured.jpg">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/conspirator/featured.jpg"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2024-06-03T10:00:00&#43;00:00">
@@ -259,7 +259,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/group/"><span>Group</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -281,7 +281,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
+          <a class="nav-link " href="/group/"><span>Group</span></a>
         </li>
 
         
@@ -429,7 +429,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=http://localhost:1313/publication/conspirator/&amp;text=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/conspirator/&amp;text=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -442,7 +442,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=http://localhost:1313/publication/conspirator/&amp;t=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/conspirator/&amp;t=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -455,7 +455,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads&amp;body=http://localhost:1313/publication/conspirator/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads&amp;body=https://yunmingxiao.github.io/publication/conspirator/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -468,7 +468,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=http://localhost:1313/publication/conspirator/&amp;title=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/conspirator/&amp;title=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -481,7 +481,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads%20http://localhost:1313/publication/conspirator/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads%20https://yunmingxiao.github.io/publication/conspirator/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -494,7 +494,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=http://localhost:1313/publication/conspirator/&amp;title=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/conspirator/&amp;title=Conspirator:%20SmartNIC-Aided%20Control%20Plane%20for%20Distributed%20ML%20Workloads" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>

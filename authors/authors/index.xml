@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Placeholder Author | Yunming Xiao</title>
-    <link>http://localhost:1313/authors/authors/</link>
-      <atom:link href="http://localhost:1313/authors/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yunmingxiao.github.io/authors/authors/</link>
+      <atom:link href="https://yunmingxiao.github.io/authors/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Placeholder Author</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/img/icon-192.png</url>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Placeholder Author</title>
-      <link>http://localhost:1313/authors/authors/</link>
+      <link>https://yunmingxiao.github.io/authors/authors/</link>
     </image>
     
   </channel>

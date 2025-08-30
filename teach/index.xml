@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching | Yunming Xiao</title>
-    <link>http://localhost:1313/teach/</link>
-      <atom:link href="http://localhost:1313/teach/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yunmingxiao.github.io/teach/</link>
+      <atom:link href="https://yunmingxiao.github.io/teach/index.xml" rel="self" type="application/rss+xml" />
     <description>Teaching</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/img/icon-192.png</url>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Teaching</title>
-      <link>http://localhost:1313/teach/</link>
+      <link>https://yunmingxiao.github.io/teach/</link>
     </image>
     
   </channel>

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Group | Yunming Xiao</title>
-    <link>http://localhost:1313/group/</link>
-      <atom:link href="http://localhost:1313/group/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yunmingxiao.github.io/group/</link>
+      <atom:link href="https://yunmingxiao.github.io/group/index.xml" rel="self" type="application/rss+xml" />
     <description>Group</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>http://localhost:1313/img/icon-192.png</url>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Group</title>
-      <link>http://localhost:1313/group/</link>
+      <link>https://yunmingxiao.github.io/group/</link>
     </image>
     
   </channel>

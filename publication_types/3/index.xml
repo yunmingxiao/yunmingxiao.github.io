@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Yunming Xiao</title>
-    <link>http://localhost:1313/publication_types/3/</link>
-      <atom:link href="http://localhost:1313/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://yunmingxiao.github.io/publication_types/3/</link>
+      <atom:link href="https://yunmingxiao.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/img/icon-192.png</url>
+      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>3</title>
-      <link>http://localhost:1313/publication_types/3/</link>
+      <link>https://yunmingxiao.github.io/publication_types/3/</link>
     </image>
     
     <item>
       <title>Cloud Infrastructure Management in the Age of AI Agents</title>
-      <link>http://localhost:1313/publication/25infraai/</link>
+      <link>https://yunmingxiao.github.io/publication/25infraai/</link>
       <pubDate>Sat, 09 Aug 2025 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/25infraai/</guid>
+      <guid>https://yunmingxiao.github.io/publication/25infraai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Collusion Resistant DNS With Private Information Retrieval</title>
-      <link>http://localhost:1313/publication/pdns/</link>
+      <link>https://yunmingxiao.github.io/publication/pdns/</link>
       <pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/pdns/</guid>
+      <guid>https://yunmingxiao.github.io/publication/pdns/</guid>
       <description></description>
     </item>
     
