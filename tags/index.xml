@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/tags/</link>
-      <atom:link href="https://yunmingxiao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/</link>
+      <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Tags</title>
-      <link>https://yunmingxiao.github.io/tags/</link>
+      <link>http://localhost:1313/tags/</link>
     </image>
     
     <item>
       <title>Machine Learning</title>
-      <link>https://yunmingxiao.github.io/tags/machine-learning/</link>
+      <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evolutionary Game Theory</title>
-      <link>https://yunmingxiao.github.io/tags/evolutionary-game-theory/</link>
+      <link>http://localhost:1313/tags/evolutionary-game-theory/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/tags/evolutionary-game-theory/</guid>
+      <guid>http://localhost:1313/tags/evolutionary-game-theory/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Population Dynamics</title>
-      <link>https://yunmingxiao.github.io/tags/population-dynamics/</link>
+      <link>http://localhost:1313/tags/population-dynamics/</link>
       <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/tags/population-dynamics/</guid>
+      <guid>http://localhost:1313/tags/population-dynamics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Traffic Classification</title>
-      <link>https://yunmingxiao.github.io/tags/traffic-classification/</link>
+      <link>http://localhost:1313/tags/traffic-classification/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/tags/traffic-classification/</guid>
+      <guid>http://localhost:1313/tags/traffic-classification/</guid>
       <description></description>
     </item>
     

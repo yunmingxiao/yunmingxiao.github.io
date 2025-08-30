@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/publication_topics/0/</link>
-      <atom:link href="https://yunmingxiao.github.io/publication_topics/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_topics/0/</link>
+      <atom:link href="http://localhost:1313/publication_topics/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 16 Jun 2025 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>0</title>
-      <link>https://yunmingxiao.github.io/publication_topics/0/</link>
+      <link>http://localhost:1313/publication_topics/0/</link>
     </image>
     
     <item>
       <title>Enabling Anonymous Online Streaming Analytics at the Network Edge</title>
-      <link>https://yunmingxiao.github.io/publication/25tocs/</link>
+      <link>http://localhost:1313/publication/25tocs/</link>
       <pubDate>Mon, 16 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25tocs/</guid>
+      <guid>http://localhost:1313/publication/25tocs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Collusion Resistant DNS With Private Information Retrieval</title>
-      <link>https://yunmingxiao.github.io/publication/pdns/</link>
+      <link>http://localhost:1313/publication/pdns/</link>
       <pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/pdns/</guid>
+      <guid>http://localhost:1313/publication/pdns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
-      <link>https://yunmingxiao.github.io/publication/preacher/</link>
+      <link>http://localhost:1313/publication/preacher/</link>
       <pubDate>Mon, 28 Apr 2025 01:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/preacher/</guid>
+      <guid>http://localhost:1313/publication/preacher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Snatch: Online Streaming Analytics at the Network Edge</title>
-      <link>https://yunmingxiao.github.io/publication/snatch/</link>
+      <link>http://localhost:1313/publication/snatch/</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/snatch/</guid>
+      <guid>http://localhost:1313/publication/snatch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decoding the Kodi Ecosystem</title>
-      <link>https://yunmingxiao.github.io/publication/safekodi/</link>
+      <link>http://localhost:1313/publication/safekodi/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/safekodi/</guid>
+      <guid>http://localhost:1313/publication/safekodi/</guid>
       <description>&lt;!-- &lt;br&gt; --&gt;
 &lt;h3&gt;Resources&lt;/h3&gt;
 &lt;a href=&#34;https://safekodi.com/&#34;&gt;SafeKodi: The first aggregator for (safe) Kodi addons&lt;/a&gt;
@@ -88,25 +88,25 @@ Some nice videos to demonstrate the usage of SafeKodi:
     
     <item>
       <title>FIAT: Frictionless Authentication of IoT Traffic</title>
-      <link>https://yunmingxiao.github.io/publication/fiat/</link>
+      <link>http://localhost:1313/publication/fiat/</link>
       <pubDate>Sun, 16 Oct 2022 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/fiat/</guid>
+      <guid>http://localhost:1313/publication/fiat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>
-      <link>https://yunmingxiao.github.io/publication/ring/</link>
+      <link>http://localhost:1313/publication/ring/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ring/</guid>
+      <guid>http://localhost:1313/publication/ring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>De-Kodi: Understanding the Kodi Ecosystem</title>
-      <link>https://yunmingxiao.github.io/publication/dekodi/</link>
+      <link>http://localhost:1313/publication/dekodi/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dekodi/</guid>
+      <guid>http://localhost:1313/publication/dekodi/</guid>
       <description></description>
     </item>
     

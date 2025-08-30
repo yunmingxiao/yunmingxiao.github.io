@@ -1,0 +1,511 @@
+@charset "UTF-8";
+* { box-sizing: border-box; }
+
+iframe { margin: 20px 0px; }
+
+body { margin: 0; font-family: 'Akkurat Pro Regular'; color: #342f2e; box-sizing: border-box; overflow-x: hidden; }
+
+section, div, aside { box-sizing: border-box; }
+
+section a, section a:hover, section a:visited, section a:active, article a, article a:hover, article a:visited, article a:active { text-decoration: none; color: #444; border-bottom: solid #846dac 1px; }
+section a:hover, article a:hover { background: #f6f6f6; }
+section p, section li, article p, article li { font-size: 16px; color: #5c5962; line-height: 1.7em; margin-top: 5px; }
+
+a, a:hover, a:visited, a:active { text-decoration: none; color: #444; border-bottom: solid transparent 2px; }
+
+ol, ul { margin-top: 0px; }
+
+li { line-height: 1.5em; }
+
+ol.spaced li, ul.spaced li { line-height: 1.5em; margin-bottom: 5px; }
+
+h1, h2, h3, h4, h5 { font-family: "Campton Book",Tahoma,sans-serif; color: #4e2a84; font-weight: 600; }
+h1 a, h1 a:hover, h1 a:visited, h1 a:active, h2 a, h2 a:hover, h2 a:visited, h2 a:active, h3 a, h3 a:hover, h3 a:visited, h3 a:active, h4 a, h4 a:hover, h4 a:visited, h4 a:active, h5 a, h5 a:hover, h5 a:visited, h5 a:active { text-decoration: none; color: #4e2a84; border-bottom: none !important; }
+
+h1 { font-weight: 400; }
+h1 a, h1 a:visited { color: #4e2a84; text-decoration: none; padding-left: 5px; padding-right: 5px; margin-left: -5px; }
+h1 a:hover { background: #EEE; border-radius: 5px; }
+h1 span { display: inline-block; border-radius: 4px; color: white; }
+h1 span.hw { background: #684a98; }
+h1 span.pj { background: #684a98; }
+
+h2, h3, h4, h5 { margin-bottom: 0px; }
+
+h2 { border-bottom: dotted 1px #999; padding-bottom: 5px; margin-bottom: 20px; }
+
+h3 { margin-bottom: 10px; }
+
+h4 { font-size: 1.2em; }
+
+h5 { font-size: 1.1em; }
+
+strong { font-weight: 600; }
+
+code.highlighter-rouge { background: #F3F3F3; padding: 3px; border-radius: 6px; }
+
+.codepen-frame { height: 350px; }
+
+.desktop { display: flex; }
+
+.mobile { display: none; }
+
+.due-date { display: none; }
+
+ol.flush, ul.flush { padding-left: 17px; }
+ol.flush li, ul.flush li { padding-left: 8px; }
+ol.flush li img, ol.flush li .highlighter-rouge, ul.flush li img, ul.flush li .highlighter-rouge { margin: 5px 0px 5px 5px; }
+
+.checkbox { text-indent: -34px; margin-left: 34px; }
+
+.checkbox:before { font-family: "Font Awesome 5 Pro"; content: "\f00c"; font-weight: 600; color: #1cb954; margin-right: 10px; font-size: 1.5em; vertical-align: top; }
+
+pre.highlight { border-radius: 10px; background: #F6F6F6; padding: 10px; }
+
+.blockquote-no-margin { margin-top: 0px; }
+
+blockquote { border-left: solid 7px #F6F6F6; background: #F6F6F6; padding: 10px; margin: 0px; margin-top: 30px; margin-bottom: 20px; }
+blockquote p { margin: 0px; }
+
+footer { border-top: dotted 1px #999; margin-top: 150px; grid-area: bottom; }
+footer p { margin: 40px 0px 40px 0px; text-align: center; }
+
+main { grid-area: main; }
+main.sticky { padding-top: 48px; }
+
+header { grid-area: top; align-items: flex-end; flex-direction: column; background: url(/fall2020/assets/images/purple-polygons.png) repeat-y; }
+header h1 { margin-bottom: 0px; color: white; }
+header h1 a, header h1 a:hover, header h1 a:visited, header h1 a:active { color: white; background: none; }
+header h2 { margin-top: 0px; margin-bottom: 20px; font-family: "Campton Extra Light",Tahoma,sans-serif; border-bottom: none; color: white; }
+header h2 a, header h2 a:hover, header h2 a:visited, header h2 a:active { color: white; }
+
+nav { background: #F6F6F6; grid-area: menu; }
+nav.sticky { position: fixed; top: 0; width: 100%; }
+nav ul { display: flex; flex-direction: row; padding: 0px; margin: 0px; }
+nav ul li { border-bottom: solid 3px transparent; list-style: none; padding: 10px 5px; }
+nav ul li.active { border-bottom: solid 3px #4e2a84; }
+nav ul li a { padding: 5px 8px; }
+nav ul li a, nav ul li a:visited, nav ul li:active { text-decoration: none; color: #444; }
+nav ul li:hover, nav ul li:active { background: #F9F9F9; border-bottom: solid 3px #999; }
+
+@font-face { font-family: "Akkurat Pro Light"; src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Akkurat Pro Light Italic"; src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Akkurat Pro Regular"; src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Akkurat Pro Italic"; src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Akkurat Pro Bold"; src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Akkurat Pro Bold Italic"; src: url("https://common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff"); font-weight: normal; font-style: normal; }
+/* @font-face { font-family: "Campton Book"; src: url("https://common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff"); font-weight: normal; font-style: normal; } */
+@font-face { font-family: "Campton Bold"; src: url("https://common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: "Campton Extra Bold"; src: url("https://common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff"); font-weight: normal; font-style: normal; }
+/* @font-face { font-family: "Campton Extra Light"; src: url("https://common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff"); font-weight: normal; font-style: normal; } */
+table { border-top: solid 1px #444; border-bottom: solid 1px #444; border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+table td, table th { font-size: 0.9em; line-height: 1.5em; margin-top: 5px; vertical-align: top; }
+table td ul, table th ul { margin-bottom: 0px; }
+table td ul li, table th ul li { line-height: 1.5em; font-size: 1em; }
+table td { font-family: "Akkurat Pro Light"; }
+table td strong, table td i, table td a.lec, table td a.hw, table td a.pj { font-family: 'Akkurat Pro Regular'; }
+table td:first-child, table th:first-child { min-width: 80px; }
+table thead tr:first-child { border-bottom: solid 1px #444; }
+table td, table th { border-bottom: dotted 1px #999; padding: 8px; }
+table th { font-weight: 500; min-width: 60px; text-align: left; }
+
+table.rubric-short td:nth-child(1), table.rubric-short th:nth-child(1) { width: 40px; min-width: 40px; max-width: 40px; }
+table.rubric-short td:nth-child(2), table.rubric-short th:nth-child(2) { width: 80px; }
+table.rubric-short ul { margin: 0px; }
+
+table.rubric td:nth-child(1), table.rubric th:nth-child(1) { min-width: 160px; }
+table.rubric ul { margin: 0px; }
+
+.assignments td:nth-child(1), .assignments th:nth-child(1) { width: 60px !important; font-weight: 500; }
+
+.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2), .labs td:nth-child(2), .labs th:nth-child(2) { min-width: 80px; }
+.readings td:nth-child(2), .readings th:nth-child(2), .schedule td:nth-child(2), .schedule th:nth-child(2), .labs td:nth-child(2), .labs th:nth-child(2) { min-width: 100px; }
+.readings td:nth-child(3), .readings th:nth-child(3), .schedule td:nth-child(3), .schedule th:nth-child(3), .labs td:nth-child(3), .labs th:nth-child(3) { min-width: 310px; }
+.readings td:last-child, .readings th:last-child, .schedule td:last-child, .schedule th:last-child, .labs td:last-child, .labs th:last-child { max-width: 180px; min-width: 100px; }
+
+.schedule td:nth-child(3), .schedule th:nth-child(3), .labs td:nth-child(3), .labs th:nth-child(3) { min-width: 280px; }
+
+table.xsmall { width: 250px !important; }
+
+table.small { width: 400px !important; }
+
+table.medium { width: 600px !important; }
+table.medium.module td:nth-child(2) { max-width: 320px; }
+
+.container { grid-template-columns: 1fr; grid-template-areas: "top" "menu" "main" "bottom"; }
+
+.assignments .passed { background: #F9F9F9; }
+
+.assignments .passed .hw, .assignments .passed a.hw, .assignments .passed .pj, .assignments .passed a.pj, .assignments .passed .lab, .assignments .passed a.lab, .assignments .passed .quiz, .assignments .passed a.quiz, .assignments .passed .ec, .assignments .passed a.ec, .lectures .passed .hw, .lectures .passed a.hw, .lectures .passed .pj, .lectures .passed a.pj, .lectures .passed .lab, .lectures .passed a.lab, .lectures .passed .quiz, .lectures .passed a.quiz, .lectures .passed .ec, .lectures .passed a.ec, .readings .passed .hw, .readings .passed a.hw, .readings .passed .pj, .readings .passed a.pj, .readings .passed .lab, .readings .passed a.lab, .readings .passed .quiz, .readings .passed a.quiz, .readings .passed .ec, .readings .passed a.ec, .syllabus .passed .hw, .syllabus .passed a.hw, .syllabus .passed .pj, .syllabus .passed a.pj, .syllabus .passed .lab, .syllabus .passed a.lab, .syllabus .passed .quiz, .syllabus .passed a.quiz, .syllabus .passed .ec, .syllabus .passed a.ec, .schedule .passed .hw, .schedule .passed a.hw, .schedule .passed .pj, .schedule .passed a.pj, .schedule .passed .lab, .schedule .passed a.lab, .schedule .passed .quiz, .schedule .passed a.quiz, .schedule .passed .ec, .schedule .passed a.ec { background: #CCC; }
+
+.assignments, .lectures, .assignment, .reference, .lecture, .readings, .link-menu, .two-column article, .syllabus, .schedule { display: flex; flex-direction: column; }
+.assignments .badge, .assignments a.badge, .assignments .hw, .assignments a.hw, .assignments .pj, .assignments a.pj, .assignments .lec, .assignments a.lec, .assignments .lab, .assignments a.lab, .assignments .quiz, .assignments a.quiz, .assignments .live, .assignments .recorded, .assignments .ec, .assignments a.ec, .lectures .badge, .lectures a.badge, .lectures .hw, .lectures a.hw, .lectures .pj, .lectures a.pj, .lectures .lec, .lectures a.lec, .lectures .lab, .lectures a.lab, .lectures .quiz, .lectures a.quiz, .lectures .live, .lectures .recorded, .lectures .ec, .lectures a.ec, .assignment .badge, .assignment a.badge, .assignment .hw, .assignment a.hw, .assignment .pj, .assignment a.pj, .assignment .lec, .assignment a.lec, .assignment .lab, .assignment a.lab, .assignment .quiz, .assignment a.quiz, .assignment .live, .assignment .recorded, .assignment .ec, .assignment a.ec, .reference .badge, .reference a.badge, .reference .hw, .reference a.hw, .reference .pj, .reference a.pj, .reference .lec, .reference a.lec, .reference .lab, .reference a.lab, .reference .quiz, .reference a.quiz, .reference .live, .reference .recorded, .reference .ec, .reference a.ec, .lecture .badge, .lecture a.badge, .lecture .hw, .lecture a.hw, .lecture .pj, .lecture a.pj, .lecture .lec, .lecture a.lec, .lecture .lab, .lecture a.lab, .lecture .quiz, .lecture a.quiz, .lecture .live, .lecture .recorded, .lecture .ec, .lecture a.ec, .readings .badge, .readings a.badge, .readings .hw, .readings a.hw, .readings .pj, .readings a.pj, .readings .lec, .readings a.lec, .readings .lab, .readings a.lab, .readings .quiz, .readings a.quiz, .readings .live, .readings .recorded, .readings .ec, .readings a.ec, .link-menu .badge, .link-menu a.badge, .link-menu .hw, .link-menu a.hw, .link-menu .pj, .link-menu a.pj, .link-menu .lec, .link-menu a.lec, .link-menu .lab, .link-menu a.lab, .link-menu .quiz, .link-menu a.quiz, .link-menu .live, .link-menu .recorded, .link-menu .ec, .link-menu a.ec, .two-column article .badge, .two-column article a.badge, .two-column article .hw, .two-column article a.hw, .two-column article .pj, .two-column article a.pj, .two-column article .lec, .two-column article a.lec, .two-column article .lab, .two-column article a.lab, .two-column article .quiz, .two-column article a.quiz, .two-column article .live, .two-column article .recorded, .two-column article .ec, .two-column article a.ec, .syllabus .badge, .syllabus a.badge, .syllabus .hw, .syllabus a.hw, .syllabus .pj, .syllabus a.pj, .syllabus .lec, .syllabus a.lec, .syllabus .lab, .syllabus a.lab, .syllabus .quiz, .syllabus a.quiz, .syllabus .live, .syllabus .recorded, .syllabus .ec, .syllabus a.ec, .schedule .badge, .schedule a.badge, .schedule .hw, .schedule a.hw, .schedule .pj, .schedule a.pj, .schedule .lec, .schedule a.lec, .schedule .lab, .schedule a.lab, .schedule .quiz, .schedule a.quiz, .schedule .live, .schedule .recorded, .schedule .ec, .schedule a.ec { display: inline-block; border-radius: 4px; color: white; text-transform: uppercase; font-size: .90em; line-height: 1.2em; text-decoration: none; padding: 3px 7px; border-bottom: solid transparent 1px; min-width: 42px; margin-right: 5px; text-indent: 0px; }
+.assignments .badge, .assignments .badge:hover, .lectures .badge, .lectures .badge:hover, .assignment .badge, .assignment .badge:hover, .reference .badge, .reference .badge:hover, .lecture .badge, .lecture .badge:hover, .readings .badge, .readings .badge:hover, .link-menu .badge, .link-menu .badge:hover, .two-column article .badge, .two-column article .badge:hover, .syllabus .badge, .syllabus .badge:hover, .schedule .badge, .schedule .badge:hover { background: #F6F6F6; color: #444; }
+.assignments .hw, .assignments .hw:hover, .lectures .hw, .lectures .hw:hover, .assignment .hw, .assignment .hw:hover, .reference .hw, .reference .hw:hover, .lecture .hw, .lecture .hw:hover, .readings .hw, .readings .hw:hover, .link-menu .hw, .link-menu .hw:hover, .two-column article .hw, .two-column article .hw:hover, .syllabus .hw, .syllabus .hw:hover, .schedule .hw, .schedule .hw:hover { background: #684a98; }
+.assignments .quiz, .assignments .quiz:hover, .lectures .quiz, .lectures .quiz:hover, .assignment .quiz, .assignment .quiz:hover, .reference .quiz, .reference .quiz:hover, .lecture .quiz, .lecture .quiz:hover, .readings .quiz, .readings .quiz:hover, .link-menu .quiz, .link-menu .quiz:hover, .two-column article .quiz, .two-column article .quiz:hover, .syllabus .quiz, .syllabus .quiz:hover, .schedule .quiz, .schedule .quiz:hover { background: #5B85AA; }
+.assignments .pj, .assignments .pj:hover, .lectures .pj, .lectures .pj:hover, .assignment .pj, .assignment .pj:hover, .reference .pj, .reference .pj:hover, .lecture .pj, .lecture .pj:hover, .readings .pj, .readings .pj:hover, .link-menu .pj, .link-menu .pj:hover, .two-column article .pj, .two-column article .pj:hover, .syllabus .pj, .syllabus .pj:hover, .schedule .pj, .schedule .pj:hover { background: #2869e6; }
+.assignments .lec, .assignments .lec:hover, .assignments a.lec, .lectures .lec, .lectures .lec:hover, .lectures a.lec, .assignment .lec, .assignment .lec:hover, .assignment a.lec, .reference .lec, .reference .lec:hover, .reference a.lec, .lecture .lec, .lecture .lec:hover, .lecture a.lec, .readings .lec, .readings .lec:hover, .readings a.lec, .link-menu .lec, .link-menu .lec:hover, .link-menu a.lec, .two-column article .lec, .two-column article .lec:hover, .two-column article a.lec, .syllabus .lec, .syllabus .lec:hover, .syllabus a.lec, .schedule .lec, .schedule .lec:hover, .schedule a.lec { background: rgba(132, 109, 172, 0.65); }
+.assignments .lab, .assignments .lab:hover, .lectures .lab, .lectures .lab:hover, .assignment .lab, .assignment .lab:hover, .reference .lab, .reference .lab:hover, .lecture .lab, .lecture .lab:hover, .readings .lab, .readings .lab:hover, .link-menu .lab, .link-menu .lab:hover, .two-column article .lab, .two-column article .lab:hover, .syllabus .lab, .syllabus .lab:hover, .schedule .lab, .schedule .lab:hover { background: #009c7b; font-weight: 600; }
+.assignments .ec, .assignments .ec:hover, .lectures .ec, .lectures .ec:hover, .assignment .ec, .assignment .ec:hover, .reference .ec, .reference .ec:hover, .lecture .ec, .lecture .ec:hover, .readings .ec, .readings .ec:hover, .link-menu .ec, .link-menu .ec:hover, .two-column article .ec, .two-column article .ec:hover, .syllabus .ec, .syllabus .ec:hover, .schedule .ec, .schedule .ec:hover { background: rgba(104, 74, 152, 0.5); font-weight: 600; }
+.assignments .live, .lectures .live, .assignment .live, .reference .live, .lecture .live, .readings .live, .link-menu .live, .two-column article .live, .syllabus .live, .schedule .live { background: #F46036; }
+.assignments .recorded, .lectures .recorded, .assignment .recorded, .reference .recorded, .lecture .recorded, .readings .recorded, .link-menu .recorded, .two-column article .recorded, .syllabus .recorded, .schedule .recorded { background: #846dac; }
+.assignments ul, .lectures ul, .assignment ul, .reference ul, .lecture ul, .readings ul, .link-menu ul, .two-column article ul, .syllabus ul, .schedule ul { margin-top: 0px; }
+
+.readings h3 { font-size: 1em; font-weight: 500; }
+.readings li { margin-bottom: 8px; }
+
+.two-column .outline { background: #F6F6F6; padding: 10px; border-radius: 10px; margin-bottom: 15px; padding: 0px; margin: 0px; }
+.two-column .outline ol, .two-column .outline ul { padding: 10px 10px 5px 15px; }
+.two-column .outline li { list-style-type: none; padding: 0px; margin-bottom: 5px; }
+.two-column .outline li a { border-bottom: dotted 1px #999; }
+
+.assignment ul.toc, .reference ul.toc, .lecture ul.toc, .two-column article ul.toc, .syllabus ul.toc, .schedule ul.toc { padding-left: 0px; }
+.assignment ul.toc li, .reference ul.toc li, .lecture ul.toc li, .two-column article ul.toc li, .syllabus ul.toc li, .schedule ul.toc li { margin-left: 10px; }
+.assignment ul.toc li::before, .reference ul.toc li::before, .lecture ul.toc li::before, .two-column article ul.toc li::before, .syllabus ul.toc li::before, .schedule ul.toc li::before { content: none; }
+.assignment .outline, .reference .outline, .lecture .outline, .two-column article .outline, .syllabus .outline, .schedule .outline { background: #F6F6F6; padding: 10px; border-radius: 10px; margin-bottom: 15px; }
+.assignment .outline h3, .reference .outline h3, .lecture .outline h3, .two-column article .outline h3, .syllabus .outline h3, .schedule .outline h3 { margin-top: 0px; }
+.assignment .checkbox-list, .reference .checkbox-list, .lecture .checkbox-list, .two-column article .checkbox-list, .syllabus .checkbox-list, .schedule .checkbox-list { padding-left: 22px; }
+.assignment .checkbox-list > li, .reference .checkbox-list > li, .lecture .checkbox-list > li, .two-column article .checkbox-list > li, .syllabus .checkbox-list > li, .schedule .checkbox-list > li { text-indent: -8px; margin-left: 22px; }
+.assignment .checkbox-list > li:before, .reference .checkbox-list > li:before, .lecture .checkbox-list > li:before, .two-column article .checkbox-list > li:before, .syllabus .checkbox-list > li:before, .schedule .checkbox-list > li:before { font-family: "Font Awesome 5 Pro"; content: "\f00c"; font-weight: 600; color: #1cb954; font-size: 1.2em; vertical-align: top; margin-right: 6px; }
+
+ol.readings, ul.readings { margin-top: 0px; margin-bottom: 0px; }
+ol.readings li, ul.readings li { margin-top: 0px; }
+
+.lectures ul, .schedule ul, .readings ul { margin: 0px; }
+.lectures p, .lectures li, .schedule p, .schedule li, .readings p, .readings li { margin-top: 0px; }
+.lectures ol, .schedule ol, .readings ol { margin-top: 0px; margin-bottom: 0px; padding-left: 14px; }
+.lectures ol li, .schedule ol li, .readings ol li { margin-bottom: 5px; }
+
+blockquote.caveat { margin: 20px 0px 20px 40px; background: none; border-left: 0px; padding: 25px; padding: 0px; }
+
+blockquote.quote { margin-left: 20px; background: none; border-left: 0px; padding: 25px; font-size: 1.2em; font-weight: 500; margin-bottom: 30px; }
+blockquote.quote p:before { content: '“'; color: #F6F6F6; font-size: 2em; line-height: 0.1em; margin-right: 0.1em; vertical-align: -0.4em; font-family: 'Times New Roman', Times, serif; vertical-align: middle; }
+blockquote.quote.slim { border-left: solid 10px #EEE; color: #BBB; margin-left: 30px; background: #FCFCFC; padding-left: 20px; padding-bottom: 0px; }
+blockquote.quote.slim p { margin-bottom: 20px; font-weight: 400; color: #aaa; font-size: 20px; }
+blockquote.quote.slim:before { font-size: 3em; }
+
+.schedule ul, .labs ul { padding-left: 20px; }
+
+.assignment .outline, .lecture .outline, .details .outline, .two-column article .outline, .syllabus .outline, .schedule .outline { margin-top: 30px; }
+.assignment .summary, .lecture .summary, .details .summary, .two-column article .summary, .syllabus .summary, .schedule .summary { background: #F3F3F3; padding: 10px; }
+.assignment .summary li, .lecture .summary li, .details .summary li, .two-column article .summary li, .syllabus .summary li, .schedule .summary li { margin-left: 30px; }
+.assignment ul, .lecture ul, .details ul, .two-column article ul, .syllabus ul, .schedule ul { list-style: none; }
+.assignment ul li::before, .lecture ul li::before, .details ul li::before, .two-column article ul li::before, .syllabus ul li::before, .schedule ul li::before { font-size: 20px; content: "\2022"; font-weight: bold; display: inline-block; text-indent: -16px; vertical-align: text-bottom; color: #684a98; }
+.assignment h2, .lecture h2, .details h2, .two-column article h2, .syllabus h2, .schedule h2 { border-bottom: solid 1px #F6F6F6; }
+.assignment h3, .lecture h3, .details h3, .two-column article h3, .syllabus h3, .schedule h3 { color: #676767; font-family: "Campton Extra Light"; font-size: 1.5em; }
+
+.container { grid-template-columns: 1fr; grid-template-areas: "top" "menu" "main" "bottom"; }
+
+.one-column header { height: 116px; }
+.one-column header, .one-column nav, .one-column footer, .one-column main { display: flex; }
+.one-column header, .one-column nav, .one-column footer { justify-content: center; align-items: center; }
+.one-column footer > div { margin-top: 80px; margin-bottom: 20px; }
+.one-column main { min-height: 80vh; flex-direction: column; padding-left: 15vw; padding-right: 15vw; }
+
+.two-column { margin-bottom: 400px; padding: 0px; }
+.two-column main h1, .two-column main h2, .two-column main h3, .two-column main h4 { padding-top: 85px; margin-top: -70px; }
+.two-column main h2, .two-column main h3, .two-column main h4 { z-index: -1; }
+.two-column .desktop { display: flex; }
+.two-column .mobile { display: none; }
+.two-column header { height: 116px; width: 100vw; display: flex; align-items: center; justify-content: center; z-index: 100; }
+.two-column header h1 { z-index: 100; }
+.two-column nav { height: 48px; border-bottom: dotted 1px #CCC; width: 100vw; display: flex; align-items: center; justify-content: center; }
+.two-column nav ul { z-index: 300; }
+.two-column aside { background: #F6F6F6; position: absolute; top: 164px; left: 0px; height: calc(100vh - 164px); min-height: 100vh; width: 300px; overflow-y: auto; padding-bottom: 40px; }
+.two-column aside.sticky { top: 48px; position: fixed; height: calc(100vh - 44px); left: 0px; }
+.two-column aside h3 { margin-top: 0px; }
+.two-column aside ol { padding: 0px; margin: 0px; }
+.two-column aside .side-menu { width: 100%; padding: 0px; }
+.two-column aside .side-menu a { font-size: 1.05em; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; padding-right: 20px !important; }
+.two-column aside .side-menu a:hover { background: #EEE; }
+.two-column aside .side-menu > li a { display: block; padding-top: 5px; }
+.two-column aside .side-menu > li a.active { background: #846dac; color: white; }
+.two-column aside .side-menu > li > a:first-child { padding: 4px 0px 3px 10px; font-weight: 500; }
+.two-column aside .side-menu > li ol { margin-top: 0px; margin-bottom: 10px; }
+.two-column aside .side-menu > li ol li a { color: #444; font-size: 0.9em; padding-left: 20px; }
+.two-column aside .side-menu > li ol li ol li a { color: #666; font-size: 0.9em; padding-left: 45px; }
+.two-column aside .side-menu > li ol li ol li ol li > a { padding-left: 65px; }
+.two-column aside .side-menu li { margin-top: 0px; list-style-type: none; line-height: 1.2em; }
+.two-column article { width: calc(100vw - 300px); margin-left: 300px; padding: 20px 60px; padding-right: 18vh; }
+.two-column article h1 { font-size: 1.8em; }
+
+/*! Inkpot Theme; https://github.com/uraimo/pygments-vimstyles */
+/*! Wombat VIM theme */
+.highlight, .highlight pre, .highlight table { background: #242424 !important; color: #f6f3e8 !important; border-radius: 10px; overflow-x: auto; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; }
+
+.highlight .hll { background-color: #ffffcc !important; }
+
+.highlight .c { color: #99968b !important; font-style: italic !important; }
+
+/* Comment */
+.highlight .err { color: #f6f3e8 !important; }
+
+/* Error */
+.highlight .g { color: #f6f3e8 !important; }
+
+/* Generic */
+.highlight .k { color: #8ac6f2 !important; }
+
+/* Keyword */
+.highlight .l { color: #f6f3e8 !important; }
+
+/* Literal */
+.highlight .n, .highlight .h { color: #f6f3e8 !important; }
+
+/* Name */
+.highlight .o { color: #f6f3e8 !important; }
+
+/* Operator */
+.highlight .x { color: #f6f3e8 !important; }
+
+/* Other */
+.highlight .p { color: #f6f3e8 !important; }
+
+/* Punctuation */
+.highlight .cm { color: #99968b !important; font-style: italic !important; }
+
+/* Comment.Multiline */
+.highlight .cp { color: #e5786d !important; }
+
+/* Comment.Preproc */
+.highlight .c1 { color: #99968b !important; font-style: italic !important; }
+
+/* Comment.Single */
+.highlight .cs { color: #99968b !important; font-style: italic !important; }
+
+/* Comment.Special */
+.highlight .gd { color: #f6f3e8 !important; }
+
+/* Generic.Deleted */
+.highlight .ge { color: #f6f3e8 !important; }
+
+/* Generic.Emph */
+.highlight .gr { color: #f6f3e8 !important; }
+
+/* Generic.Error */
+.highlight .gh { color: #f6f3e8 !important; font-weight: bold !important; }
+
+/* Generic.Heading */
+.highlight .gi { color: #f6f3e8 !important; }
+
+/* Generic.Inserted */
+.highlight .go { color: #808080 !important; background-color: #303030 !important; }
+
+/* Generic.Output */
+.highlight .gp { color: #f6f3e8 !important; }
+
+/* Generic.Prompt */
+.highlight .gs { color: #f6f3e8 !important; }
+
+/* Generic.Strong */
+.highlight .gu { color: #f6f3e8 !important; font-weight: bold !important; }
+
+/* Generic.Subheading */
+.highlight .gt { color: #f6f3e8 !important; }
+
+/* Generic.Traceback */
+.highlight .kc { color: #8ac6f2 !important; }
+
+/* Keyword.Constant */
+.highlight .kd { color: #8ac6f2 !important; }
+
+/* Keyword.Declaration */
+.highlight .kn { color: #8ac6f2 !important; }
+
+/* Keyword.Namespace */
+.highlight .kp { color: #8ac6f2 !important; }
+
+/* Keyword.Pseudo */
+.highlight .kr { color: #8ac6f2 !important; }
+
+/* Keyword.Reserved */
+.highlight .kt { color: #cae682 !important; }
+
+/* Keyword.Type */
+.highlight .ld { color: #f6f3e8 !important; }
+
+/* Literal.Date */
+.highlight .m { color: #e5786d !important; }
+
+/* Literal.Number */
+.highlight .s { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String */
+.highlight .na { color: #cae682 !important; }
+
+/* Name.Attribute */
+.highlight .nb { color: #f6f3e8 !important; }
+
+/* Name.Builtin */
+.highlight .nc { color: #f6f3e8 !important; }
+
+/* Name.Class */
+.highlight .no { color: #e5786d !important; }
+
+/* Name.Constant */
+.highlight .nd { color: #f6f3e8 !important; }
+
+/* Name.Decorator */
+.highlight .ni { color: #e7f6da !important; }
+
+/* Name.Entity */
+.highlight .ne { color: #f6f3e8 !important; }
+
+/* Name.Exception */
+.highlight .nf { color: #cae682 !important; }
+
+/* Name.Function */
+.highlight .nl { color: #f6f3e8 !important; }
+
+/* Name.Label */
+.highlight .nn { color: #f6f3e8 !important; }
+
+/* Name.Namespace */
+.highlight .nx { color: #f6f3e8 !important; }
+
+/* Name.Other */
+.highlight .py { color: #f6f3e8 !important; }
+
+/* Name.Property */
+.highlight .nt { color: #8ac6f2 !important; }
+
+/* Name.Tag */
+.highlight .nv { color: #cae682 !important; }
+
+/* Name.Variable */
+.highlight .ow { color: #f6f3e8 !important; }
+
+/* Operator.Word */
+.highlight .w { color: #f6f3e8 !important; }
+
+/* Text.Whitespace */
+.highlight .mf { color: #e5786d !important; }
+
+/* Literal.Number.Float */
+.highlight .mh { color: #e5786d !important; }
+
+/* Literal.Number.Hex */
+.highlight .mi { color: #e5786d !important; }
+
+/* Literal.Number.Integer */
+.highlight .mo { color: #e5786d !important; }
+
+/* Literal.Number.Oct */
+.highlight .sb { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Backtick */
+.highlight .sc { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Char */
+.highlight .sd { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Doc */
+.highlight .s2 { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Double */
+.highlight .se { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Escape */
+.highlight .sh { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Heredoc */
+.highlight .si { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Interpol */
+.highlight .sx { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Other */
+.highlight .sr { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Regex */
+.highlight .s1 { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Single */
+.highlight .ss { color: #95e454 !important; font-style: italic !important; }
+
+/* Literal.String.Symbol */
+.highlight .bp { color: #f6f3e8 !important; }
+
+/* Name.Builtin.Pseudo */
+.highlight .vc { color: #cae682 !important; }
+
+/* Name.Variable.Class */
+.highlight .vg { color: #cae682 !important; }
+
+/* Name.Variable.Global */
+.highlight .vi { color: #cae682 !important; }
+
+/* Name.Variable.Instance */
+.highlight .il { color: #e5786d !important; }
+
+/* Literal.Number.Integer.Long */
+.subtitle { margin: -20px 0px 15px 0px; color: #676767; font-family: "Campton Extra Light"; font-size: 1.2em; }
+
+.caption { line-height: 1.2em; font-size: 0.9em; margin-top: -8px; margin-bottom: 20px; text-align: center; font-weight: 700; }
+
+.frame { border-radius: 5px; padding: 5px; border: solid 1px #CCC; }
+
+img.small { max-width: 30%; }
+
+img.medium { max-width: 50%; }
+
+img.med-lg { max-width: 75%; }
+
+img.large { max-width: 100%; }
+
+.center { margin-right: auto; margin-left: auto; display: block; }
+
+img.creature { max-width: 20%; float: left; margin: 0px 10px 0px 0px; }
+
+img.cars { float: right; max-width: 40%; margin: 0px 0px 0px 10px; border-top: solid 1px #ccc; border-left: solid 1px #ccc; border-right: solid 1px #ccc; border-radius: 5px; }
+
+.module-image { border-radius: 5px; padding: 5px; border: solid 1px #CCC; max-width: 30%; float: left; margin: 0px 10px 0px 0px; }
+
+.highlighter-rouge { margin-bottom: 20px; }
+
+.nu-button, .nu-button:visited, .nu-button:active { background: #684a98; border: none; color: #fff !important; margin: 20px .5em 20px 0; padding: .8em 1em .7em 1em; align-self: flex-start; text-transform: uppercase; transition: 0.3s ease; text-decoration: none; }
+.nu-button:hover, .nu-button:visited:hover, .nu-button:active:hover { background: #846dac; border: none; }
+.nu-button i, .nu-button:visited i, .nu-button:active i { margin-left: 5px; }
+
+table.instructions td, table.instructions th { font-size: 1em; }
+
+@media (max-width: 800px) { img.small, img.medium, img.med-lg { max-width: 100%; }
+  img.module-image, img.creature, .img.cars { max-width: 40%; }
+  img.cars { max-width: 100%; float: inherit; } }
+@media (max-width: 1200px) { .one-column main { padding-left: 10vw; padding-right: 10vw; }
+  .readings td:nth-child(4), .readings th:nth-child(4), .readings td:nth-child(3), .readings th:nth-child(3), .readings th:last-child, .readings td:last-child, .schedule td:nth-child(4), .schedule th:nth-child(4), .schedule td:nth-child(3), .schedule th:nth-child(3), .schedule th:last-child, .schedule td:last-child, .labs td:nth-child(4), .labs th:nth-child(4), .labs td:nth-child(3), .labs th:nth-child(3), .labs th:last-child, .labs td:last-child { min-width: 80px; width: auto; max-width: auto; } }
+@media (max-width: 900px) { .one-column main { padding-left: 5vw; padding-right: 5vw; } }
+@media (max-width: 800px) { .two-column main { padding-left: 5vw; padding-right: 5vw; }
+  table td { font-family: "Akkurat Pro Regular"; }
+  .schedule table td:nth-child(1), .schedule table th:nth-child(1), .labs table td:nth-child(1), .labs table th:nth-child(1) { min-width: 72px; width: 72px; }
+  .schedule table td:nth-child(2), .schedule table th:nth-child(2), .labs table td:nth-child(2), .labs table th:nth-child(2) { min-width: 40px; width: 40px; }
+  .schedule table th:nth-child(4), .schedule table td:nth-child(4) { display: none; }
+  table.rubric td:nth-child(1), table.rubric th:nth-child(1) { min-width: auto; }
+  .two-column main > article { margin-top: auto; width: auto; margin: 0px; padding: 0px; }
+  .two-column aside { display: none; } }
+@media (max-width: 600px) { .one-column main, .two-column main { min-height: 82vh; padding: 80px 20px 20px 20px; }
+  .one-column .container, .two-column .container { grid-template-columns: 1fr; grid-template-rows: 65px auto auto auto; grid-template-areas: "top" "menu" "main" "bottom"; margin: 0px; grid-row-gap: 0px; grid-column-gap: 0px; overflow: auto; }
+  .one-column .desktop, .two-column .desktop { display: none; }
+  .one-column .mobile, .two-column .mobile { display: flex; }
+  .one-column footer, .one-column header, .two-column footer, .two-column header { border: none; }
+  .one-column header, .one-column nav, .two-column header, .two-column nav { top: 0px; z-index: 500; position: fixed; width: 100%; }
+  .one-column header .fa-bars, .one-column nav .fa-bars, .two-column header .fa-bars, .two-column nav .fa-bars { color: white; }
+  .one-column header, .two-column header { height: 65px; flex-direction: row; background: #4e2a84 !important; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.22), 0 1px 2px rgba(0, 0, 0, 0.34); color: white; padding-top: 8px; align-items: flex-start; justify-content: flex-start; }
+  .one-column header i, .two-column header i { font-size: 24px; }
+  .one-column header a, .two-column header a { padding: 10px; margin: 5px; text-decoration: none; color: white; }
+  .one-column header h1, .two-column header h1 { font-size: 1.3em; }
+  .one-column nav, .two-column nav { display: none; top: 65px; height: auto; background: white; }
+  .one-column nav.sticky, .two-column nav.sticky { height: auto; top: 65px; }
+  .one-column nav ul, .two-column nav ul { flex-direction: column; width: 100%; padding: 0px; margin: 0px; box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); }
+  .one-column nav ul li, .two-column nav ul li { border-bottom: solid 1px #EEE; margin-top: 0px; }
+  .one-column nav ul li.active, .two-column nav ul li.active { border-bottom: solid 1px #EEE; background: #846dac; }
+  .one-column nav ul li.active a, .two-column nav ul li.active a { color: white; }
+  .one-column nav ul li.active:hover, .one-column nav ul li.active:active, .two-column nav ul li.active:hover, .two-column nav ul li.active:active { background: #846dac; }
+  .one-column nav ul li a, .two-column nav ul li a { display: flex; padding: 10px 18px; }
+  .one-column nav ul li:hover, .one-column nav ul li:active, .two-column nav ul li:hover, .two-column nav ul li:active { border-bottom: solid 1px #EEE; background: #E9E9E9; }
+  .assignments section, .people section { width: 100%; height: 200px; }
+  .lectures td { min-width: 50px !important; }
+  .lectures th:nth-child(1) { min-width: 50px !important; width: auto; }
+  .lectures td:nth-child(3) { min-width: 200px !important; }
+  .lectures td:nth-child(4) { min-width: 50px !important; }
+  .readings tr:first-child, .readings th:first-child, .readings th:nth-child(3), .readings td:nth-child(3) { display: none; }
+  .readings td:nth-child(2) { font-weight: 500; width: 70px !important; min-width: 70px !important; } }

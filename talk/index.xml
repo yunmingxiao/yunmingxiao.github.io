@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/talk/</link>
-      <atom:link href="https://yunmingxiao.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/talk/</link>
+      <atom:link href="http://localhost:1313/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://yunmingxiao.github.io/talk/</link>
+      <link>http://localhost:1313/talk/</link>
     </image>
     
   </channel>

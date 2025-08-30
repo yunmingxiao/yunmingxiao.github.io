@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://yunmingxiao.github.io/courses/csc1001-25fall/assignments/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Assignments</title>
+    <link rel="stylesheet" href="./assets/all.min.css">
+    <link rel="stylesheet" href="./assets/main.css">
+    
+    <script type="text/javascript" async="" src="./assets/analytics.js"></script><script type="text/javascript" async="" src="./assets/js"></script><script async="" src="./assets/js(1)"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    </script>
+    </head>
+    <body class="one-column" data-new-gr-c-s-check-loaded="14.1251.0" data-gr-ext-installed="">
+        <div class="container">
+            <!-- banner -->
+<header class="banner" style="background-image: url('./bg.png');">
+    <h1 class="desktop"><a href="https://yunmingxiao.github.io/courses/csc1001-25fall/">CSC1001: Introduction to Computer Science</a></h1>
+    <h2 class="desktop">Programming Methodology</h2>
+    <a class="mobile" href="https://yunmingxiao.github.io/courses/csc1001-25fall/syllabus/#">
+        <i class="menu-toggle fas fa-bars"></i>
+    </a>
+    <h1 class="mobile">CSC1001: Introduction to Computer Science: Programming Methodology</h1>
+</header>
+
+            <nav>
+    <ul>
+        <li><a href="https://yunmingxiao.github.io/courses/csc1001-25fall/syllabus/">Syllabus</a></li>
+        <li><a href="https://yunmingxiao.github.io/courses/csc1001-25fall/schedule/">Schedule</a></li>
+        <li class="active"><a href="https://yunmingxiao.github.io/courses/csc1001-25fall/assignments/">Assignments</a></li>
+    </ul>
+</nav>
+
+            <main>
+                
+
+    
+        <h1>Assignments</h1>
+        
+        <p>
+    All assignments will be released on <a href="https://bb.cuhk.edu.cn"><u>Blackboard</u></a>.</p>
+
+
+
+<script>
+    /* 
+        Script for calculating # of days until assignment due.
+        Note: Can't use Jekyll b/c it doesn't compile every time.
+    */
+    const trs = document.querySelectorAll('.assignments-table tr');
+    for (tr of trs) {
+        const lastTd = tr.querySelector('td:last-child');
+        if (lastTd) {
+            const isLab = tr.querySelector('.lab') != null || tr.querySelector('td:nth-child(2)').innerHTML.includes('Lab');
+            const nextToLastTd = lastTd.previousElementSibling;
+            nextToLastTd.style.maxWidth = "140px";
+            const dateString = lastTd.querySelector('.due-date').innerHTML;
+            const dueDate = new Date(dateString);
+            const numDays = (dueDate - new Date()) / (1000 * 3600 * 24);
+            if (isLab) {
+                nextToLastTd.innerHTML = "scheduled lab time";
+            }
+            if (numDays < -1) {
+                tr.classList.add('passed');
+                lastTd.innerHTML = "passed";
+            }
+            else if (isLab) {
+                lastTd.innerHTML = "<span style='font-family: Arial;'>&#8804;</span> " + (numDays + 1).toFixed();
+                //lastTd.innerHTML = '';
+            }
+            else {
+                if (numDays < 0) {
+                    lastTd.innerHTML = "due tonight";
+                }
+                else {
+                    lastTd.innerHTML = (numDays + 1).toFixed();
+                }
+            }
+        }
+    }
+</script>
+
+
+            </main>
+            <footer>
+    <p>    
+        School of Data Science, CUHK-Shenzhen
+    </p>
+</footer>
+
+        </div>
+            <script type="text/javascript" src="./assets/main.js"></script>
+    
+    <!-- <script src="./assets/62a7c74d0d.js" crossorigin="anonymous"></script> -->
+    <script>
+        //little bit of a hack:
+        const scrollLeft = () => {
+            //console.log('scrollLeft');
+            document.documentElement.scrollLeft = 0;
+        };
+        setTimeout(scrollLeft, 100);
+    </script>
+    
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

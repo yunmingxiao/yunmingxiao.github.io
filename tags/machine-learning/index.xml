@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/tags/machine-learning/</link>
-      <atom:link href="https://yunmingxiao.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/tags/machine-learning/</link>
+      <atom:link href="http://localhost:1313/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Machine Learning</title>
-      <link>https://yunmingxiao.github.io/tags/machine-learning/</link>
+      <link>http://localhost:1313/tags/machine-learning/</link>
     </image>
     
     <item>
       <title>Direct Nonlinear Acceleration</title>
-      <link>https://yunmingxiao.github.io/publication/dna/</link>
+      <link>http://localhost:1313/publication/dna/</link>
       <pubDate>Wed, 12 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dna/</guid>
+      <guid>http://localhost:1313/publication/dna/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Common Knowledge Based Transfer Learning for Traffic Classification</title>
-      <link>https://yunmingxiao.github.io/publication/lcn18/</link>
+      <link>http://localhost:1313/publication/lcn18/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/lcn18/</guid>
+      <guid>http://localhost:1313/publication/lcn18/</guid>
       <description></description>
     </item>
     

@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2 | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/publication_topics/2/</link>
-      <atom:link href="https://yunmingxiao.github.io/publication_topics/2/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/publication_topics/2/</link>
+      <atom:link href="http://localhost:1313/publication_topics/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>2</title>
-      <link>https://yunmingxiao.github.io/publication_topics/2/</link>
+      <link>http://localhost:1313/publication_topics/2/</link>
     </image>
     
     <item>
       <title>SQUiD: Synthesizing Relational Databases from Unstructured Text</title>
-      <link>https://yunmingxiao.github.io/publication/25text2r/</link>
+      <link>http://localhost:1313/publication/25text2r/</link>
       <pubDate>Wed, 20 Aug 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25text2r/</guid>
+      <guid>http://localhost:1313/publication/25text2r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blockchain-enhanced Federated Learning Market with Social Internet of Things</title>
-      <link>https://yunmingxiao.github.io/publication/jsac22/</link>
+      <link>http://localhost:1313/publication/jsac22/</link>
       <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/jsac22/</guid>
+      <guid>http://localhost:1313/publication/jsac22/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Blockchain Mining: Optimal Resource Allocation</title>
-      <link>https://yunmingxiao.github.io/publication/aft22/</link>
+      <link>http://localhost:1313/publication/aft22/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/aft22/</guid>
+      <guid>http://localhost:1313/publication/aft22/</guid>
       <description></description>
     </item>
     

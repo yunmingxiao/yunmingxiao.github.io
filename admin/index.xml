@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Admin | Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/admin/</link>
-      <atom:link href="https://yunmingxiao.github.io/admin/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/admin/</link>
+      <atom:link href="http://localhost:1313/admin/index.xml" rel="self" type="application/rss+xml" />
     <description>Admin</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Admin</title>
-      <link>https://yunmingxiao.github.io/admin/</link>
+      <link>http://localhost:1313/admin/</link>
     </image>
     
   </channel>

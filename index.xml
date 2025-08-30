@@ -2,70 +2,156 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yunming Xiao</title>
-    <link>https://yunmingxiao.github.io/</link>
-      <atom:link href="https://yunmingxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Yunming Xiao</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 10:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://yunmingxiao.github.io/img/icon-192.png</url>
+      <url>http://localhost:1313/img/icon-192.png</url>
       <title>Yunming Xiao</title>
-      <link>https://yunmingxiao.github.io/</link>
+      <link>http://localhost:1313/</link>
     </image>
     
     <item>
+      <title>Group</title>
+      <link>http://localhost:1313/group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/group/</guid>
+      <description>&lt;h2 id=&#34;prospective-students&#34;&gt;Prospective Students&lt;/h2&gt;
+&lt;hr&gt;
+&lt;p&gt;I am always looking for &lt;strong&gt;highly motivated&lt;/strong&gt; students to work on computer systems, networks, and security. Our group currently has openings for &lt;strong&gt;PhD, MPhil, postdoc, research assistant, and visiting positions&lt;/strong&gt;. If you are interested, please email me your CV, transcripts, and any materials that showcase your research potential.&lt;/p&gt;
+&lt;p&gt;For PhD applicants, I look for candidates who:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Major in Computer Science or related fields from competitive universities, e.g., 985/211 or well-known oversea universities (school requirement)&lt;/li&gt;
+&lt;li&gt;Have good academic performance and a solid programming foundation (school requirement)&lt;/li&gt;
+&lt;li&gt;Possess experience in research, competitions, or open-source projects (preferred but not required)&lt;/li&gt;
+&lt;li&gt;Show strong motivation and commitment to pursuing a PhD and conducting research (&lt;strong&gt;most important&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For &lt;strong&gt;CUHK-SZ students&lt;/strong&gt;, you are very welcome to email me to arrange an in-person meeting.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;current-members&#34;&gt;Current Members&lt;/h2&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;phd-students&#34;&gt;PhD Students&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Chengxuan Pei&lt;/strong&gt; – 2025.9 - &lt;em&gt;Present&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;B.S.&lt;/em&gt; Xidian University, &lt;em&gt;M.S.&lt;/em&gt; Fudan University&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Cheng Li&lt;/strong&gt; – 2025.9 - &lt;em&gt;Present&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;B.S.&lt;/em&gt; BUAA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;mphilmsc-students&#34;&gt;MPhil/MSc Students&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;TBA&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;rainternvisiting-students&#34;&gt;RA/Intern/Visiting Students&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Peichun Huai&lt;/strong&gt; – Undergrad @ CUHK-Shenzhen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Baocheng Geng&lt;/strong&gt; – Undergrad @ CUHK-Shenzhen&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Baowen Chen&lt;/strong&gt; – Undergrad @ Central University of Finance and Economics&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- TBA --&gt;</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://localhost:1313/teach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/teach/</guid>
+      <description>&lt;h2 id=&#34;lecturer--cuhk-shenzhen&#34;&gt;Lecturer @ CUHK-Shenzhen&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;CSC1001 &amp;ndash; Introduction to Computer Science: Programming Methodology
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../courses/csc1001-25fall/syllabus.html&#34;&gt;2025 Fall&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;CSC3150 &amp;ndash; Operating System
+&lt;ul&gt;
+&lt;li&gt;2026 Spring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+&lt;h2 id=&#34;teaching-assistant--northwestern-university&#34;&gt;Teaching Assistant @ Northwestern University&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;COMP_SCI 397/497 &amp;ndash; Selected Topics in Computer Networks
+&lt;ul&gt;
+&lt;li&gt;Spring 2021, 2022, 2023, 2024&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COMP_SCI 340 &amp;ndash; Intro to Computer Networking
+&lt;ul&gt;
+&lt;li&gt;Winter 2022&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;COMP_SCI 110 &amp;ndash; Intro to Computer Programming
+&lt;ul&gt;
+&lt;li&gt;Fall 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- TBA --&gt;</description>
+    </item>
+    
+    <item>
       <title>Publications</title>
-      <link>https://yunmingxiao.github.io/publication/</link>
+      <link>http://localhost:1313/publication/</link>
       <pubDate>Wed, 20 Aug 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/</guid>
+      <guid>http://localhost:1313/publication/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>https://yunmingxiao.github.io/cv/</link>
+      <link>http://localhost:1313/cv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/cv/</guid>
+      <guid>http://localhost:1313/cv/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Authors</title>
-      <link>https://yunmingxiao.github.io/authors/</link>
+      <link>http://localhost:1313/authors/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/authors/</guid>
+      <guid>http://localhost:1313/authors/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Openings</title>
-      <link>https://yunmingxiao.github.io/opening/</link>
+      <link>http://localhost:1313/opening/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/opening/</guid>
+      <guid>http://localhost:1313/opening/</guid>
       <description>&lt;!-- TBA --&gt;</description>
     </item>
     
     <item>
       <title>Posts</title>
-      <link>https://yunmingxiao.github.io/post/</link>
+      <link>http://localhost:1313/post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/post/</guid>
+      <guid>http://localhost:1313/post/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://yunmingxiao.github.io/talk/</link>
+      <link>http://localhost:1313/talk/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/talk/</guid>
+      <guid>http://localhost:1313/talk/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>TBA</title>
-      <link>https://yunmingxiao.github.io/group/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/group/</guid>
-      <description>&lt;!-- TBA --&gt;</description>
     </item>
     
   </channel>
