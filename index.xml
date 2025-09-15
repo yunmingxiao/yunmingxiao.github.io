@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/</link>
       <atom:link href="https://yunmingxiao.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yunming Xiao</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 20 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Sep 2025 10:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Yunming Xiao</title>
@@ -67,6 +67,39 @@
     </item>
     
     <item>
+      <title>Service</title>
+      <link>https://yunmingxiao.github.io/service/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/service/</guid>
+      <description>&lt;h3 id=&#34;panels&#34;&gt;Panels&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;NSF CISE CNS Program Panelist and Reviewer: 2025&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;program-committee&#34;&gt;Program Committee&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;IEEE Symposium on Security and Privacy (&lt;b&gt;Oakland&lt;/b&gt;): 2026&lt;/li&gt;
+&lt;li&gt;ACM Conference on Computer and Communications Security (&lt;b&gt;CCS&lt;/b&gt;): 2025, 2026&lt;/li&gt;
+&lt;li&gt;ACM &lt;b&gt;ASPLOS&lt;/b&gt;: 2026 (ERC)&lt;/li&gt;
+&lt;li&gt;ACM Internet Measurement Conference (&lt;b&gt;IMC&lt;/b&gt;): 2026&lt;/li&gt;
+&lt;li&gt;Privacy Enhancing Technologies Symposium (&lt;b&gt;PETS/PoPETs&lt;/b&gt;): 2025, 2026&lt;/li&gt;
+&lt;li&gt;SIGOPS Asia-Pacific Workshop on Systems (&lt;b&gt;APSys&lt;/b&gt;): 2025&lt;/li&gt;
+&lt;li&gt;Asia-Pacific Workshop on Networking (&lt;b&gt;APNet&lt;/b&gt;): 2025&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;USENIX Security&lt;/b&gt;, Artifact Evaluation: 2025&lt;/li&gt;
+&lt;li&gt;ACM &lt;b&gt;SIGCOMM&lt;/b&gt;, Artifact Evaluation: 2022, 2023&lt;/li&gt;
+&lt;li&gt;ACM &lt;b&gt;SOSP&lt;/b&gt;, Artifact Evaluation: 2023&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;reviewer&#34;&gt;Reviewer&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;USENIX Annual Technical Conference (&lt;b&gt;ATC&lt;/b&gt;): 2025&lt;/li&gt;
+&lt;li&gt;ACM SIGCOMM Computer Communication Review (&lt;b&gt;CCR&lt;/b&gt;)&lt;/li&gt;
+&lt;li&gt;IEEE Journal on Selected Areas in Communications (&lt;b&gt;JSAC&lt;/b&gt;)&lt;/li&gt;
+&lt;li&gt;Journal of Systems Architecture (&lt;b&gt;JSA&lt;/b&gt;)&lt;/li&gt;
+&lt;li&gt;IEEE Transactions on Sustainable Computing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- TBA --&gt;</description>
+    </item>
+    
+    <item>
       <title>Teaching</title>
       <link>https://yunmingxiao.github.io/teach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,7 +142,7 @@
     <item>
       <title>Publications</title>
       <link>https://yunmingxiao.github.io/publication/</link>
-      <pubDate>Wed, 20 Aug 2025 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Sep 2025 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/</guid>
       <description></description>
     </item>
