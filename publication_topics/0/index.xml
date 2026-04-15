@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/publication_topics/0/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 10 Dec 2025 00:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2026 00:00:02 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>0</title>
@@ -14,17 +14,17 @@
     
     <item>
       <title>DDoS Detection at the Scale of One Hundred Tbps</title>
-      <link>https://yunmingxiao.github.io/publication/25nsdi-ddos/</link>
-      <pubDate>Wed, 10 Dec 2025 00:00:02 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25nsdi-ddos/</guid>
+      <link>https://yunmingxiao.github.io/publication/26nsdi-ddos/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:02 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26nsdi-ddos/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Secure Vickrey Auctions for Online Advertising</title>
-      <link>https://yunmingxiao.github.io/publication/25nsdi-obsidian/</link>
-      <pubDate>Wed, 10 Dec 2025 00:00:01 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25nsdi-obsidian/</guid>
+      <link>https://yunmingxiao.github.io/publication/26nsdi-obsidian/</link>
+      <pubDate>Wed, 15 Apr 2026 00:00:01 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26nsdi-obsidian/</guid>
       <description></description>
     </item>
     
