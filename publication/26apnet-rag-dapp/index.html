@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Personal Website of Yunming Xiao">
+  <meta name="description" content="Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication_topics/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/">
 
   
 
@@ -87,44 +87,44 @@
   
 
   
-  <link rel="alternate" href="/publication_topics/index.xml" type="application/rss+xml" title="Yunming Xiao">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication_topics/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/">
 
   
   
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication_topics/">
-  <meta property="og:title" content="Publication_topics | Yunming Xiao">
-  <meta property="og:description" content="Personal Website of Yunming Xiao"><meta property="og:image" content="https://yunmingxiao.github.io/img/icon-192.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/">
+  <meta property="og:title" content="RAG on the Decentralized Web: An Empirical Study of Akash and Golem | Yunming Xiao">
+  <meta property="og:description" content="Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/featured.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2026-04-22T00:00:00&#43;00:00">
-  
-
-  
-
-
+    
+      <meta property="article:published_time" content="2026-04-22T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2026-04-22T00:00:00&#43;00:00">
   
 
+  
+
+
+  
 
 
 
 
-  <title>Publication_topics | Yunming Xiao</title>
+
+  <title>RAG on the Decentralized Web: An Empirical Study of Akash and Golem | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -259,7 +259,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/publication/"><span>Publications</span></a>
+          <a class="nav-link  active" href="/publication/"><span>Publications</span></a>
         </li>
 
         
@@ -359,73 +359,348 @@
 </nav>
 
 
-  
-
-
-
-
-
-
-
-
-
-
-
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">Publication_topics</h1>
+
+
+<div class="article-container pt-3">
+  <h1 itemprop="name">RAG on the Decentralized Web: An Empirical Study of Akash and Golem</h1>
 
   
 
   
+
+
+
+<meta content="2026-04-22 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-04-22 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person">Suting Chen</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matteo Varvello</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aleksandar Kuzmanovic</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>April 2026</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;text=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;t=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem&amp;body=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;title=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem%20https://yunmingxiao.github.io/publication/26apnet-rag-dapp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;title=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/26apnet-rag-dapp/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 539px;">
+  <div style="position: relative">
+    <img src="/publication/26apnet-rag-dapp/featured_hu_ca9051ad5e14191b.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Topic</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/?filtertopic=.pubtopic-1">
+              AI/Cloud Infra
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">To appear in <em>APNet'26</em></div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+    
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+    
+
+
+
+
+
+
+
 
   
   
-  <div>
-    <h2><a href="/publication_topics/1/">1</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
+    
   
-  <div>
-    <h2><a href="/publication_topics/0/">0</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_topics/2/">2</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication_topics/3/">3</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
   
 
-  
 
+
+
+
+
+
+
+    
+
+
+  </div>
 </div>
+
+
 
       
 

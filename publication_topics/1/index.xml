@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_topics/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 15 Apr 2026 00:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yunmingxiao.github.io/publication_topics/1/</link>
     </image>
+    
+    <item>
+      <title>RAG on the Decentralized Web: An Empirical Study of Akash and Golem</title>
+      <link>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>DDoS Detection at the Scale of One Hundred Tbps</title>
