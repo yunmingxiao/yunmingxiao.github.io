@@ -5,12 +5,36 @@
     <link>https://yunmingxiao.github.io/publication_types/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:02 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yunmingxiao.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>CubeTrace: Microscopic Network Tracing for Heterogeneous Cloud Gateways</title>
+      <link>https://yunmingxiao.github.io/publication/26sigcomm-cubetrace/</link>
+      <pubDate>Tue, 12 May 2026 00:00:02 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26sigcomm-cubetrace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>XFir: Accelerating New-Flow Setup on Host Servers of a Large Cloud Network</title>
+      <link>https://yunmingxiao.github.io/publication/26sigcomm-xfir/</link>
+      <pubDate>Tue, 12 May 2026 00:00:01 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26sigcomm-xfir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Horizon: A Hyper-Edge Observability Engine for Live Streaming Networks</title>
+      <link>https://yunmingxiao.github.io/publication/26sigcomm-horizon/</link>
+      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26sigcomm-horizon/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RAG on the Decentralized Web: An Empirical Study of Akash and Golem</title>
