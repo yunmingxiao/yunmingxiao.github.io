@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_types/3/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 09 Aug 2025 10:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>3</title>
       <link>https://yunmingxiao.github.io/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>ObjectCache: Layerwise Object-Storage Retrieval for KV Cache Reuse</title>
+      <link>https://yunmingxiao.github.io/publication/26-objectcache/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-objectcache/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cloud Infrastructure Management in the Age of AI Agents</title>
@@ -22,9 +30,9 @@
     
     <item>
       <title>Collusion Resistant DNS With Private Information Retrieval</title>
-      <link>https://yunmingxiao.github.io/publication/pdns/</link>
+      <link>https://yunmingxiao.github.io/publication/25-pdns/</link>
       <pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/pdns/</guid>
+      <guid>https://yunmingxiao.github.io/publication/25-pdns/</guid>
       <description></description>
     </item>
     

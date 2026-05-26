@@ -45,6 +45,14 @@
     </item>
     
     <item>
+      <title>ObjectCache: Layerwise Object-Storage Retrieval for KV Cache Reuse</title>
+      <link>https://yunmingxiao.github.io/publication/26-objectcache/</link>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-objectcache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>DDoS Detection at the Scale of One Hundred Tbps</title>
       <link>https://yunmingxiao.github.io/publication/26nsdi-ddos/</link>
       <pubDate>Wed, 15 Apr 2026 00:00:02 +0000</pubDate>
@@ -86,41 +94,41 @@
     
     <item>
       <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
-      <link>https://yunmingxiao.github.io/publication/p-ecmp/</link>
+      <link>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</link>
       <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/p-ecmp/</guid>
+      <guid>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/openinfra/</link>
+      <link>https://yunmingxiao.github.io/publication/25openinfra/</link>
       <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/openinfra/</guid>
+      <guid>https://yunmingxiao.github.io/publication/25openinfra/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Conspirator: SmartNIC-Aided Control Plane for Distributed ML Workloads</title>
-      <link>https://yunmingxiao.github.io/publication/conspirator/</link>
+      <link>https://yunmingxiao.github.io/publication/24atc-conspirator/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/conspirator/</guid>
+      <guid>https://yunmingxiao.github.io/publication/24atc-conspirator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MegaTE: Extending WAN Traffic Engineering to Millions of Endpoints in Virtualized Cloud</title>
-      <link>https://yunmingxiao.github.io/publication/megate/</link>
+      <link>https://yunmingxiao.github.io/publication/24sigcomm-megate/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/megate/</guid>
+      <guid>https://yunmingxiao.github.io/publication/24sigcomm-megate/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TENSOR: Lightweight BGP Non-Stop Routing</title>
-      <link>https://yunmingxiao.github.io/publication/tensor/</link>
+      <link>https://yunmingxiao.github.io/publication/23sigcomm-tensor/</link>
       <pubDate>Wed, 17 May 2023 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/tensor/</guid>
+      <guid>https://yunmingxiao.github.io/publication/23sigcomm-tensor/</guid>
       <description></description>
     </item>
     

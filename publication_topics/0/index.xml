@@ -38,33 +38,33 @@
     
     <item>
       <title>Collusion Resistant DNS With Private Information Retrieval</title>
-      <link>https://yunmingxiao.github.io/publication/pdns/</link>
+      <link>https://yunmingxiao.github.io/publication/25-pdns/</link>
       <pubDate>Sun, 15 Jun 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/pdns/</guid>
+      <guid>https://yunmingxiao.github.io/publication/25-pdns/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
-      <link>https://yunmingxiao.github.io/publication/preacher/</link>
+      <link>https://yunmingxiao.github.io/publication/24nsdi-preacher/</link>
       <pubDate>Mon, 28 Apr 2025 01:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/preacher/</guid>
+      <guid>https://yunmingxiao.github.io/publication/24nsdi-preacher/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Snatch: Online Streaming Analytics at the Network Edge</title>
-      <link>https://yunmingxiao.github.io/publication/snatch/</link>
+      <link>https://yunmingxiao.github.io/publication/24eurosys-snatch/</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/snatch/</guid>
+      <guid>https://yunmingxiao.github.io/publication/24eurosys-snatch/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decoding the Kodi Ecosystem</title>
-      <link>https://yunmingxiao.github.io/publication/safekodi/</link>
+      <link>https://yunmingxiao.github.io/publication/23tweb-safekodi/</link>
       <pubDate>Tue, 21 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/safekodi/</guid>
+      <guid>https://yunmingxiao.github.io/publication/23tweb-safekodi/</guid>
       <description>&lt;!-- &lt;br&gt; --&gt;
 &lt;h3&gt;Resources&lt;/h3&gt;
 &lt;a href=&#34;https://safekodi.com/&#34;&gt;SafeKodi: The first aggregator for (safe) Kodi addons&lt;/a&gt;
@@ -104,25 +104,25 @@ Some nice videos to demonstrate the usage of SafeKodi:
     
     <item>
       <title>FIAT: Frictionless Authentication of IoT Traffic</title>
-      <link>https://yunmingxiao.github.io/publication/fiat/</link>
+      <link>https://yunmingxiao.github.io/publication/22conext-fiat/</link>
       <pubDate>Sun, 16 Oct 2022 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/fiat/</guid>
+      <guid>https://yunmingxiao.github.io/publication/22conext-fiat/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>
-      <link>https://yunmingxiao.github.io/publication/ring/</link>
+      <link>https://yunmingxiao.github.io/publication/22sigmetrics-ring/</link>
       <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ring/</guid>
+      <guid>https://yunmingxiao.github.io/publication/22sigmetrics-ring/</guid>
       <description></description>
     </item>
     
     <item>
       <title>De-Kodi: Understanding the Kodi Ecosystem</title>
-      <link>https://yunmingxiao.github.io/publication/dekodi/</link>
+      <link>https://yunmingxiao.github.io/publication/20www-dekodi/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/dekodi/</guid>
+      <guid>https://yunmingxiao.github.io/publication/20www-dekodi/</guid>
       <description></description>
     </item>
     

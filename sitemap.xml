@@ -38,6 +38,12 @@
     <loc>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://yunmingxiao.github.io/publication_types/3/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://yunmingxiao.github.io/publication/26-objectcache/</loc>
+    <lastmod>2026-04-21T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://yunmingxiao.github.io/publication_topics/0/</loc>
     <lastmod>2026-04-15T00:00:02+00:00</lastmod>
   </url><url>
@@ -59,9 +65,6 @@
     <loc>https://yunmingxiao.github.io/publication/25text2r/</loc>
     <lastmod>2025-08-20T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication_types/3/</loc>
-    <lastmod>2025-08-09T10:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://yunmingxiao.github.io/publication/25infraai/</loc>
     <lastmod>2025-08-09T10:00:00+00:00</lastmod>
   </url><url>
@@ -74,43 +77,43 @@
     <loc>https://yunmingxiao.github.io/publication/25tocs/</loc>
     <lastmod>2025-06-16T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/pdns/</loc>
+    <loc>https://yunmingxiao.github.io/publication/25-pdns/</loc>
     <lastmod>2025-06-15T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/preacher/</loc>
+    <loc>https://yunmingxiao.github.io/publication/24nsdi-preacher/</loc>
     <lastmod>2025-04-28T01:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/p-ecmp/</loc>
+    <loc>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</loc>
     <lastmod>2025-04-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/openinfra/</loc>
+    <loc>https://yunmingxiao.github.io/publication/25openinfra/</loc>
     <lastmod>2024-10-21T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/conspirator/</loc>
+    <loc>https://yunmingxiao.github.io/publication/24atc-conspirator/</loc>
     <lastmod>2024-06-03T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/megate/</loc>
+    <loc>https://yunmingxiao.github.io/publication/24sigcomm-megate/</loc>
     <lastmod>2024-06-03T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/snatch/</loc>
+    <loc>https://yunmingxiao.github.io/publication/24eurosys-snatch/</loc>
     <lastmod>2024-01-01T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/tensor/</loc>
+    <loc>https://yunmingxiao.github.io/publication/23sigcomm-tensor/</loc>
     <lastmod>2023-05-17T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/safekodi/</loc>
+    <loc>https://yunmingxiao.github.io/publication/23tweb-safekodi/</loc>
     <lastmod>2023-03-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/fiat/</loc>
+    <loc>https://yunmingxiao.github.io/publication/22conext-fiat/</loc>
     <lastmod>2022-10-16T10:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/jsac22/</loc>
+    <loc>https://yunmingxiao.github.io/publication/22jsac/</loc>
     <lastmod>2022-10-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yunmingxiao.github.io/publication_topics/3/</loc>
     <lastmod>2022-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/dna/</loc>
+    <loc>https://yunmingxiao.github.io/publication/23-dna/</loc>
     <lastmod>2022-10-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yunmingxiao.github.io/tags/machine-learning/</loc>
@@ -119,16 +122,16 @@
     <loc>https://yunmingxiao.github.io/tags/</loc>
     <lastmod>2022-10-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/aft22/</loc>
+    <loc>https://yunmingxiao.github.io/publication/22aft/</loc>
     <lastmod>2022-09-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/ring/</loc>
+    <loc>https://yunmingxiao.github.io/publication/22sigmetrics-ring/</loc>
     <lastmod>2022-03-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/dekodi/</loc>
+    <loc>https://yunmingxiao.github.io/publication/20www-dekodi/</loc>
     <lastmod>2020-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/ploscomp/</loc>
+    <loc>https://yunmingxiao.github.io/publication/19ploscomp/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yunmingxiao.github.io/tags/evolutionary-game-theory/</loc>
@@ -137,7 +140,7 @@
     <loc>https://yunmingxiao.github.io/tags/population-dynamics/</loc>
     <lastmod>2019-09-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://yunmingxiao.github.io/publication/lcn18/</loc>
+    <loc>https://yunmingxiao.github.io/publication/18lcn/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://yunmingxiao.github.io/tags/traffic-classification/</loc>
