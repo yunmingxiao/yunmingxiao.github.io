@@ -69,18 +69,10 @@
     </item>
     
     <item>
-      <title>An RDMA-First Object Storage System with SmartNIC Offload</title>
-      <link>https://yunmingxiao.github.io/publication/25resdis-sc/</link>
-      <pubDate>Wed, 10 Sep 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25resdis-sc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud Infrastructure Management in the Age of AI Agents</title>
-      <link>https://yunmingxiao.github.io/publication/25infraai/</link>
-      <pubDate>Sat, 09 Aug 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25infraai/</guid>
+      <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
+      <link>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</guid>
       <description></description>
     </item>
     
@@ -93,18 +85,18 @@
     </item>
     
     <item>
-      <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
-      <link>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</link>
-      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</guid>
+      <title>Cloud Infrastructure Management in the Age of AI Agents</title>
+      <link>https://yunmingxiao.github.io/publication/25infraai/</link>
+      <pubDate>Thu, 07 Aug 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25infraai/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/25openinfra/</link>
-      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25openinfra/</guid>
+      <title>An RDMA-First Object Storage System with SmartNIC Offload</title>
+      <link>https://yunmingxiao.github.io/publication/25resdis-sc/</link>
+      <pubDate>Wed, 01 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25resdis-sc/</guid>
       <description></description>
     </item>
     
@@ -121,6 +113,14 @@
       <link>https://yunmingxiao.github.io/publication/24sigcomm-megate/</link>
       <pubDate>Mon, 03 Jun 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/24sigcomm-megate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
+      <link>https://yunmingxiao.github.io/publication/24openinfra/</link>
+      <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/24openinfra/</guid>
       <description></description>
     </item>
     

@@ -29,9 +29,17 @@
     </item>
     
     <item>
+      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
+      <link>https://yunmingxiao.github.io/publication/25nsdi-preacher/</link>
+      <pubDate>Wed, 31 Dec 2025 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25nsdi-preacher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Enabling Anonymous Online Streaming Analytics at the Network Edge</title>
       <link>https://yunmingxiao.github.io/publication/25tocs/</link>
-      <pubDate>Mon, 16 Jun 2025 10:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Dec 2025 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/25tocs/</guid>
       <description></description>
     </item>
@@ -45,17 +53,9 @@
     </item>
     
     <item>
-      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
-      <link>https://yunmingxiao.github.io/publication/24nsdi-preacher/</link>
-      <pubDate>Mon, 28 Apr 2025 01:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/24nsdi-preacher/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Snatch: Online Streaming Analytics at the Network Edge</title>
       <link>https://yunmingxiao.github.io/publication/24eurosys-snatch/</link>
-      <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
+      <pubDate>Wed, 11 Sep 2024 10:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/24eurosys-snatch/</guid>
       <description></description>
     </item>

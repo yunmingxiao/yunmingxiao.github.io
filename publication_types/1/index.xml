@@ -69,10 +69,18 @@
     </item>
     
     <item>
-      <title>An RDMA-First Object Storage System with SmartNIC Offload</title>
-      <link>https://yunmingxiao.github.io/publication/25resdis-sc/</link>
-      <pubDate>Wed, 10 Sep 2025 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25resdis-sc/</guid>
+      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
+      <link>https://yunmingxiao.github.io/publication/25nsdi-preacher/</link>
+      <pubDate>Wed, 31 Dec 2025 01:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25nsdi-preacher/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
+      <link>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</link>
+      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</guid>
       <description></description>
     </item>
     
@@ -93,26 +101,18 @@
     </item>
     
     <item>
-      <title>PreAcher: Secure and Practical Password Pre-Authentication by Content Delivery Networks</title>
-      <link>https://yunmingxiao.github.io/publication/24nsdi-preacher/</link>
-      <pubDate>Mon, 28 Apr 2025 01:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/24nsdi-preacher/</guid>
+      <title>An RDMA-First Object Storage System with SmartNIC Offload</title>
+      <link>https://yunmingxiao.github.io/publication/25resdis-sc/</link>
+      <pubDate>Wed, 01 Jan 2025 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/25resdis-sc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Unlocking ECMP Programmability for Precise Traffic Control</title>
-      <link>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</link>
-      <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25nsdi-pecmp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
-      <link>https://yunmingxiao.github.io/publication/25openinfra/</link>
-      <pubDate>Mon, 21 Oct 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/25openinfra/</guid>
+      <title>Snatch: Online Streaming Analytics at the Network Edge</title>
+      <link>https://yunmingxiao.github.io/publication/24eurosys-snatch/</link>
+      <pubDate>Wed, 11 Sep 2024 10:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/24eurosys-snatch/</guid>
       <description></description>
     </item>
     
@@ -133,10 +133,10 @@
     </item>
     
     <item>
-      <title>Snatch: Online Streaming Analytics at the Network Edge</title>
-      <link>https://yunmingxiao.github.io/publication/24eurosys-snatch/</link>
+      <title>OpenInfra: A Co-simulation Framework for the Infrastructure Nexus</title>
+      <link>https://yunmingxiao.github.io/publication/24openinfra/</link>
       <pubDate>Mon, 01 Jan 2024 10:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/24eurosys-snatch/</guid>
+      <guid>https://yunmingxiao.github.io/publication/24openinfra/</guid>
       <description></description>
     </item>
     
