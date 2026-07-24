@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication/</link>
       <atom:link href="https://yunmingxiao.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:02 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Apr 2027 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>Publications</title>
       <link>https://yunmingxiao.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>SkyRDMA: Fully Offloaded Cloud RDMA Virtualization</title>
+      <link>https://yunmingxiao.github.io/publication/27nsdi-skyrdma/</link>
+      <pubDate>Thu, 15 Apr 2027 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/27nsdi-skyrdma/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CubeTrace: Microscopic Network Tracing for Heterogeneous Cloud Gateways</title>
