@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_types/1/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 15 Apr 2027 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Jul 2027 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://yunmingxiao.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>PhantomBox: Fully Homomorphic Web Application Firewall</title>
+      <link>https://yunmingxiao.github.io/publication/27asplos-phantombox/</link>
+      <pubDate>Wed, 28 Jul 2027 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/27asplos-phantombox/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>SkyRDMA: Fully Offloaded Cloud RDMA Virtualization</title>
