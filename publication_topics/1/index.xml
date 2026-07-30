@@ -46,17 +46,17 @@
     
     <item>
       <title>MCSched: Memory-Controller-Aware Scheduling for Embodied LLM Workloads on NVIDIA Jetson</title>
-      <link>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</link>
+      <link>https://yunmingxiao.github.io/publication/26apsys-mcsched/</link>
       <pubDate>Mon, 11 May 2026 00:00:02 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</guid>
+      <guid>https://yunmingxiao.github.io/publication/26apsys-mcsched/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unlocking Software-defined GPU Fabric Scheduling in the LLM Era</title>
-      <link>https://yunmingxiao.github.io/publication/26apsys-mcsched/</link>
+      <link>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</link>
       <pubDate>Mon, 11 May 2026 00:00:01 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/26apsys-mcsched/</guid>
+      <guid>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</guid>
       <description></description>
     </item>
     
