@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives. ">
+  <meta name="description" content="Hosted retrieval-augmented generation (RAG) and semantic search allow users to query valuable provider-held corpora, raising two competing demands: to hide each query and chosen result, yet reveal only the documents that the user is authorized to receive. Existing cryptographic approaches either make this costly by processing the entire corpus for every query, or sacrifice quality for efficiency by scanning a few clusters. We repurpose learned deep hashing as a private filter: a randomized binary code points the provider to a short candidate list, while encrypted reranking and oblivious key transfer protect the precise query and final selection. This shortlist short-circuits full-corpus cryptographic search without sacrificing retrieval quality: with 200-500 candidates, it closely matches full-corpus retrieval across five zero-shot corpora spanning 25K to 5.4M documents. On the full 2.68M-passage NQ corpus over a 10-Gbps link, our protocol only adds 0.73 seconds, or 10 percent, to a 128-token Qwen3-32B RAG pipeline. The released code satisfies directional metric differential privacy (DP) and substantially reduces embedding-inversion and property-inference leakage, demonstrating that a carefully learned shortlist can make private dense retrieval both accurate and practical. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26-secure-rag/">
 
   
 
@@ -102,7 +102,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26-secure-rag/">
 
   
   
@@ -114,15 +114,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/">
-  <meta property="og:title" content="RAG on the Decentralized Web: An Empirical Study of Akash and Golem | Yunming Xiao">
-  <meta property="og:description" content="Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26apnet-rag-dapp/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26-secure-rag/">
+  <meta property="og:title" content="Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale | Yunming Xiao">
+  <meta property="og:description" content="Hosted retrieval-augmented generation (RAG) and semantic search allow users to query valuable provider-held corpora, raising two competing demands: to hide each query and chosen result, yet reveal only the documents that the user is authorized to receive. Existing cryptographic approaches either make this costly by processing the entire corpus for every query, or sacrifice quality for efficiency by scanning a few clusters. We repurpose learned deep hashing as a private filter: a randomized binary code points the provider to a short candidate list, while encrypted reranking and oblivious key transfer protect the precise query and final selection. This shortlist short-circuits full-corpus cryptographic search without sacrificing retrieval quality: with 200-500 candidates, it closely matches full-corpus retrieval across five zero-shot corpora spanning 25K to 5.4M documents. On the full 2.68M-passage NQ corpus over a 10-Gbps link, our protocol only adds 0.73 seconds, or 10 percent, to a 128-token Qwen3-32B RAG pipeline. The released code satisfies directional metric differential privacy (DP) and substantially reduces embedding-inversion and property-inference leakage, demonstrating that a carefully learned shortlist can make private dense retrieval both accurate and practical. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26-secure-rag/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26-secure-rag/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2026-04-22T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2026-08-27T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2026-04-10T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2026-08-27T00:00:00&#43;00:00">
   
 
   
@@ -134,7 +134,7 @@
 
 
 
-  <title>RAG on the Decentralized Web: An Empirical Study of Akash and Golem | Yunming Xiao</title>
+  <title>Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -399,7 +399,7 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">RAG on the Decentralized Web: An Empirical Study of Akash and Golem</h1>
+  <h1 itemprop="name">Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale</h1>
 
   
 
@@ -407,8 +407,8 @@
 
 
 
-<meta content="2026-04-10 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2026-04-10 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2026-08-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-08-27 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -417,7 +417,7 @@
   
   
   <div>
-    <span itemprop="author name" itemtype="http://schema.org/Person">Suting Chen</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Matteo Varvello</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Aleksandar Kuzmanovic</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b><sup>#</sup></span>
+    <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Peichun Hua</span></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Danyang Chen</span></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Junan Zhang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Haifeng Sun</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Jingyu Wang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Diwen Xue</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Mingyu Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b><sup>#</sup></span>
   </div>
   
   
@@ -428,7 +428,7 @@
     
       
     
-    <time>April 2026</time>
+    <time>August 2026</time>
   </span>
   
 
@@ -456,7 +456,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;text=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26-secure-rag/&amp;text=Pointing%20the%20Way,%20Hiding%20the%20Destination:%20Practical%20Private%20Dense%20Retrieval%20at%20Scale" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -469,7 +469,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;t=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26-secure-rag/&amp;t=Pointing%20the%20Way,%20Hiding%20the%20Destination:%20Practical%20Private%20Dense%20Retrieval%20at%20Scale" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -482,7 +482,7 @@
       
       
       <li>
-        <a href="mailto:?subject=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem&amp;body=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Pointing%20the%20Way,%20Hiding%20the%20Destination:%20Practical%20Private%20Dense%20Retrieval%20at%20Scale&amp;body=https://yunmingxiao.github.io/publication/26-secure-rag/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -495,7 +495,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;title=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26-secure-rag/&amp;title=Pointing%20the%20Way,%20Hiding%20the%20Destination:%20Practical%20Private%20Dense%20Retrieval%20at%20Scale" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -508,7 +508,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem%20https://yunmingxiao.github.io/publication/26apnet-rag-dapp/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Pointing%20the%20Way,%20Hiding%20the%20Destination:%20Practical%20Private%20Dense%20Retrieval%20at%20Scale%20https://yunmingxiao.github.io/publication/26-secure-rag/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -521,7 +521,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26apnet-rag-dapp/&amp;title=RAG%20on%20the%20Decentralized%20Web:%20An%20Empirical%20Study%20of%20Akash%20and%20Golem" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26-secure-rag/&amp;title=Pointing%20the%20Way,%20Hiding%20the%20Destination:%20Practical%20Private%20Dense%20Retrieval%20at%20Scale" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -567,14 +567,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/26apnet-rag-dapp/26apnet-rag-dapp.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/26-secure-rag/26-secure-rag.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/26apnet-rag-dapp/cite.bib">
+        data-filename="/publication/26-secure-rag/cite.bib">
   Cite
 </button>
 
@@ -606,9 +606,9 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://dl.acm.org/doi/abs/10.1145/3820441.3820466" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2608.25735" target="_blank" rel="noopener">
     
-    ACM
+    ArXiv
   </a>
 
 
@@ -618,9 +618,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 539px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 315px;">
   <div style="position: relative">
-    <img src="/publication/26apnet-rag-dapp/featured_hu_ca9051ad5e14191b.png" alt="" class="featured-image">
+    <img src="/publication/26-secure-rag/featured_hu_47d25a193af4272f.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -631,7 +631,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Decentralized compute markets claim to be an alternative to the cloud, yet the systems community lacks hard evidence on whether they can run modern workloads end to end. We put this claim to the test by deploying a Retrieval-Augmented Generation (RAG) pipeline on the Akash and Golem networks. Our analysis reveals a striking paradox: supply is abundant, with over 10,000 CPU cores and 50~TiB of memory available, yet utilization remains minimal (about 0.3% on Akash). When mapped carefully, several RAG pipeline stages execute correctly and up to 3x cheaper than AWS. Others degrade under node churn and network bottlenecks. The limiting factor is not raw capacity but predictability. We also observe that decentralization in practice is already hybrid, with centralized gateways and offchain services masking blockchain complexity. Taken together, our findings suggest that decentralized markets are neither hype nor drop-in cloud replacements, but an underutilized substrate whose viability depends on better scheduling, reliability mechanisms, and trust primitives.</p>
+    <p class="pub-abstract" itemprop="text">Hosted retrieval-augmented generation (RAG) and semantic search allow users to query valuable provider-held corpora, raising two competing demands: to hide each query and chosen result, yet reveal only the documents that the user is authorized to receive. Existing cryptographic approaches either make this costly by processing the entire corpus for every query, or sacrifice quality for efficiency by scanning a few clusters. We repurpose learned deep hashing as a private filter: a randomized binary code points the provider to a short candidate list, while encrypted reranking and oblivious key transfer protect the precise query and final selection. This shortlist short-circuits full-corpus cryptographic search without sacrificing retrieval quality: with 200-500 candidates, it closely matches full-corpus retrieval across five zero-shot corpora spanning 25K to 5.4M documents. On the full 2.68M-passage NQ corpus over a 10-Gbps link, our protocol only adds 0.73 seconds, or 10 percent, to a 128-token Qwen3-32B RAG pipeline. The released code satisfies directional metric differential privacy (DP) and substantially reduces embedding-inversion and property-inference leakage, demonstrating that a carefully learned shortlist can make private dense retrieval both accurate and practical.</p>
     
 
     
@@ -644,8 +644,8 @@
             
             
               
-              <a href="/publication/?filtertopic=pubtopic-1">
-                AI/Cloud Infra
+              <a href="/publication/?filtertopic=pubtopic-0">
+                Security &amp; Privacy
               </a>
             
           </div>
@@ -665,8 +665,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -683,7 +683,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In Proceedings of <em>the 10th Asia-Pacific Workshop on Networking</em>. 2026.</div>
+          <div class="col-12 col-md-9">ArXiv:2608.25735.</div>
         </div>
       </div>
       <div class="col-md-1"></div>

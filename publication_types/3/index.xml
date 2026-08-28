@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_types/3/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 21 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>3</title>
       <link>https://yunmingxiao.github.io/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale</title>
+      <link>https://yunmingxiao.github.io/publication/26-secure-rag/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-secure-rag/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ObjectCache: Layerwise Object-Storage Retrieval for KV Cache Reuse</title>

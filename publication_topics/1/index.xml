@@ -45,30 +45,6 @@
     </item>
     
     <item>
-      <title>MCSched: Memory-Controller-Aware Scheduling for Embodied LLM Workloads on NVIDIA Jetson</title>
-      <link>https://yunmingxiao.github.io/publication/26apsys-mcsched/</link>
-      <pubDate>Mon, 11 May 2026 00:00:02 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/26apsys-mcsched/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Unlocking Software-defined GPU Fabric Scheduling in the LLM Era</title>
-      <link>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</link>
-      <pubDate>Mon, 11 May 2026 00:00:01 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RAG on the Decentralized Web: An Empirical Study of Akash and Golem</title>
-      <link>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</link>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ObjectCache: Layerwise Object-Storage Retrieval for KV Cache Reuse</title>
       <link>https://yunmingxiao.github.io/publication/26-objectcache/</link>
       <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
@@ -89,6 +65,30 @@
       <link>https://yunmingxiao.github.io/publication/26nsdi-peering/</link>
       <pubDate>Wed, 15 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://yunmingxiao.github.io/publication/26nsdi-peering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MCSched: Memory-Controller-Aware Scheduling for Embodied LLM Workloads on NVIDIA Jetson</title>
+      <link>https://yunmingxiao.github.io/publication/26apsys-mcsched/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:02 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26apsys-mcsched/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unlocking Software-defined GPU Fabric Scheduling in the LLM Era</title>
+      <link>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</link>
+      <pubDate>Sat, 11 Apr 2026 00:00:01 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26apsys-gpuweaver/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RAG on the Decentralized Web: An Empirical Study of Akash and Golem</title>
+      <link>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</link>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26apnet-rag-dapp/</guid>
       <description></description>
     </item>
     
