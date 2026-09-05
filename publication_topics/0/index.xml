@@ -5,12 +5,20 @@
     <link>https://yunmingxiao.github.io/publication_topics/0/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 03 Sep 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>0</title>
       <link>https://yunmingxiao.github.io/publication_topics/0/</link>
     </image>
+    
+    <item>
+      <title>Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings</title>
+      <link>https://yunmingxiao.github.io/publication/26-spruce/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-spruce/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale</title>
