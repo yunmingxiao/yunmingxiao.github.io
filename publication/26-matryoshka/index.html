@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Retrieval-Augmented Generation (RAG) has made dense retrieval over large document collections a standard building block. Organizations increasingly outsource vector indexes to untrusted clouds, exposing proprietary corpora and user queries. Cryptographic protection is challenging because each query searches corpus-scale state, causing computation, correlated randomness, and communication to grow with the corpus. At million-document scale, a naive secure implementation takes minutes and about 90 GB of communication per query. Even recent optimized systems require 10--22 seconds. &lt;br&gt;&lt;br&gt; We propose Spruce (Scalable Private Outsourced Retrieval Using Compact Embeddings), which co-designs representations with the cryptographic protocol. Spruce learns compact binary codes that preserve candidates for full-precision reranking, replacing corpus-wide embedding scoring with efficient Hamming-distance computation under two-server multi-party computation (MPC). A corpus-calibrated fixed-radius protocol avoids multi-round candidate selection while preserving retrieval quality. Spruce also provides private cluster pruning, which trades minor quality loss for substantially less computation, and a one-core owner-operated dealer that removes cloud OT preprocessing bottlenecks. Across four corpora containing 383K--5.42M documents, Spruce preserves the original search quality with median candidate sets of only 382--1,952. At 10 Gbps inter-server bandwidth, full scans take 0.21--2.97 seconds, 4.8--6.7× faster than the closest measured prior work. Private pruning takes 0.06--1.09 seconds, achieves 13.1--22.9× speedups, and retains 93.9%--97.3% of full-float NDCG. On the largest corpus, pruning and the dealer jointly improve sustained throughput by 31.5× at 1 Gbps per link. ">
+  <meta name="description" content="Retrieval-augmented generation (RAG) depends on dense retrieval: each document is stored as a learned vector, and a query is answered by finding its nearest neighbors in that vector space. Keeping one full-precision vector per document is the dominant index cost at corpus scale, so retrieval systems replace each vector with a short code of a few bytes---a step called quantization. Standard quantizers such as product quantization (PQ) pick the code that reconstructs the original vector most closely. &lt;br&gt;&lt;br&gt; A single code is even more useful if it serves several byte budgets at once: when its short prefixes are each directly searchable, a deployment can set its efficiency--quality operating point without re-encoding the corpus. But training all prefixes under one objective makes the early bits a compromise across budgets---short codes improve while the full-width code degrades. Quantization to low-bit representation, such as binary codes, further sharpens the conflict. We introduce Matryoshka Hash Representations (MHR), a two-stage procedure that separates full-width training from prefix organization. MHR first learns a longer binary code, then freezes the model and trains additional zero-initialized residual code adaptors for directly searchable prefixes. Documents are stored at one bit per coordinate, while queries keep continuous logits like PQ to attain sufficient expressivity. We implement the search process with FAISS FastScan. Trained on MS MARCO and zero-shot transferred to seven BEIR datasets, MHR reaches .5561 NDCG@10 and .6535 Recall@100 at 32 bytes, surpassing the best baseline of the same budget. The advantage is more pronounced in lower budgets. The same code also strengthens two common pipelines: shortlisting candidates for full-precision reranking, and pruning a low-storage graph index such as LEANN. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26-spruce/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26-matryoshka/">
 
   
 
@@ -102,7 +102,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26-spruce/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26-matryoshka/">
 
   
   
@@ -114,15 +114,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26-spruce/">
-  <meta property="og:title" content="Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings | Yunming Xiao">
-  <meta property="og:description" content="Retrieval-Augmented Generation (RAG) has made dense retrieval over large document collections a standard building block. Organizations increasingly outsource vector indexes to untrusted clouds, exposing proprietary corpora and user queries. Cryptographic protection is challenging because each query searches corpus-scale state, causing computation, correlated randomness, and communication to grow with the corpus. At million-document scale, a naive secure implementation takes minutes and about 90 GB of communication per query. Even recent optimized systems require 10--22 seconds. &lt;br&gt;&lt;br&gt; We propose Spruce (Scalable Private Outsourced Retrieval Using Compact Embeddings), which co-designs representations with the cryptographic protocol. Spruce learns compact binary codes that preserve candidates for full-precision reranking, replacing corpus-wide embedding scoring with efficient Hamming-distance computation under two-server multi-party computation (MPC). A corpus-calibrated fixed-radius protocol avoids multi-round candidate selection while preserving retrieval quality. Spruce also provides private cluster pruning, which trades minor quality loss for substantially less computation, and a one-core owner-operated dealer that removes cloud OT preprocessing bottlenecks. Across four corpora containing 383K--5.42M documents, Spruce preserves the original search quality with median candidate sets of only 382--1,952. At 10 Gbps inter-server bandwidth, full scans take 0.21--2.97 seconds, 4.8--6.7× faster than the closest measured prior work. Private pruning takes 0.06--1.09 seconds, achieves 13.1--22.9× speedups, and retains 93.9%--97.3% of full-float NDCG. On the largest corpus, pruning and the dealer jointly improve sustained throughput by 31.5× at 1 Gbps per link. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26-spruce/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26-spruce/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26-matryoshka/">
+  <meta property="og:title" content="Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval | Yunming Xiao">
+  <meta property="og:description" content="Retrieval-augmented generation (RAG) depends on dense retrieval: each document is stored as a learned vector, and a query is answered by finding its nearest neighbors in that vector space. Keeping one full-precision vector per document is the dominant index cost at corpus scale, so retrieval systems replace each vector with a short code of a few bytes---a step called quantization. Standard quantizers such as product quantization (PQ) pick the code that reconstructs the original vector most closely. &lt;br&gt;&lt;br&gt; A single code is even more useful if it serves several byte budgets at once: when its short prefixes are each directly searchable, a deployment can set its efficiency--quality operating point without re-encoding the corpus. But training all prefixes under one objective makes the early bits a compromise across budgets---short codes improve while the full-width code degrades. Quantization to low-bit representation, such as binary codes, further sharpens the conflict. We introduce Matryoshka Hash Representations (MHR), a two-stage procedure that separates full-width training from prefix organization. MHR first learns a longer binary code, then freezes the model and trains additional zero-initialized residual code adaptors for directly searchable prefixes. Documents are stored at one bit per coordinate, while queries keep continuous logits like PQ to attain sufficient expressivity. We implement the search process with FAISS FastScan. Trained on MS MARCO and zero-shot transferred to seven BEIR datasets, MHR reaches .5561 NDCG@10 and .6535 Recall@100 at 32 bytes, surpassing the best baseline of the same budget. The advantage is more pronounced in lower budgets. The same code also strengthens two common pipelines: shortlisting candidates for full-precision reranking, and pruning a low-storage graph index such as LEANN. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26-matryoshka/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26-matryoshka/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2026-09-03T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2026-09-02T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2026-09-03T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2026-09-02T00:00:00&#43;00:00">
   
 
   
@@ -134,7 +134,7 @@
 
 
 
-  <title>Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings | Yunming Xiao</title>
+  <title>Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -399,7 +399,7 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings</h1>
+  <h1 itemprop="name">Matryoshka Hash Representations for Model-Aware Compact Semantic Retrieval</h1>
 
   
 
@@ -407,8 +407,8 @@
 
 
 
-<meta content="2026-09-03 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2026-09-03 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2026-09-02 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2026-09-02 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -456,7 +456,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26-spruce/&amp;text=Spruce:%20Scalable%20Private%20Outsourced%20Retrieval%20Using%20Compact%20Embeddings" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26-matryoshka/&amp;text=Matryoshka%20Hash%20Representations%20for%20Model-Aware%20Compact%20Semantic%20Retrieval" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -469,7 +469,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26-spruce/&amp;t=Spruce:%20Scalable%20Private%20Outsourced%20Retrieval%20Using%20Compact%20Embeddings" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26-matryoshka/&amp;t=Matryoshka%20Hash%20Representations%20for%20Model-Aware%20Compact%20Semantic%20Retrieval" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -482,7 +482,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Spruce:%20Scalable%20Private%20Outsourced%20Retrieval%20Using%20Compact%20Embeddings&amp;body=https://yunmingxiao.github.io/publication/26-spruce/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Matryoshka%20Hash%20Representations%20for%20Model-Aware%20Compact%20Semantic%20Retrieval&amp;body=https://yunmingxiao.github.io/publication/26-matryoshka/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -495,7 +495,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26-spruce/&amp;title=Spruce:%20Scalable%20Private%20Outsourced%20Retrieval%20Using%20Compact%20Embeddings" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26-matryoshka/&amp;title=Matryoshka%20Hash%20Representations%20for%20Model-Aware%20Compact%20Semantic%20Retrieval" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -508,7 +508,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Spruce:%20Scalable%20Private%20Outsourced%20Retrieval%20Using%20Compact%20Embeddings%20https://yunmingxiao.github.io/publication/26-spruce/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Matryoshka%20Hash%20Representations%20for%20Model-Aware%20Compact%20Semantic%20Retrieval%20https://yunmingxiao.github.io/publication/26-matryoshka/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -521,7 +521,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26-spruce/&amp;title=Spruce:%20Scalable%20Private%20Outsourced%20Retrieval%20Using%20Compact%20Embeddings" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26-matryoshka/&amp;title=Matryoshka%20Hash%20Representations%20for%20Model-Aware%20Compact%20Semantic%20Retrieval" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -567,14 +567,14 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/publication/26-spruce/26-spruce.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/26-matryoshka/26-matryoshka.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/26-spruce/cite.bib">
+        data-filename="/publication/26-matryoshka/cite.bib">
   Cite
 </button>
 
@@ -606,7 +606,7 @@
   
     
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2609.03376" target="_blank" rel="noopener">
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/abs/2609.07276" target="_blank" rel="noopener">
     
     ArXiv
   </a>
@@ -618,9 +618,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 206px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 253px;">
   <div style="position: relative">
-    <img src="/publication/26-spruce/featured_hu_b843205e6a15df69.png" alt="" class="featured-image">
+    <img src="/publication/26-matryoshka/featured_hu_d7eff2830dc2b0f7.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -631,7 +631,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Retrieval-Augmented Generation (RAG) has made dense retrieval over large document collections a standard building block. Organizations increasingly outsource vector indexes to untrusted clouds, exposing proprietary corpora and user queries. Cryptographic protection is challenging because each query searches corpus-scale state, causing computation, correlated randomness, and communication to grow with the corpus. At million-document scale, a naive secure implementation takes minutes and about 90 GB of communication per query. Even recent optimized systems require 10&ndash;22 seconds. <br><br> We propose Spruce (Scalable Private Outsourced Retrieval Using Compact Embeddings), which co-designs representations with the cryptographic protocol. Spruce learns compact binary codes that preserve candidates for full-precision reranking, replacing corpus-wide embedding scoring with efficient Hamming-distance computation under two-server multi-party computation (MPC). A corpus-calibrated fixed-radius protocol avoids multi-round candidate selection while preserving retrieval quality. Spruce also provides private cluster pruning, which trades minor quality loss for substantially less computation, and a one-core owner-operated dealer that removes cloud OT preprocessing bottlenecks. Across four corpora containing 383K&ndash;5.42M documents, Spruce preserves the original search quality with median candidate sets of only 382&ndash;1,952. At 10 Gbps inter-server bandwidth, full scans take 0.21&ndash;2.97 seconds, 4.8&ndash;6.7× faster than the closest measured prior work. Private pruning takes 0.06&ndash;1.09 seconds, achieves 13.1&ndash;22.9× speedups, and retains 93.9%&ndash;97.3% of full-float NDCG. On the largest corpus, pruning and the dealer jointly improve sustained throughput by 31.5× at 1 Gbps per link.</p>
+    <p class="pub-abstract" itemprop="text">Retrieval-augmented generation (RAG) depends on dense retrieval: each document is stored as a learned vector, and a query is answered by finding its nearest neighbors in that vector space. Keeping one full-precision vector per document is the dominant index cost at corpus scale, so retrieval systems replace each vector with a short code of a few bytes&mdash;a step called quantization. Standard quantizers such as product quantization (PQ) pick the code that reconstructs the original vector most closely. <br><br> A single code is even more useful if it serves several byte budgets at once: when its short prefixes are each directly searchable, a deployment can set its efficiency&ndash;quality operating point without re-encoding the corpus. But training all prefixes under one objective makes the early bits a compromise across budgets&mdash;short codes improve while the full-width code degrades. Quantization to low-bit representation, such as binary codes, further sharpens the conflict. We introduce Matryoshka Hash Representations (MHR), a two-stage procedure that separates full-width training from prefix organization. MHR first learns a longer binary code, then freezes the model and trains additional zero-initialized residual code adaptors for directly searchable prefixes. Documents are stored at one bit per coordinate, while queries keep continuous logits like PQ to attain sufficient expressivity. We implement the search process with FAISS FastScan. Trained on MS MARCO and zero-shot transferred to seven BEIR datasets, MHR reaches .5561 NDCG@10 and .6535 Recall@100 at 32 bytes, surpassing the best baseline of the same budget. The advantage is more pronounced in lower budgets. The same code also strengthens two common pipelines: shortlisting candidates for full-precision reranking, and pruning a low-storage graph index such as LEANN.</p>
     
 
     
@@ -683,7 +683,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">ArXiv:2609.03376.</div>
+          <div class="col-12 col-md-9">ArXiv:2609.07276.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
