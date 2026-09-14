@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Remote Direct Memory Access (RDMA) has become the cornerstone of many cloud applications, yet extending bare-metal RDMA performance and reliability to multi-tenant public clouds remains elusive. Existing RDMA virtualization solutions struggle at scale, suffering from performance degradation, weak isolation, and inflexible control. We present SkyRDMA, a new architecture for cloud RDMA virtualization that addresses these limitations holistically. At its core, SkyRDMA introduces a socket-direct RNIC model built via multi-root PCIe, allowing a single RNIC to attach directly to multiple CPU sockets. This design eliminates cross-socket RDMA traffic for tenants without requiring a NIC per CPU socket. On top of this substrate, SkyRDMA provides a reconfigurable, end-to-end QoS framework that jointly enforces isolation at both RNIC ports and PCIe transport, and offloads the RDMA control plane from the host kernel into an embedded SoC on the NIC, minimizing control operation overhead and enabling runtime policy updates without downtime. We implement SkyRDMA on FPGA-based RNICs and deploy it in production cloud RDMA environment. Experiments show that SkyRDMA delivers near bare-metal performance, significantly reduces interference from co-located tenants and services, and enables fast, safe control-plane evolution, all while remaining compatible with existing RDMA applications. ">
+  <meta name="description" content="Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. &lt;br&gt;&lt;br&gt; We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further harness the optimizations. To overcome network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext, while achieving 76× speedup over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7ms on an AWS EC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/27nsdi-skyrdma/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/27asplos-phantombox/">
 
   
 
@@ -102,7 +102,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/27nsdi-skyrdma/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/27asplos-phantombox/">
 
   
   
@@ -114,15 +114,15 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/27nsdi-skyrdma/">
-  <meta property="og:title" content="SkyRDMA: Fully Offloaded Cloud RDMA Virtualization | Yunming Xiao">
-  <meta property="og:description" content="Remote Direct Memory Access (RDMA) has become the cornerstone of many cloud applications, yet extending bare-metal RDMA performance and reliability to multi-tenant public clouds remains elusive. Existing RDMA virtualization solutions struggle at scale, suffering from performance degradation, weak isolation, and inflexible control. We present SkyRDMA, a new architecture for cloud RDMA virtualization that addresses these limitations holistically. At its core, SkyRDMA introduces a socket-direct RNIC model built via multi-root PCIe, allowing a single RNIC to attach directly to multiple CPU sockets. This design eliminates cross-socket RDMA traffic for tenants without requiring a NIC per CPU socket. On top of this substrate, SkyRDMA provides a reconfigurable, end-to-end QoS framework that jointly enforces isolation at both RNIC ports and PCIe transport, and offloads the RDMA control plane from the host kernel into an embedded SoC on the NIC, minimizing control operation overhead and enabling runtime policy updates without downtime. We implement SkyRDMA on FPGA-based RNICs and deploy it in production cloud RDMA environment. Experiments show that SkyRDMA delivers near bare-metal performance, significantly reduces interference from co-located tenants and services, and enables fast, safe control-plane evolution, all while remaining compatible with existing RDMA applications. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/27nsdi-skyrdma/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/27nsdi-skyrdma/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/">
+  <meta property="og:title" content="PhantomBox: Fully Homomorphic Web Application Firewall | Yunming Xiao">
+  <meta property="og:description" content="Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. &lt;br&gt;&lt;br&gt; We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further harness the optimizations. To overcome network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext, while achieving 76× speedup over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7ms on an AWS EC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2026-07-24T00:00:00&#43;00:00">
+      <meta property="article:published_time" content="2026-07-28T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2027-07-29T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2027-07-28T00:00:00&#43;00:00">
   
 
   
@@ -134,7 +134,7 @@
 
 
 
-  <title>SkyRDMA: Fully Offloaded Cloud RDMA Virtualization | Yunming Xiao</title>
+  <title>PhantomBox: Fully Homomorphic Web Application Firewall | Yunming Xiao</title>
 
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YKWBWEXBGX"></script>
@@ -399,7 +399,7 @@
 
 
 <div class="article-container pt-3">
-  <h1 itemprop="name">SkyRDMA: Fully Offloaded Cloud RDMA Virtualization</h1>
+  <h1 itemprop="name">PhantomBox: Fully Homomorphic Web Application Firewall</h1>
 
   
 
@@ -407,8 +407,8 @@
 
 
 
-<meta content="2027-07-29 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2027-07-29 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+<meta content="2027-07-28 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2027-07-28 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -417,7 +417,7 @@
   
   
   <div>
-    <span itemprop="author name" itemtype="http://schema.org/Person">Yibo Huang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lizhou Gao</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Liang Wang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ziqian Liu</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Chengxuan Pei</span></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Yaowen Guo</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Hongchen Ren</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Xin Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Junpeng Zhang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chao Pei</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chongyang Hong</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Zhaoxun Zhou</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Shihan Lin</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Yiming Qiu</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Congcong Miao</span>
+    <span itemprop="author name" itemtype="http://schema.org/Person">Jiaao Ma</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ning Liang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Ceyu Xu</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Alexander van Lanschot</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b></span>, <span itemprop="author name" itemtype="http://schema.org/Person">Shihan Lin</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Xiaowei Yang</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Lisa Wu Wills</span>
   </div>
   
   
@@ -456,7 +456,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/27nsdi-skyrdma/&amp;text=SkyRDMA:%20Fully%20Offloaded%20Cloud%20RDMA%20Virtualization" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/27asplos-phantombox/&amp;text=PhantomBox:%20Fully%20Homomorphic%20Web%20Application%20Firewall" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -469,7 +469,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/27nsdi-skyrdma/&amp;t=SkyRDMA:%20Fully%20Offloaded%20Cloud%20RDMA%20Virtualization" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/27asplos-phantombox/&amp;t=PhantomBox:%20Fully%20Homomorphic%20Web%20Application%20Firewall" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -482,7 +482,7 @@
       
       
       <li>
-        <a href="mailto:?subject=SkyRDMA:%20Fully%20Offloaded%20Cloud%20RDMA%20Virtualization&amp;body=https://yunmingxiao.github.io/publication/27nsdi-skyrdma/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=PhantomBox:%20Fully%20Homomorphic%20Web%20Application%20Firewall&amp;body=https://yunmingxiao.github.io/publication/27asplos-phantombox/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -495,7 +495,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/27nsdi-skyrdma/&amp;title=SkyRDMA:%20Fully%20Offloaded%20Cloud%20RDMA%20Virtualization" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/27asplos-phantombox/&amp;title=PhantomBox:%20Fully%20Homomorphic%20Web%20Application%20Firewall" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -508,7 +508,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=SkyRDMA:%20Fully%20Offloaded%20Cloud%20RDMA%20Virtualization%20https://yunmingxiao.github.io/publication/27nsdi-skyrdma/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=PhantomBox:%20Fully%20Homomorphic%20Web%20Application%20Firewall%20https://yunmingxiao.github.io/publication/27asplos-phantombox/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -521,7 +521,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/27nsdi-skyrdma/&amp;title=SkyRDMA:%20Fully%20Offloaded%20Cloud%20RDMA%20Virtualization" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/27asplos-phantombox/&amp;title=PhantomBox:%20Fully%20Homomorphic%20Web%20Application%20Firewall" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -568,7 +568,7 @@
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/27nsdi-skyrdma/cite.bib">
+        data-filename="/publication/27asplos-phantombox/cite.bib">
   Cite
 </button>
 
@@ -596,9 +596,9 @@
 </div>
 
 
-<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 500px;">
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 684px;">
   <div style="position: relative">
-    <img src="/publication/27nsdi-skyrdma/featured_hu_3be3f0e4e36e5376.png" alt="" class="featured-image">
+    <img src="/publication/27asplos-phantombox/featured_hu_d4d1ddf03e372407.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -609,7 +609,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Remote Direct Memory Access (RDMA) has become the cornerstone of many cloud applications, yet extending bare-metal RDMA performance and reliability to multi-tenant public clouds remains elusive. Existing RDMA virtualization solutions struggle at scale, suffering from performance degradation, weak isolation, and inflexible control. We present SkyRDMA, a new architecture for cloud RDMA virtualization that addresses these limitations holistically. At its core, SkyRDMA introduces a socket-direct RNIC model built via multi-root PCIe, allowing a single RNIC to attach directly to multiple CPU sockets. This design eliminates cross-socket RDMA traffic for tenants without requiring a NIC per CPU socket. On top of this substrate, SkyRDMA provides a reconfigurable, end-to-end QoS framework that jointly enforces isolation at both RNIC ports and PCIe transport, and offloads the RDMA control plane from the host kernel into an embedded SoC on the NIC, minimizing control operation overhead and enabling runtime policy updates without downtime. We implement SkyRDMA on FPGA-based RNICs and deploy it in production cloud RDMA environment. Experiments show that SkyRDMA delivers near bare-metal performance, significantly reduces interference from co-located tenants and services, and enables fast, safe control-plane evolution, all while remaining compatible with existing RDMA applications.</p>
+    <p class="pub-abstract" itemprop="text">Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. <br><br> We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further harness the optimizations. To overcome network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext, while achieving 76× speedup over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7ms on an AWS EC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously.</p>
     
 
     
@@ -622,8 +622,8 @@
             
             
               
-              <a href="/publication/?filtertopic=pubtopic-1">
-                AI/Cloud Infra
+              <a href="/publication/?filtertopic=pubtopic-0">
+                Security &amp; Privacy
               </a>
             
           </div>
@@ -661,7 +661,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">To appear in Proceedings of <em>24th USENIX Symposium on Networked Systems Design and Implementation</em>. 2027.</div>
+          <div class="col-12 col-md-9">To appear in Proceedings of the <em>ACM International Conference on Architectural Support for Programming Languages and Operating Systems</em>. 2027.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
