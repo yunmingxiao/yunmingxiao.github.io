@@ -31,7 +31,7 @@
   <meta name="description" content="Large language models (LLMs) increasingly rely on external sources when answering questions that require proprietary information or up-to-date live web content, through both traditional single-shot retrieval-augmented generation (RAG) and multi-turn agentic RAG. Yet today&#39;s web infrastructure is still built for human clients. Given a query, current search services return a list of URLs and snippets ranked for generic relevance; content delivery networks (CDNs) cache URL-addressed objects (texts, images, videos, etc.) without knowing which passage an agent needs. LLMs, in contrast, consume short, semantically coherent passages, hereafter &#34;chunks&#34;, selected for downstream task utility rather than similarity alone, and may retrieve statefully across reasoning turns. Uncoordinated agents also repeat search, data acquisition, and semantic processing, duplicating work that could be shared. We argue that semantic chunk retrieval should become a first-class network-delivery abstraction. We propose Semantics Delivery Network (SemDN): an origin-authorized, hierarchical edge substrate that indexes, searches, and smart-caches web content at chunk granularity. SemDN serves agents on behalf of participating websites, amortizes data acquisition and processing across agents, and supports tenant-specific retrieval policies. Because, unlike URL caching, semantic retrieval provides no explicit miss signal, SemDN must estimate when its enrolled corpus may be incomplete or stale and trigger scoped discovery or refresh. It raises open questions about shareable retrieval state, hierarchical caching, coverage risk, and deployment. Our preliminary probes reveal a large gap between page content processed and chunks consumed, substantial task-local reuse, and higher answer quality per context token from chunk delivery. ">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26-semdn/">
+  <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/26hotnets-semdn/">
 
   
 
@@ -102,7 +102,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26-semdn/">
+  <link rel="canonical" href="https://yunmingxiao.github.io/publication/26hotnets-semdn/">
 
   
   
@@ -114,10 +114,10 @@
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Yunming Xiao">
-  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26-semdn/">
+  <meta property="og:url" content="https://yunmingxiao.github.io/publication/26hotnets-semdn/">
   <meta property="og:title" content="Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents | Yunming Xiao">
-  <meta property="og:description" content="Large language models (LLMs) increasingly rely on external sources when answering questions that require proprietary information or up-to-date live web content, through both traditional single-shot retrieval-augmented generation (RAG) and multi-turn agentic RAG. Yet today&#39;s web infrastructure is still built for human clients. Given a query, current search services return a list of URLs and snippets ranked for generic relevance; content delivery networks (CDNs) cache URL-addressed objects (texts, images, videos, etc.) without knowing which passage an agent needs. LLMs, in contrast, consume short, semantically coherent passages, hereafter &#34;chunks&#34;, selected for downstream task utility rather than similarity alone, and may retrieve statefully across reasoning turns. Uncoordinated agents also repeat search, data acquisition, and semantic processing, duplicating work that could be shared. We argue that semantic chunk retrieval should become a first-class network-delivery abstraction. We propose Semantics Delivery Network (SemDN): an origin-authorized, hierarchical edge substrate that indexes, searches, and smart-caches web content at chunk granularity. SemDN serves agents on behalf of participating websites, amortizes data acquisition and processing across agents, and supports tenant-specific retrieval policies. Because, unlike URL caching, semantic retrieval provides no explicit miss signal, SemDN must estimate when its enrolled corpus may be incomplete or stale and trigger scoped discovery or refresh. It raises open questions about shareable retrieval state, hierarchical caching, coverage risk, and deployment. Our preliminary probes reveal a large gap between page content processed and chunks consumed, substantial task-local reuse, and higher answer quality per context token from chunk delivery. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26-semdn/featured.png">
-  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26-semdn/featured.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Large language models (LLMs) increasingly rely on external sources when answering questions that require proprietary information or up-to-date live web content, through both traditional single-shot retrieval-augmented generation (RAG) and multi-turn agentic RAG. Yet today&#39;s web infrastructure is still built for human clients. Given a query, current search services return a list of URLs and snippets ranked for generic relevance; content delivery networks (CDNs) cache URL-addressed objects (texts, images, videos, etc.) without knowing which passage an agent needs. LLMs, in contrast, consume short, semantically coherent passages, hereafter &#34;chunks&#34;, selected for downstream task utility rather than similarity alone, and may retrieve statefully across reasoning turns. Uncoordinated agents also repeat search, data acquisition, and semantic processing, duplicating work that could be shared. We argue that semantic chunk retrieval should become a first-class network-delivery abstraction. We propose Semantics Delivery Network (SemDN): an origin-authorized, hierarchical edge substrate that indexes, searches, and smart-caches web content at chunk granularity. SemDN serves agents on behalf of participating websites, amortizes data acquisition and processing across agents, and supports tenant-specific retrieval policies. Because, unlike URL caching, semantic retrieval provides no explicit miss signal, SemDN must estimate when its enrolled corpus may be incomplete or stale and trigger scoped discovery or refresh. It raises open questions about shareable retrieval state, hierarchical caching, coverage risk, and deployment. Our preliminary probes reveal a large gap between page content processed and chunks consumed, substantial task-local reuse, and higher answer quality per context token from chunk delivery. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/26hotnets-semdn/featured.png">
+  <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/26hotnets-semdn/featured.png"><meta property="og:locale" content="en-us">
   
     
       <meta property="article:published_time" content="2026-09-22T00:00:00&#43;00:00">
@@ -456,7 +456,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26-semdn/&amp;text=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://yunmingxiao.github.io/publication/26hotnets-semdn/&amp;text=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -469,7 +469,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26-semdn/&amp;t=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://yunmingxiao.github.io/publication/26hotnets-semdn/&amp;t=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -482,7 +482,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents&amp;body=https://yunmingxiao.github.io/publication/26-semdn/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents&amp;body=https://yunmingxiao.github.io/publication/26hotnets-semdn/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -495,7 +495,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26-semdn/&amp;title=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://yunmingxiao.github.io/publication/26hotnets-semdn/&amp;title=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -508,7 +508,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents%20https://yunmingxiao.github.io/publication/26-semdn/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents%20https://yunmingxiao.github.io/publication/26hotnets-semdn/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -521,7 +521,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26-semdn/&amp;title=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://yunmingxiao.github.io/publication/26hotnets-semdn/&amp;title=Semantics%20Delivery%20Network:%20Rethinking%20Web%20Retrieval%20Infrastructure%20for%20LLM%20Agents" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -543,8 +543,6 @@
 
 
 
-  
-
 
 
 
@@ -564,6 +562,8 @@
 
 
   
+    
+  
 
 
 
@@ -574,7 +574,7 @@
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/26-semdn/cite.bib">
+        data-filename="/publication/26hotnets-semdn/cite.bib">
   Cite
 </button>
 
@@ -620,7 +620,7 @@
 
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 176px;">
   <div style="position: relative">
-    <img src="/publication/26-semdn/featured_hu_468b1e05d5de6e96.png" alt="" class="featured-image">
+    <img src="/publication/26hotnets-semdn/featured_hu_468b1e05d5de6e96.png" alt="" class="featured-image">
     
   </div>
 </div>
@@ -648,6 +648,11 @@
                 Security &amp; Privacy
               </a>
             
+              , 
+              <a href="/publication/?filtertopic=pubtopic-1">
+                AI/Cloud Infra
+              </a>
+            
           </div>
         </div>
       </div>
@@ -665,8 +670,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#3">
-              Preprint
+            <a href="/publication/#1">
+              Conference paper
             </a>
             
           </div>
@@ -683,7 +688,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">ArXiv:2609.22486.</div>
+          <div class="col-12 col-md-9">To appear in Proceedings of the <em>Twenty-Fifth ACM Workshop on Hot Topics in Networks</em>. 2026.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
