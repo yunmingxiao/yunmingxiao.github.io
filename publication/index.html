@@ -93,7 +93,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/academic.e3818b2f1305c54fb2055046acd97be7.css">
+    <link rel="stylesheet" href="/css/academic.e9eb083e44e4a969db472db7efe8445b.css">
   
 
   
@@ -415,21 +415,51 @@
 
       <div class="form-row mb-4">
         <div class="col-auto">
+          <label class="sr-only" for="pub-scope-filter">Publication selection</label>
+          <select id="pub-scope-filter" class="form-control form-control-sm">
+            <option value="all">All Publications</option>
+            <option value="selected">Selected Publications</option>
+          </select>
+        </div>
+        <div class="col-auto">
+          <label class="sr-only" for="pub-topic-filter-simple">Publication topic</label>
           <select id="pub-topic-filter-simple" class="form-control form-control-sm">
             <option value="*">All topics</option>
             
             
-              <option value="pubtopic-0">
-                Security &amp; Privacy
-              </option>
             
-              <option value="pubtopic-1">
-                AI/Cloud Infra
-              </option>
+              
             
-              <option value="pubtopic-2">
-                Uncategorized
-              </option>
+              
+            
+              
+            
+              
+                <option value="pubtopic-4">
+                  Agent-Native Web
+                </option>
+              
+            
+            
+              
+                <option value="pubtopic-0">
+                  Security &amp; Privacy
+                </option>
+              
+            
+              
+                <option value="pubtopic-1">
+                  AI/Cloud Infra
+                </option>
+              
+            
+              
+                <option value="pubtopic-2">
+                  Uncategorized
+                </option>
+              
+            
+              
             
           </select>
         </div>
@@ -437,47 +467,275 @@
 
       <div id="publications-grouped">
 
-        <div class="pub-section-heading">
-          <span></span>
-          <h2>Preprints</h2>
-          <span></span>
-        </div>
+        <details class="pub-year-group" open>
+          <summary class="pub-section-heading">
+            <span class="pub-section-divider" aria-hidden="true"></span>
+            <span class="pub-section-title" role="heading" aria-level="2">Preprints</span>
+            <span class="pub-section-divider" aria-hidden="true"></span>
+          </summary>
 
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
+          <div class="pub-section-papers">
             
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
               
 
               
                 
                   
+
+                  
+                    
+                      
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pubtopic-4">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  
+
+  <div class="pub-row">
+    
+      <div class="pub-venue-badge pub-venue-normal">
+        ArXiv
+      </div>
+    
+
+    <div class="pub-content">
+      <a href="/publication/26-backdoor/" itemprop="name">Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers</a>.<br>
+
+      <span itemprop="author" class="article-metadata li-cite-author">
+        <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Beining Xu</span>*</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Peichun Hua</span>*</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b><sup>#</sup></span>
+      </span>
+
+      
+      <br>
+
+      
+      
+
+      
+        <span class="pub-full-venue">
+          ArXiv:2609.37468.
+        </span>
+      
+
+      
+
+      <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/26-backdoor/26-backdoor.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/26-backdoor/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2609.37468" target="_blank" rel="noopener">
+    
+    ArXiv
+  </a>
+
+</p>
+    </div>
+  </div>
+</div>
+                  </div>
                 
               
+            
+              
+              
+              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+              
+                
+                  
+
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-4">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+  
+
+  <div class="pub-row">
+    
+      <div class="pub-venue-badge pub-venue-normal">
+        ArXiv
+      </div>
+    
+
+    <div class="pub-content">
+      <a href="/publication/26-rinse/" itemprop="name">Relevance Is Not Sufficient Evidence: Detecting Evidence Gaps Before Generation in RAG</a>.<br>
+
+      <span itemprop="author" class="article-metadata li-cite-author">
+        <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Suting Chen</span>*</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><span class="advised-student">Peichun Hua</span>*</span>, <span itemprop="author name" itemtype="http://schema.org/Person"><b>Yunming Xiao</b><sup>#</sup></span>
+      </span>
+
+      
+      <br>
+
+      
+      
+
+      
+        <span class="pub-full-venue">
+          ArXiv:2609.37469.
+        </span>
+      
+
+      
+
+      <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/publication/26-rinse/26-rinse.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/26-rinse/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+    
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://arxiv.org/abs/2609.37469" target="_blank" rel="noopener">
+    
+    ArXiv
+  </a>
+
+</p>
+    </div>
+  </div>
+</div>
+                  </div>
+                
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+                
+                  
+
+                  
+                    
+                      
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pubtopic-4">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -569,26 +827,26 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-
-          
-            
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -680,26 +938,28 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-
-          
-            
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pubtopic-4">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -791,44 +1051,44 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
+              
+              
+              
 
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
+              
             
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-1">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-1">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -920,98 +1180,98 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
+              
+              
+              
 
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
+              
             
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -1109,292 +1369,332 @@
     </div>
   </div>
 </div>
-              </div>
-            
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-          
-          
-          
-
-          
-        
-
-        
-        
-
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-            
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-          
-          
-        
-
-        
-          <div class="pub-section-heading">
-            <span></span>
-            <h2>2027</h2>
-            <span></span>
-          </div>
-
-          
-            
-            
-            
-
+                  </div>
+                
+              
             
               
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+              
+              
+              
+
+              
+            
+          </div>
+        </details>
+
+        
+        
+
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+            
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+          
+          
+          
+        
+
+        
+          <details class="pub-year-group" open>
+            <summary class="pub-section-heading">
+              <span class="pub-section-divider" aria-hidden="true"></span>
+              <span class="pub-section-title" role="heading" aria-level="2">2027</span>
+              <span class="pub-section-divider" aria-hidden="true"></span>
+            </summary>
+
+            <div class="pub-section-papers">
+              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -1466,26 +1766,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-0">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-0">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -1557,264 +1857,290 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+            </div>
+          </details>
         
-          <div class="pub-section-heading">
-            <span></span>
-            <h2>2026</h2>
-            <span></span>
-          </div>
+          <details class="pub-year-group" open>
+            <summary class="pub-section-heading">
+              <span class="pub-section-divider" aria-hidden="true"></span>
+              <span class="pub-section-title" role="heading" aria-level="2">2026</span>
+              <span class="pub-section-divider" aria-hidden="true"></span>
+            </summary>
 
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
+            <div class="pub-section-papers">
               
                 
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
 
                 
                   
                     
-                  
-                    
-                  
-                
 
-                <div class="pub-entry pubtopic-0 pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-4 pub-selected">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -1908,44 +2234,44 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
+                
+                
+                
 
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
+                
               
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1 pub-selected">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2027,26 +2353,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2128,26 +2454,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2229,34 +2555,34 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
+                
+                
+                
 
-            
-          
-            
-            
-            
-
-            
+                
               
+                
+                
                 
 
                 
                   
                     
-                  
-                    
-                  
-                
 
-                <div class="pub-entry pubtopic-0 pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-0 pubtopic-1 pub-selected">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2358,26 +2684,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-0">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-0">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2479,26 +2805,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2600,26 +2926,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2701,26 +3027,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2802,26 +3128,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -2913,262 +3239,278 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
-            
-            
-            
+                
+              
+                
+                
+                
 
-            
-          
+                
+              
+            </div>
+          </details>
         
-          <div class="pub-section-heading">
-            <span></span>
-            <h2>2025</h2>
-            <span></span>
-          </div>
+          <details class="pub-year-group" open>
+            <summary class="pub-section-heading">
+              <span class="pub-section-divider" aria-hidden="true"></span>
+              <span class="pub-section-title" role="heading" aria-level="2">2025</span>
+              <span class="pub-section-divider" aria-hidden="true"></span>
+            </summary>
 
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
+            <div class="pub-section-papers">
               
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-0">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-0 pub-selected">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3270,26 +3612,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1 pub-selected">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3391,26 +3733,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-0">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-0 pub-selected">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3492,26 +3834,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-2">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-2">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3609,26 +3951,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3713,26 +4055,26 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
-
-            
-              
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3830,32 +4172,32 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
               
-            
-          
-            
-            
-            
+                
+                
+                
 
-            
-          
-            
-            
-            
-
-            
+                
               
+                
+                
                 
 
                 
                   
                     
-                  
-                
 
-                <div class="pub-entry pubtopic-1">
-                  <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                    
+                      
+                        
+                      
+                    
+
+                    <div class="pub-entry pubtopic-1">
+                      <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -3949,288 +4291,306 @@
     </div>
   </div>
 </div>
-                </div>
+                    </div>
+                  
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+                
+                
+                
+
+                
+              
+            </div>
+          </details>
+        
+
+        <details class="pub-year-group" open>
+          <summary class="pub-section-heading">
+            <span class="pub-section-divider" aria-hidden="true"></span>
+            <span class="pub-section-title" role="heading" aria-level="2">2024 And Before</span>
+            <span class="pub-section-divider" aria-hidden="true"></span>
+          </summary>
+
+          <div class="pub-section-papers">
+            
+              
+              
+              
+              
+
               
             
-          
-            
-            
-            
+              
+              
+              
+              
 
+              
             
-          
-            
-            
-            
+              
+              
+              
+              
 
+              
             
-          
-            
-            
-            
+              
+              
+              
+              
 
+              
             
-          
-            
-            
-            
+              
+              
+              
+              
 
+              
             
-          
-            
-            
-            
+              
+              
+              
+              
 
+              
             
-          
-            
-            
-            
+              
+              
+              
+              
 
+              
             
-          
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
 
+              
             
-          
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
 
+              
             
-          
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
 
+              
             
-          
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
 
+              
             
-          
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
+              
+              
+              
+              
+
+              
             
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-            
-            
-            
-
-            
-          
-        
-
-        <div class="pub-section-heading">
-          <span></span>
-          <h2>2024 And Before</h2>
-          <span></span>
-        </div>
-
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pub-selected">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4325,27 +4685,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-1">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-1 pub-selected">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4447,27 +4807,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-1">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-1">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4557,27 +4917,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-1">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-1">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4655,27 +5015,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-1">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-1 pub-selected">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4765,27 +5125,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pub-selected">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4872,27 +5232,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pub-selected">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -4982,27 +5342,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0 pub-selected">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5092,27 +5452,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-2">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-2">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5194,27 +5554,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-2">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-2">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5296,27 +5656,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-2">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-2">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5410,27 +5770,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-0">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-0">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5520,27 +5880,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-2">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-2">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5634,27 +5994,27 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
-          
-          
-          
-          
-
-          
-            
+              
+              
+              
               
 
               
                 
                   
-                
-              
 
-              <div class="pub-entry pubtopic-2">
-                <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
+                  
+                    
+                      
+                    
+                  
+
+                  <div class="pub-entry pubtopic-2">
+                    <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/CreativeWork">
   
 
   <div class="pub-row">
@@ -5726,12 +6086,16 @@
     </div>
   </div>
 </div>
-              </div>
+                  </div>
+                
+              
             
-          
-        
+          </div>
+        </details>
 
       </div>
+
+      <p id="pub-filter-empty" class="text-muted" hidden>No publications match these filters.</p>
 
     </div>
   </div>
@@ -5739,21 +6103,51 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  var filter = document.getElementById("pub-topic-filter-simple");
-  if (!filter) return;
+  var topicFilter = document.getElementById("pub-topic-filter-simple");
+  var scopeFilter = document.getElementById("pub-scope-filter");
+  var emptyMessage = document.getElementById("pub-filter-empty");
+  if (!topicFilter || !scopeFilter) return;
 
-  filter.addEventListener("change", function () {
-    var value = filter.value;
+  function applyFilters() {
+    var topic = topicFilter.value;
+    var selectedOnly = scopeFilter.value === "selected";
     var entries = document.querySelectorAll(".pub-entry");
+    var groups = document.querySelectorAll(".pub-year-group");
+    var visibleCount = 0;
 
     entries.forEach(function (entry) {
-      if (value === "*" || entry.classList.contains(value)) {
-        entry.style.display = "";
-      } else {
-        entry.style.display = "none";
+      var matchesTopic = topic === "*" || entry.classList.contains(topic);
+      var matchesScope = !selectedOnly || entry.classList.contains("pub-selected");
+
+      entry.hidden = !matchesTopic || !matchesScope;
+      if (!entry.hidden) visibleCount += 1;
+    });
+
+    groups.forEach(function (group) {
+      var hasVisiblePapers = Array.prototype.some.call(
+        group.querySelectorAll(".pub-entry"),
+        function (entry) { return !entry.hidden; }
+      );
+
+      group.hidden = !hasVisiblePapers;
+
+      if ((topic !== "*" || selectedOnly) && hasVisiblePapers) {
+        group.open = true;
       }
     });
-  });
+
+    if (emptyMessage) emptyMessage.hidden = visibleCount !== 0;
+  }
+
+  topicFilter.addEventListener("change", applyFilters);
+  scopeFilter.addEventListener("change", applyFilters);
+
+  var requestedTopic = new URLSearchParams(window.location.search).get("filtertopic");
+  if (requestedTopic && topicFilter.querySelector('option[value="' + requestedTopic + '"]')) {
+    topicFilter.value = requestedTopic;
+  }
+
+  applyFilters();
 });
 </script>
 

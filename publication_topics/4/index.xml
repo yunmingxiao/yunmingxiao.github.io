@@ -5,7 +5,7 @@
     <link>https://yunmingxiao.github.io/publication_topics/4/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_topics/4/index.xml" rel="self" type="application/rss+xml" />
     <description>4</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 00:00:01 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>4</title>
@@ -13,26 +13,42 @@
     </image>
     
     <item>
-      <title>Blockchain-enhanced Federated Learning Market with Social Internet of Things</title>
-      <link>https://yunmingxiao.github.io/publication/jsac22/</link>
-      <pubDate>Sat, 15 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/jsac22/</guid>
+      <title>Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers</title>
+      <link>https://yunmingxiao.github.io/publication/26-backdoor/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:01 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-backdoor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Blockchain Mining: Optimal Resource Allocation</title>
-      <link>https://yunmingxiao.github.io/publication/aft22/</link>
-      <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/aft22/</guid>
+      <title>Relevance Is Not Sufficient Evidence: Detecting Evidence Gaps Before Generation in RAG</title>
+      <link>https://yunmingxiao.github.io/publication/26-rinse/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-rinse/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Monetizing Spare Bandwidth: the Case of Distributed VPNs</title>
-      <link>https://yunmingxiao.github.io/publication/ring/</link>
-      <pubDate>Mon, 28 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://yunmingxiao.github.io/publication/ring/</guid>
+      <title>Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents</title>
+      <link>https://yunmingxiao.github.io/publication/26hotnets-semdn/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26hotnets-semdn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spruce: Scalable Private Outsourced Retrieval Using Compact Embeddings</title>
+      <link>https://yunmingxiao.github.io/publication/26-spruce/</link>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-spruce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pointing the Way, Hiding the Destination: Practical Private Dense Retrieval at Scale</title>
+      <link>https://yunmingxiao.github.io/publication/26-secure-rag/</link>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-secure-rag/</guid>
       <description></description>
     </item>
     

@@ -29,6 +29,22 @@
     </item>
     
     <item>
+      <title>Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers</title>
+      <link>https://yunmingxiao.github.io/publication/26-backdoor/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:01 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-backdoor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Relevance Is Not Sufficient Evidence: Detecting Evidence Gaps Before Generation in RAG</title>
+      <link>https://yunmingxiao.github.io/publication/26-rinse/</link>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-rinse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Semantics Delivery Network: Rethinking Web Retrieval Infrastructure for LLM Agents</title>
       <link>https://yunmingxiao.github.io/publication/26hotnets-semdn/</link>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
