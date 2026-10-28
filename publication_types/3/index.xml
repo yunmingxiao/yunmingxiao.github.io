@@ -5,12 +5,28 @@
     <link>https://yunmingxiao.github.io/publication_types/3/</link>
       <atom:link href="https://yunmingxiao.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 30 Sep 2026 00:00:01 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 28 Oct 2026 00:00:02 +0000</lastBuildDate>
     <image>
       <url>https://yunmingxiao.github.io/img/icon-192.png</url>
       <title>3</title>
       <link>https://yunmingxiao.github.io/publication_types/3/</link>
     </image>
+    
+    <item>
+      <title>EdgePace: Deadline- and Freshness-Aware LLM Scheduling on Unified-Memory Platforms</title>
+      <link>https://yunmingxiao.github.io/publication/26-edgepace/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:02 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-edgepace/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tessera: Structure-Completed Evidence Units for Web Retrieval-Augmented Generation</title>
+      <link>https://yunmingxiao.github.io/publication/26-tessera/</link>
+      <pubDate>Wed, 28 Oct 2026 00:00:01 +0000</pubDate>
+      <guid>https://yunmingxiao.github.io/publication/26-tessera/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Backdoor in the Loop: Compromising Agentic Search via Malicious Retrievers</title>
