@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. &lt;br&gt;&lt;br&gt; We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further harness the optimizations. To overcome network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext, while achieving 76× speedup over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7ms on an AWS EC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously. ">
+  <meta name="description" content="Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. &lt;br&gt;&lt;br&gt; We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further leverage the optimizations. To reduce network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext while reducing client encryption latency by 84.6× over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7 ms on an AWSEC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://yunmingxiao.github.io/publication/27asplos-phantombox/">
@@ -116,7 +116,7 @@
   <meta property="og:site_name" content="Yunming Xiao">
   <meta property="og:url" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/">
   <meta property="og:title" content="PhantomBox: Fully Homomorphic Web Application Firewall | Yunming Xiao">
-  <meta property="og:description" content="Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. &lt;br&gt;&lt;br&gt; We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further harness the optimizations. To overcome network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext, while achieving 76× speedup over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7ms on an AWS EC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously. "><meta property="og:image" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/featured.png">
+  <meta property="og:description" content="Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. &lt;br&gt;&lt;br&gt; We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further leverage the optimizations. To reduce network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext while reducing client encryption latency by 84.6× over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7 ms on an AWSEC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously."><meta property="og:image" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/featured.png">
   <meta property="twitter:image" content="https://yunmingxiao.github.io/publication/27asplos-phantombox/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -562,8 +562,14 @@
 
 
   
+    
+  
 
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/publication/27asplos-phantombox/asplos27-phantombox.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -588,6 +594,10 @@
 
 
 
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1145/3845814.3850054" target="_blank" rel="noopener">
+  DOI
+</a>
+
 
 
 </div>
@@ -609,7 +619,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. <br><br> We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further harness the optimizations. To overcome network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext, while achieving 76× speedup over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7ms on an AWS EC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously.</p>
+    <p class="pub-abstract" itemprop="text">Web Application Firewalls (WAFs) defend against malicious traffic by inspecting application payloads against regular expression (RegEx) rulesets. Because ruleset maintenance requires specialized expertise, operators typically delegate WAF functionality to third-party middleboxes, which cannot inspect encrypted traffic without access to the secret keys. Prior privacy-preserving WAFs sacrifice either RegEx expressiveness, third-party offloading, or communication costs. Fully Homomorphic Encryption (FHE) can evaluate RegEx on encrypted traffic, but thousand-fold ciphertext expansion and seconds-per-character compute costs have kept FHE-based WAFs unrealistic. <br><br> We present PhantomBox, an FHE-based WAF that co-designs the datapath from client-side encryption through middlebox rule compilation and execution. To mitigate the compute bottleneck, PhantomBox introduces a novel ahead-of-time RegEx compiler with two FHE-specific optimizations: Fast Literal Matching and Boolean Fusion. The compiler also exploits equality saturation to further leverage the optimizations. To reduce network overhead, PhantomBox employs hardware-accelerated transciphering, keeping on-wire size comparable to plaintext while reducing client encryption latency by 84.6× over CPU. Evaluated on the Proofpoint ruleset with over 5,800 web-attack signatures, PhantomBox achieves a median evaluation latency of 7.7 ms on an AWSEC2 F2 instance. PhantomBox is the first system to make FHE-based WAF practical for real-world deployment, achieving full RegEx expressiveness, middlebox offloading, and cryptographic privacy simultaneously.</p>
     
 
     
@@ -661,7 +671,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">To appear in Proceedings of the <em>ACM International Conference on Architectural Support for Programming Languages and Operating Systems</em>. 2027.</div>
+          <div class="col-12 col-md-9">In Proceedings of the <em>ACM International Conference on Architectural Support for Programming Languages and Operating Systems</em>. 2027.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
